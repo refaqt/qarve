@@ -1,0 +1,12 @@
+---
+description: Append AI task entries to docs/prompts-log after each completed task
+alwaysApply: false
+---
+
+# Prompts log
+
+After completing any task, append to `docs/prompts-log/YYYY-MM.md` (current year-month).
+
+Use the format in `AGENTS.md` (horizontal rule, timestamp heading, Prompt / Actions / Files changed / Outcome).
+
+Do not skip logging for "small" tasks when the user asked for agent work on the repository.

@@ -1,0 +1,34 @@
+{
+  "modules/frame": {
+    "current_version": "0.1.0",
+    "trl": "OTRL-2",
+    "used_by": [
+      {
+        "path": ".",
+        "version": "0.1.0"
+      }
+    ],
+    "used_by_builds": [
+      "builds/serial-0042"
+    ]
+  },
+  "modules/x-axis": {
+    "current_version": "0.1.0",
+    "trl": "OTRL-2",
+    "used_by": [
+      {
+        "path": ".",
+        "version": "0.1.0"
+      }
+    ],
+    "used_by_builds": [
+      "builds/serial-0042"
+    ]
+  },
+  ".": {
+    "current_version": "0.1.0",
+    "trl": "OTRL-2",
+    "used_by": [],
+    "used_by_builds": []
+  }
+}

@@ -1,0 +1,6 @@
+# External repos that consume modules from this project (for graph/usage-graph.json).
+# Each entry is listed in the reverse-usage graph by doqs/scripts/build_graph.py.
+
+# [[consumer]]
+# repo = "https://github.com/org/other-machine"
+# modules = ["modules/x-axis"]

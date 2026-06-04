@@ -1,0 +1,13 @@
+---
+description: FreeCAD and CAD parameter workflow — agents must not edit geometry binaries
+globs: "**/cad/**,*.FCStd"
+alwaysApply: false
+---
+
+# FreeCAD
+
+- Agents **must not** create or modify `.FCStd` files.
+- Parameter changes: edit `cad/params/default.csv` and/or `cad/params/<model>.csv`, then run `cad/resolve_params.py`.
+- Sync into geometry: user runs `cad/sync_params.py` inside FreeCAD (Spreadsheet label `Params`, aliases match CSV).
+- Enable relative paths for external links in FreeCAD preferences before linking assemblies across modules.
+- Commit exports (`.step`, `.dxf`, `.stl`) after significant geometry changes; use Git LFS for `.FCStd` and `.stl`.

@@ -1,0 +1,32 @@
+okhv = "OKH-LOSHv1.0"
+
+name = "Qarve CNC Milling Machine"
+repo = "https://github.com/refaqt/qarve"
+version = "0.1.0"
+release = "https://github.com/refaqt/qarve/releases/tag/v0.1.0"
+license = "CERN-OHL-S-2.0"
+licensor = ["Refaqt BV"]
+organisation = "Refaqt BV, BE 0804.145.539"
+
+readme = "README.md"
+documentation-language = ["en"]
+
+technology-readiness-level = "OTRL-2"
+documentation-readiness-level = "ODRL-2"
+
+function = """
+Open-source modular 3-axis CNC milling machine for small-batch production of
+aluminium and wood parts. Repository scaffold — design content to follow.
+"""
+
+manufacturing-instructions = ["manufacturing/notes/assembly-guide.md"]
+# Uncomment when CAD artefacts exist:
+# bom = "bom/bom.csv"
+# source = ["cad/assemblies/machine.FCStd"]
+# export = ["cad/exports/machine.step", "cad/exports/machine.stl"]
+
+[[hasComponent]]
+component = "https://github.com/refaqt/qarve/blob/main/modules/frame/okh.toml"
+
+[[hasComponent]]
+component = "https://github.com/refaqt/qarve/blob/main/modules/x-axis/okh.toml"

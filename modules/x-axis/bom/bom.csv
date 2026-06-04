@@ -1,0 +1,2 @@
+id,name,spec,category,qty,unit,unit_cost_eur,unit_mass_g,equiv_class,supplier_1,supplier_1_pn,supplier_2,supplier_2_pn,supplier_3,supplier_3_pn,notes
+EX-01,Example Rail,15mm linear rail,mechanical,2,pc,0.00,0,LINEAR-RAIL-15,Placeholder,PN-001,,,,,Scaffold row — replace with real BOM

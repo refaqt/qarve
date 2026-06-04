@@ -1,0 +1,31 @@
+---
+description: DOQS design session checklist, validators, and module conventions
+globs: "okh.toml,**/okh.toml,builds/**,graph/**,bom/**,doqs/**"
+alwaysApply: false
+---
+
+# DOQS workflow
+
+## Before closing a design task
+
+- [ ] SysML / params / BOM updated as needed (requirements only in SysML).
+- [ ] `python doqs/scripts/validate_okh.py`
+- [ ] `python doqs/scripts/validate_build.py` if lockfiles changed
+- [ ] `python doqs/scripts/build_graph.py` if `hasComponent` or builds changed
+- [ ] `python doqs/scripts/check_links.py`
+- [ ] Submodule `doqs/` present and up to date (`git submodule update --init`)
+- [ ] Conventional commit message (`cad`, `arch`, `okh`, `params`, `interface`, `build`, …)
+
+## Modules
+
+- Every module folder has: `bom/`, `cad/`, `architecture/`, `docs/`, `manufacturing/`, `modules/`.
+- Adapters under `modules/adapters/` for interface version bridges.
+- Submodule workflow: commit inside `modules/<name>/`, then bump pointer in parent repo.
+
+## Interfaces
+
+Breaking port changes bump interface **major** version in SysML name and OKH `version`. Plan adapter modules when needed.
+
+## Builds
+
+Physical machines: `builds/<id>/build.toml` pins each module version and parametric `model`. Record changes in `[[modification]]`.

@@ -1,0 +1,17 @@
+---
+description: Core agent workflow for this repository
+alwaysApply: true
+---
+
+# Core
+
+- Follow user, tool, system, and skill instructions completely; use real shell and tools; do not give up after one failure.
+- At task start, read `docs/mistakes/README.md` and any recent `docs/mistakes/YYYY-MM-DD_*.md`; briefly state which prevention rules apply.
+- Before non-trivial work, read `docs/architecture.md`, then **`doqs/docs/architecture.md`** (submodule; run `git submodule update --init` if missing). Read relevant `architecture/*.sysml`. Check `docs/skills.md`; use `project-skills-md` when maintaining patterns.
+- For OTRL/ODRL or naming, read `doqs/docs/readiness-levels.md` and `doqs/docs/naming.md`.
+- Narrative docs use **dated files** in `docs/dev-log/`, `docs/mistakes/`, `docs/decisions/` — templates in `doqs/templates/`.
+- After tasks, append to `docs/prompts-log/YYYY-MM.md` per `AGENTS.md` and `prompts-log` rule.
+- If `docs/onboarding.md` or `docs/skills.md` is missing, bootstrap from `.cursor/bootstrap/docs/`.
+- Read existing code before writing; prefer editing existing files; when in doubt, do less and ask.
+- **Never edit `.FCStd` files** in the agent — CAD geometry is manual in FreeCAD.
+- Keep diffs focused; no drive-by refactors; no unrelated markdown outside `docs/` convention paths.

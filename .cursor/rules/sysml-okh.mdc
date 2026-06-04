@@ -1,0 +1,14 @@
+---
+description: SysML requirements and OKH manifest conventions
+globs: "**/*.sysml,**/okh.toml,**/architecture/**"
+alwaysApply: false
+---
+
+# SysML and OKH
+
+- **Requirements** exist only as `requirement def` in `.sysml` files — no parallel requirements markdown.
+- **Interfaces** as `port def Name_vN` in provider module SysML; mirror in `okh.toml` as `[[provides-interface]]` / `[[consumes-interface]]`.
+- Import paths are relative to the importing file (e.g. from `architecture/machine.sysml`: `../modules/x-axis/architecture/x-axis.sysml`).
+- OKH file name is always `okh.toml` at module root; format OKH-LOSHv1.0.
+- `[[hasComponent]]` for sub-modules with their own manifest; `[[part]]` for inline manufactured parts.
+- Stakeholder prose belongs in `README.md` or `docs/`, not as a second requirements source.

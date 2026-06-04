@@ -1,0 +1,3 @@
+# Frame assembly guide
+
+Scaffold.

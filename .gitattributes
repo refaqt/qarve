@@ -1,2 +1,6 @@
-# Auto detect text files and perform LF normalization
+# Text
 * text=auto
+
+# Git LFS — configure before first binary CAD commit
+*.FCStd filter=lfs diff=lfs merge=lfs -text
+*.stl filter=lfs diff=lfs merge=lfs -text
