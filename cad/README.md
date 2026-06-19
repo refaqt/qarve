@@ -7,7 +7,12 @@
 
 | Path | Purpose |
 |------|---------|
-| `assemblies/machine.FCStd` | Top assembly (links into `modules/*/cad/`) |
+| `assemblies/machine.FCStd` | Top assembly (future; may link into `modules/*/cad/` when sub-assemblies exist) |
+| `assemblies/spindle-assembly/` | Spindle stack assembly |
+| `assemblies/spindle-clamp/` | Spindle clamp sub-assembly |
+| `parts/spindle/` | Purchased spindle model (JGY-80) and reference images |
+| `parts/spindle-clamp-base/` | Clamp base part |
+| `parts/spindle-clamp-jaw/` | Clamp jaw part |
 | `exports/` | `.step`, `.stl` committed after significant changes |
 
 Binary `.FCStd` / `.stl` use Git LFS (see root `.gitattributes`).

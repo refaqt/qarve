@@ -30,4 +30,4 @@ Types include: `feat`, `fix`, `docs`, `cad`, `arch`, `okh`, `firmware`, `chore`,
 
 ## Modules
 
-To add a module, copy the layout from `modules/x-axis/` and register it in the parent `okh.toml` via `[[hasComponent]]`.
+To add a sub-assembly, create `modules/<name>/` with the standard DOQS module layout (see `doqs/docs/architecture.md`) and register it in the root `okh.toml` via `[[hasComponent]]`.

@@ -33,6 +33,6 @@ Format:
 
 ## Pointed tasks
 
-Example: *"Look at `modules/x-axis/bom/bom.csv` and draft `[[part]]` entries using `doqs/templates/okh-module-with-parts.toml`."*
+Example: *"Look at `bom/bom.csv` (when present) and draft `[[part]]` entries using `doqs/templates/okh-module-with-parts.toml`."*
 
 See `.cursor/rules/` for full workflow.

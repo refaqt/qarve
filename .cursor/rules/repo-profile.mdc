@@ -6,7 +6,7 @@ alwaysApply: true
 # Repository profile
 
 - **DOQS** modular open-hardware CNC project (Qarve machine).
-- **SysML** in `architecture/` and `modules/*/architecture/` — authoritative requirements.
+- **SysML** in `architecture/` and, when present, `modules/*/architecture/` — authoritative requirements.
 - **FreeCAD** 1.1+ with Assembly workbench; parameters via `cad/params/*.csv` and `sync_params.py`.
 - **OKH** manifests: `okh.toml` per module; validate with `doqs/scripts/validate_okh.py`.
-- Run commands from the **repository root** unless working inside an extracted submodule module.
+- Run commands from the **repository root**.

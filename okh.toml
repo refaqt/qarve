@@ -20,13 +20,10 @@ aluminium and wood parts. Repository scaffold — design content to follow.
 """
 
 manufacturing-instructions = ["manufacturing/notes/assembly-guide.md"]
-# Uncomment when CAD artefacts exist:
+source = [
+    "cad/assemblies/spindle-assembly/spindle-assembly.FCStd",
+    "cad/assemblies/spindle-clamp/spindle-clamp.FCStd",
+]
+# Uncomment when BOM and top-level exports exist:
 # bom = "bom/bom.csv"
-# source = ["cad/assemblies/machine.FCStd"]
 # export = ["cad/exports/machine.step", "cad/exports/machine.stl"]
-
-[[hasComponent]]
-component = "https://github.com/refaqt/qarve/blob/main/modules/frame/okh.toml"
-
-[[hasComponent]]
-component = "https://github.com/refaqt/qarve/blob/main/modules/x-axis/okh.toml"

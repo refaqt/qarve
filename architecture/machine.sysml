@@ -1,7 +1,5 @@
-// Top-level SysML — imports module architecture and defines machine composition.
-// Formal requirements live here and in module architecture/ folders only.
-
-import '../modules/x-axis/architecture/x-axis.sysml'::XAxis::*;
+// Top-level SysML — machine requirements and composition.
+// Formal requirements live here and in modules/*/architecture/ when sub-modules exist.
 
 package QarveMachine {
 
@@ -20,7 +18,6 @@ package QarveMachine {
     }
 
     part def Machine {
-        doc /* Top-level machine composition — extend as modules are added */
-        part xAxis : XAxis::LinearAxis;
+        doc /* Top-level machine composition — add sub-module parts when modules/ is populated */
     }
 }

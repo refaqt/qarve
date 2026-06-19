@@ -1,6 +1,0 @@
-alias,value,unit,description
-rail_length,400,mm,Total length of X-axis linear rail
-carriage_thickness,8,mm,Carriage plate thickness
-motor_offset,35,mm,Distance from rail end to motor shaft centre
-belt_pitch,2,mm,GT2 belt tooth pitch
-pulley_teeth,20,,Number of teeth on motor pulley

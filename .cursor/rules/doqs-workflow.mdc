@@ -18,9 +18,10 @@ alwaysApply: false
 
 ## Modules
 
+- Qarve is currently a single top-level module; `modules/` is empty until sub-assemblies are added.
 - Every module folder has: `bom/`, `cad/`, `architecture/`, `docs/`, `manufacturing/`, `modules/`.
 - Adapters under `modules/adapters/` for interface version bridges.
-- Submodule workflow: commit inside `modules/<name>/`, then bump pointer in parent repo.
+- Future extraction to separate repos: see `doqs/docs/architecture.md` (Mode B).
 
 ## Interfaces
 
@@ -28,4 +29,4 @@ Breaking port changes bump interface **major** version in SysML name and OKH `ve
 
 ## Builds
 
-Physical machines: `builds/<id>/build.toml` pins each module version and parametric `model`. Record changes in `[[modification]]`.
+Physical machines: `builds/<id>/build.toml` pins the base repo and, when sub-modules exist, each module version and parametric `model`. Record changes in `[[modification]]`.

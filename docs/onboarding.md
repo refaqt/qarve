@@ -4,6 +4,8 @@
 
 A **modular open-hardware** CNC machine project using the Documentation System (DOQS): text-first files, identical module layout at every depth, SysML for requirements, FreeCAD for geometry, OKH manifests for publishing.
 
+Qarve is currently a **single top-level module**. Sub-assemblies will be added under `modules/` later.
+
 ## Prerequisites
 
 - Git and [Git LFS](https://git-lfs.com/)
@@ -22,6 +24,12 @@ python -m venv .venv
 .venv\Scripts\Activate.ps1
 ```
 
+### DOQS tools path
+
+Validators and templates live at **`qarve/doqs/`** (Git submodule). Run all `python doqs/scripts/...` commands from the **qarve repository root**.
+
+A separate clone of [github.com/refaqt/doqs](https://github.com/refaqt/doqs) elsewhere on disk (e.g. `../doqs`) does **not** satisfy these paths. Use `git submodule update --init` after clone, or create a junction/symlink from `qarve/doqs` to your existing clone if you prefer that workflow.
+
 ## Validation (run from repo root)
 
 ```powershell
@@ -39,7 +47,7 @@ python bom/aggregate_bom.py
 | `docs/architecture.md` | Short overview — full spec in `doqs/docs/architecture.md` |
 | `doqs/docs/readiness-levels.md` | OTRL / ODRL definitions |
 | `architecture/*.sysml` | Authoritative requirements and interfaces |
-| `modules/*/architecture/` | Module SysML |
+| `modules/*/architecture/` | Sub-module SysML (when `modules/` is populated) |
 | `docs/dev-log/` | Session narrative |
 | `docs/mistakes/` | Incident log (dated files) |
 | `docs/decisions/` | ADRs (dated files) |
@@ -50,7 +58,7 @@ python bom/aggregate_bom.py
 
 ## Design session checklist
 
-See root `CONTRIBUTING.md` and the DOQS architecture document (shared drive / `doqs_architecture.md`).
+See root `CONTRIBUTING.md` and the DOQS architecture document in `doqs/docs/architecture.md`.
 
 ## Cursor / agents
 

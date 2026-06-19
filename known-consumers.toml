@@ -3,4 +3,4 @@
 
 # [[consumer]]
 # repo = "https://github.com/org/other-machine"
-# modules = ["modules/x-axis"]
+# modules = ["modules/<name>"]

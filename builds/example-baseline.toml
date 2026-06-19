@@ -9,11 +9,8 @@ location = ""
 repo = "https://github.com/refaqt/qarve"
 version = "v0.1.0"
 
-[[module]]
-path = "modules/frame"
-version = "v0.1.0"
-
-[[module]]
-path = "modules/x-axis"
-version = "v0.1.0"
-model = "default"
+# Add [[module]] entries when sub-assemblies exist under modules/:
+# [[module]]
+# path = "modules/<name>"
+# version = "v0.1.0"
+# model = "default"

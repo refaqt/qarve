@@ -1,3 +1,0 @@
-alias,value,unit,description
-rail_length,500,mm,Total length of X-axis linear rail (500 mm variant)
-motor_offset,45,mm,Increased clearance for longer travel
