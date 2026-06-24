@@ -24,6 +24,15 @@ source = [
     "cad/assemblies/spindle-assembly/spindle-assembly.FCStd",
     "cad/assemblies/spindle-clamp/spindle-clamp.FCStd",
 ]
+
+[[part]]
+name = "Spindle Clamp Base"
+source = ["cad/parts/spindle-clamp-base/spindle-clamp-base.FCStd"]
+
+[[part]]
+name = "Spindle Clamp Jaw"
+source = ["cad/parts/spindle-clamp-jaw/spindle-clamp-jaw.FCStd"]
+
 # Uncomment when BOM and top-level exports exist:
 # bom = "bom/bom.csv"
 # export = ["cad/exports/machine.step", "cad/exports/machine.stl"]

@@ -35,6 +35,20 @@ python doqs/scripts/check_links.py
 
 **Last used:** 2026-06-19 single top-level module
 
+## FreeCAD master sketches in Body_master
+
+**When to use:** Top-down CAD where an assembly `.FCStd` drives child part geometry via `SubShapeBinder`, and a part fails to appear in Assembly **Insert**.
+
+**Pattern:**
+
+- In the assembly file: `Master sketches` group → `Body_master` (`PartDesign::Body`) → sketches constrained to **Body origin planes**.
+- Child parts: `SubShapeBinder` → sketches inside `Body_master` (not Assembly origin planes).
+- Assembly object holds joints and inserted part links only.
+
+**Gotchas:** Binder from part back to assembly document creates a cycle (assembly → part → assembly). Do not constrain master sketches to `Assembly` origin planes. See `doqs/docs/decisions/2026-06-24_freecad-master-sketches-body.md`.
+
+**Last used:** 2026-06-23 spindle clamp design
+
 ## OKH parts from BOM
 
 **When to use:** Agent asked to add manufactured parts to a module manifest.
