@@ -11,7 +11,7 @@
 
 1. Sub-assemblies per their local guides (when `modules/` is populated).
 2. Spindle clamp (`cad/assemblies/spindle-clamp/`):
-   - Manufactured parts: `spindle-clamp-base` (base plate with recess for spindle clearance), `spindle-clamp-jaw` (clamping jaw).
+   - Manufactured parts: `spindle-clamp-base` (base plate with recess for spindle clearance), `spindle-clamp-jaw` (clamping jaw), `spindle-clamp-flex` (flex part).
    - Top-down layout: master sketches in `Body_master` inside the assembly file; parts bind to those sketches (see `cad/README.md`).
    - Open the assembly in FreeCAD 1.1+ Assembly workbench; insert base and jaw parts, then add clamp joints.
 3. Spindle stack: see `cad/assemblies/spindle-assembly/` (spindle model in `cad/parts/spindle/`).

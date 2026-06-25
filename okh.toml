@@ -23,6 +23,7 @@ manufacturing-instructions = ["manufacturing/notes/assembly-guide.md"]
 source = [
     "cad/assemblies/spindle-assembly/spindle-assembly.FCStd",
     "cad/assemblies/spindle-clamp/spindle-clamp.FCStd",
+    "cad/parts/spindle/spindle.FCStd",
 ]
 
 [[part]]
@@ -32,6 +33,14 @@ source = ["cad/parts/spindle-clamp-base/spindle-clamp-base.FCStd"]
 [[part]]
 name = "Spindle Clamp Jaw"
 source = ["cad/parts/spindle-clamp-jaw/spindle-clamp-jaw.FCStd"]
+
+[[part]]
+name = "Spindle Clamp Flex"
+source = ["cad/parts/spindle-clamp-flex/spindle-clamp-flex.FCStd"]
+
+[[part]]
+name = "Spindle (reference model)"
+source = ["cad/parts/spindle/spindle.FCStd"]
 
 # Uncomment when BOM and top-level exports exist:
 # bom = "bom/bom.csv"

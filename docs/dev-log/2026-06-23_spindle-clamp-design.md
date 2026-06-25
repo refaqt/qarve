@@ -6,7 +6,7 @@ Design a spindle clamp sub-assembly (base + jaw) around the JGY-80 spindle model
 
 ## Work Done
 
-- Iterated spindle clamp layout in `cad/assemblies/spindle-clamp/` and design workspace `spindle-clamp-design.FCStd`.
+- Iterated spindle clamp layout in `cad/assemblies/spindle-clamp/` (design workspace was later removed after width reduction).
 - Added recess in `spindle-clamp-base` for spindle clearance.
 - Fixed `spindle-clamp-base` Binder link error (part failed to appear in Assembly Insert).
 - Adopted DOQS pattern: master sketches in `Body_master` with Body origin planes (not Assembly origin planes) to break assembly ↔ part document cycle.

@@ -10,10 +10,10 @@
 | `assemblies/machine.FCStd` | Top assembly (future; may link into `modules/*/cad/` when sub-assemblies exist) |
 | `assemblies/spindle-assembly/` | Spindle stack assembly |
 | `assemblies/spindle-clamp/` | Spindle clamp sub-assembly |
-| `assemblies/spindle-clamp/spindle-clamp-design.FCStd` | Design workspace (master sketches, layout exploration) |
 | `parts/spindle/` | Purchased spindle model (JGY-80) and reference images |
 | `parts/spindle-clamp-base/` | Clamp base part (recess for spindle clearance) |
 | `parts/spindle-clamp-jaw/` | Clamp jaw part |
+| `parts/spindle-clamp-flex/` | Clamp flex part |
 | `exports/` | `.step`, `.stl` committed after significant changes |
 
 ## Top-down design (spindle clamp)
