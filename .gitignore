@@ -6,6 +6,9 @@ __pycache__/
 # FreeCAD
 *.FCBak
 *.FCStd1
+# Unzipped FreeCAD document contents and archives (regenerable from *.FCStd)
+**/fcstd-extract/
+*.zip
 
 # OS
 .DS_Store

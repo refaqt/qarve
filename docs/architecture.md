@@ -8,21 +8,21 @@ The **canonical** DOQS specification (modularity, versioning, interfaces, OKH, b
 
 Also in the submodule:
 
-| Doc | Topic |
-|-----|--------|
-| [doqs/docs/readiness-levels.md](../doqs/docs/readiness-levels.md) | OTRL / ODRL for `okh.toml` |
-| [doqs/docs/naming.md](../doqs/docs/naming.md) | Naming conventions (draft) |
-| [doqs/docs/agent-guide.md](../doqs/docs/agent-guide.md) | `.cursor` rules vs `doqs/` for agents |
+| Doc                                                               | Topic                                 |
+| ----------------------------------------------------------------- | ------------------------------------- |
+| [doqs/docs/readiness-levels.md](../doqs/docs/readiness-levels.md) | OTRL / ODRL for `okh.toml`            |
+| [doqs/docs/naming.md](../doqs/docs/naming.md)                     | Naming conventions (draft)            |
+| [doqs/docs/agent-guide.md](../doqs/docs/agent-guide.md)           | `.cursor` rules vs `doqs/` for agents |
 
 ## This repo (summary)
 
-| Path | Role |
-|------|------|
-| `architecture/machine.sysml` | Machine composition and system requirements |
-| `modules/` | Reserved for sub-assemblies (see [modules/README.md](../modules/README.md)) |
-| `builds/` | Physical machine lockfiles |
-| `graph/usage-graph.json` | Reverse usage (generated) |
-| `doqs/` | Git submodule — tools + spec |
+| Path                         | Role                                                                        |
+| ---------------------------- | --------------------------------------------------------------------------- |
+| `architecture/machine.sysml` | Machine composition and system requirements                                 |
+| `modules/`                   | Reserved for sub-assemblies (see [modules/README.md](../modules/README.md)) |
+| `builds/`                    | Physical machine lockfiles                                                  |
+| `graph/usage-graph.json`     | Reverse usage (generated)                                                   |
+| `doqs/`                      | Git submodule — tools + spec                                                |
 
 For multi-module composition and future extraction to separate repos, see `doqs/docs/architecture.md`.
 
