@@ -13,6 +13,7 @@ All notable releases of this repository are documented here.
 - Spindle clamp sub-assembly: top-down design with `spindle-clamp-base` and `spindle-clamp-jaw` parts; recess in clamp base for spindle clearance.
 - Spindle clamp flex part: `cad/parts/spindle-clamp-flex/spindle-clamp-flex.FCStd`.
 - `[[part]]` entries in `okh.toml` for spindle-clamp manufactured parts.
+- Guide-rail adjustment FEM study: 5 mm POM layer under the rail compressed by screw preload to correct a bend in the guide (`simulation/guide-rail-adjustment/guide-rail-adjustment.FCStd`).
 
 ### Changed
 

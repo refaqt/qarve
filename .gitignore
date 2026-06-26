@@ -9,6 +9,8 @@ __pycache__/
 # Unzipped FreeCAD document contents and archives (regenerable from *.FCStd)
 **/fcstd-extract/
 *.zip
+# CalculiX/FEM solver scratch + output (regenerable from *.FCStd)
+FEMMeshGmsh.*
 
 # OS
 .DS_Store
