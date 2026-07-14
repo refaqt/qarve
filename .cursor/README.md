@@ -13,7 +13,7 @@ Project rules and skills for Cursor agents working on this open-hardware reposit
 |------|--------|
 | `living-docs.mdc` | dev-log, mistakes/, decisions/, architecture.md |
 | `doqs-workflow.mdc` | validators, modules, builds, commits |
-| `freecad.mdc` | cad/, params, sync |
+| `freecad.mdc` | cad/, params, sync, debugging workflow |
 | `sysml-okh.mdc` | .sysml, okh.toml |
 | `prompts-log.mdc` | docs/prompts-log/ |
 | `planning-and-testing.mdc` | multi-file work, Python tests |
@@ -27,6 +27,7 @@ Project rules and skills for Cursor agents working on this open-hardware reposit
 - `mistake-log` — dated files in `docs/mistakes/`
 - `prompts-log` — monthly AI log
 - `project-skills-md` — `docs/skills.md` patterns
+- `freecad` — junction to `doqs/skills/freecad` (debugging, workbench, assembly/Binder issues)
 
 ## Portable kit origin
 
