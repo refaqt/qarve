@@ -1,5 +1,7 @@
 # 2026-06-26 — Guide-rail adjustment simulation
 
+**Role(s):** engineering, simulation
+
 ## Goal
 
 Evaluate whether a small bend in the linear guide rail can be corrected by
@@ -13,6 +15,10 @@ underneath the rail as the adjustment medium.
   preloading of the rail-fixing screws.
 - Used the screw preload to locally compress the POM layer so the rail can be
   straightened, simulating correction of a bend in the guide.
+- Diagnosed an initial CalculiX failure: the force constraint referenced a sketch
+  edge (`Sketch002.Edge5`) rather than meshed `BooleanFragments` geometry, producing
+  empty `femnodes_mesh` / edge_table errors. Fix: reference meshed solid faces/edges
+  on the fragment compound, not sketch geometry.
 
 ## Results
 

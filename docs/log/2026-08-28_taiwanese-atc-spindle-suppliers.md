@@ -1,5 +1,7 @@
 # 2026-08-28 — Taiwanese ATC spindle supplier research
 
+**Role(s):** engineering
+
 ## Goal
 
 Identify Taiwanese spindle suppliers and catalog models matching Qarve spindle requirements:

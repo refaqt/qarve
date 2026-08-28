@@ -13,7 +13,7 @@ firmware/<target>/
   src/
   include/
   config/machine.json
-  docs/dev-log/
+  docs/log/
   docs/decisions/
 ```
 

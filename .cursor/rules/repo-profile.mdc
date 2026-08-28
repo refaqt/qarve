@@ -5,15 +5,4 @@ alwaysApply: true
 
 # Repository profile
 
-Qarve — an open-hardware modular CNC machine repository following [doqs](https://github.com/refaqt/doqs),
-included as a submodule at `doqs/`. Shared agent kit lives in [`.agents/`](../../.agents/)
-([refaqt-agents](https://github.com/refaqt/refaqt-agents)). Read `AGENTS.md` first.
-
-- **DOQS** modular open-hardware CNC project (Qarve machine).
-- **SysML** in `architecture/` and, when present, `modules/*/architecture/` — authoritative requirements.
-- **FreeCAD** 1.1+ with Assembly workbench; parameters via `cad/params/*.csv` and `sync_params.py`.
-- **OKH** manifests: `okh.toml` per module; validate with `doqs/scripts/validate_okh.py`.
-- Run commands from the **repository root**.
-- If `doqs/` or `.agents/` is empty, run `git submodule update --init --recursive`.
-- Repo-specific skills: [`.agents-local/skills/`](../../.agents-local/skills/).
-- Coding patterns: [`.agents-local/skills/patterns/SKILL.md`](../../.agents-local/skills/patterns/SKILL.md).
+Follow [`.agents-local/rules/repo.md`](../../.agents-local/rules/repo.md).

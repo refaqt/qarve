@@ -11,7 +11,6 @@ This folder symlinks skills so Claude auto-discovers them:
 | `mistake-log` | `.agents/skills/mistake-log` |
 | `maintain-patterns` | `.agents/skills/maintain-patterns` |
 | `log` | `.agents/skills/log` |
-| `prompts-log` | `.agents-local/skills/prompts-log` |
 | `freecad` | `.agents-local/skills/freecad` → `doqs/skills/freecad` |
 | `doqs-naming` | `.agents-local/skills/doqs-naming` → `doqs/skills/doqs-naming` |
 
