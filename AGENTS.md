@@ -27,7 +27,7 @@ Repo-specific skills: [`.agents-local/skills/`](.agents-local/skills/).
 | Mistake log | [`.agents/skills/mistake-log/SKILL.md`](.agents/skills/mistake-log/SKILL.md) |
 | Maintain patterns | [`.agents/skills/maintain-patterns/SKILL.md`](.agents/skills/maintain-patterns/SKILL.md) |
 | Coding patterns | [`.agents-local/skills/patterns/SKILL.md`](.agents-local/skills/patterns/SKILL.md) |
-| FreeCAD debugging | [`.agents-local/skills/freecad/SKILL.md`](.agents-local/skills/freecad/SKILL.md) |
-| DOQS naming | [`.agents-local/skills/doqs-naming/SKILL.md`](.agents-local/skills/doqs-naming/SKILL.md) |
+| FreeCAD debugging | [`.agents/skills/freecad/SKILL.md`](.agents/skills/freecad/SKILL.md) |
+| DOQS naming | [`.agents/skills/doqs-naming/SKILL.md`](.agents/skills/doqs-naming/SKILL.md) |
 
 See `.cursor/rules/` for Cursor-specific adapters and scoped rules.

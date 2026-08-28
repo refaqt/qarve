@@ -15,6 +15,7 @@ Entry point: [`AGENTS.md`](../AGENTS.md). Claude Code: [`CLAUDE.md`](../CLAUDE.m
 | Rule | Topics |
 |------|--------|
 | `doqs-workflow.mdc` | validators, modules, builds, commits |
+| `doqs-naming.mdc` | okh.toml, BOM, module paths, naming validators |
 | `freecad.mdc` | cad/, params, sync, debugging workflow |
 | `sysml-okh.mdc` | .sysml, okh.toml |
 | `planning-and-testing.mdc` | multi-file work, Python tests |
@@ -31,14 +32,13 @@ Skills are **not** duplicated under `.cursor/skills/`. Load from:
 
 | Skill | Path |
 | --- | --- |
-| Shared process | `.agents/skills/` |
-| Qarve-local | `.agents-local/skills/` |
-| DOQS domain | `doqs/skills/` (via `.agents-local/` symlinks) |
+| Shared process + DOQS domain | `.agents/skills/` |
+| Qarve-local | `.agents-local/skills/patterns/` |
 
 Claude Code discovers the same skills via symlinks in `.claude/skills/`.
 
 ## Bootstrap
 
-Primary stubs: `.agents/bootstrap/docs/`. DOQS templates: `doqs/templates/`. Legacy fallback: `.cursor/bootstrap/docs/` (do not copy over DOQS folder-based mistakes/decisions).
+Primary stubs: `.agents/bootstrap/docs/`. Legacy fallback: `.cursor/bootstrap/docs/` (do not copy over DOQS folder-based mistakes/decisions).
 
 See `docs/decisions/` for layout ADRs.
