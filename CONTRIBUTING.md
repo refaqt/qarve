@@ -20,7 +20,7 @@ Types include: `feat`, `fix`, `docs`, `cad`, `arch`, `okh`, `firmware`, `chore`,
 ## Before opening a PR
 
 1. Run validators under `doqs/scripts/`.
-2. Update dev-log / ADR / mistakes entries in `docs/` when applicable.
+2. Update log / ADR / mistakes entries in `docs/` when applicable.
 3. Regenerate aggregated BOM and usage graph if manifests or lockfiles changed.
 
 ## Branches

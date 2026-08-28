@@ -34,9 +34,14 @@ python doqs/scripts/check_links.py
 | `graph/`        | Generated reverse-usage graph                        |
 | `doqs/`         | Git submodule — shared tools, templates, schemas     |
 | `.agents/`      | Git submodule — shared agent rules and skills        |
-| `.agents-local/`| Qarve-only agent skills and patterns                 |
+| `.agents-local/`| Qarve-only agent rules and skills                    |
 | `firmware/`     | Motion controller and related software               |
-| `docs/`         | Narrative: dev-log, mistakes, decisions, prompts-log |
+| `docs/`         | Narrative: log, mistakes, decisions                  |
+
+## Agents
+
+Cursor, Claude Code, and cloud agents: start at [`AGENTS.md`](AGENTS.md). Shared kit is in
+[`.agents/`](.agents/); repo-specific rules and skills in [`.agents-local/`](.agents-local/).
 
 ## License
 

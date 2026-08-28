@@ -1,7 +1,7 @@
 # ADR-002 — Adopt refaqt-agents shared kit
 
 - **Date:** 2026-08-28
-- **Status:** Accepted
+- **Status:** Accepted (partially superseded — see [2026-08-28_migrate-to-unified-log.md](2026-08-28_migrate-to-unified-log.md))
 
 ## Context
 

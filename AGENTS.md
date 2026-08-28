@@ -15,64 +15,19 @@ If `.agents/` is empty: `git submodule update --init --recursive`.
 
 ## This repository
 
-Qarve is a **modular open-hardware CNC** machine using the [DOQS](https://github.com/refaqt/doqs) documentation system. Validators and templates live in the **`doqs/`** submodule at the repo root.
-
-| Activity | Path |
-| --- | --- |
-| Design session log | `docs/dev-log/YYYY-MM-DD_topic.md` |
-| AI task audit | `docs/prompts-log/YYYY-MM.md` |
-| Mistakes | `docs/mistakes/YYYY-MM-DD_topic.md` |
-| ADRs | `docs/decisions/YYYY-MM-DD_topic.md` |
-| Architecture overview | `docs/architecture.md` → `doqs/docs/architecture.md` |
-| Requirements (authoritative) | `architecture/*.sysml` |
+Qarve is a **modular open-hardware CNC** machine using the [DOQS](https://github.com/refaqt/doqs) documentation system. Repo profile, folder map, hard rules, and living-doc paths: [`.agents-local/rules/repo.md`](.agents-local/rules/repo.md) and [`.agents-local/rules/living-docs.md`](.agents-local/rules/living-docs.md).
 
 Repo-specific skills: [`.agents-local/skills/`](.agents-local/skills/).
-
-## Hard rules
-
-1. **Never edit `.FCStd` files** — geometry changes happen in FreeCAD manually.
-2. **Requirements live in SysML** (`architecture/`) — do not duplicate as standalone requirement docs.
-3. **Run validators** after OKH or build changes: `python doqs/scripts/validate_okh.py` (and siblings).
-4. **Prefer** CSV/TOML/SysML output; validate before commit.
-5. For OTRL/ODRL or naming, read `doqs/docs/readiness-levels.md` and `doqs/docs/naming.md`.
-
-## Logging rule
-
-After completing any task, append an entry to `docs/prompts-log/YYYY-MM.md` (current year-month).
-
-Format:
-
----
-
-### HH:MM — Short task title
-
-**Prompt:** "..."
-
-**Actions:**
-
-- ...
-
-**Files changed:**
-
-- `path/to/file` — created / modified / deleted
-
-**Outcome:** One sentence.
-
----
 
 ## Skills
 
 | Skill | Path |
 | --- | --- |
-| Activity log | `.agents/skills/log/SKILL.md` |
-| Mistake log | `.agents/skills/mistake-log/SKILL.md` |
-| Maintain patterns | `.agents/skills/maintain-patterns/SKILL.md` |
-| Prompts log | `.agents-local/skills/prompts-log/SKILL.md` |
-| FreeCAD debugging | `.agents-local/skills/freecad/SKILL.md` |
-| DOQS naming | `.agents-local/skills/doqs-naming/SKILL.md` |
-
-## Pointed tasks
-
-Example: *"Look at `bom/bom.csv` (when present) and draft `[[part]]` entries using `doqs/templates/okh-module-with-parts.toml`."*
+| Activity log | [`.agents/skills/log/SKILL.md`](.agents/skills/log/SKILL.md) |
+| Mistake log | [`.agents/skills/mistake-log/SKILL.md`](.agents/skills/mistake-log/SKILL.md) |
+| Maintain patterns | [`.agents/skills/maintain-patterns/SKILL.md`](.agents/skills/maintain-patterns/SKILL.md) |
+| Coding patterns | [`.agents-local/skills/patterns/SKILL.md`](.agents-local/skills/patterns/SKILL.md) |
+| FreeCAD debugging | [`.agents-local/skills/freecad/SKILL.md`](.agents-local/skills/freecad/SKILL.md) |
+| DOQS naming | [`.agents-local/skills/doqs-naming/SKILL.md`](.agents-local/skills/doqs-naming/SKILL.md) |
 
 See `.cursor/rules/` for Cursor-specific adapters and scoped rules.

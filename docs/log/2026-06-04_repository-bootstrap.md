@@ -1,5 +1,7 @@
 # 2026-06-04 — Repository bootstrap
 
+**Role(s):** engineering
+
 ## Goal
 
 Initialize the Qarve repository per `doqs_architecture.md` and portable Cursor agent kit.
