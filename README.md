@@ -33,6 +33,8 @@ python doqs/scripts/check_links.py
 | `builds/`       | Physical machine lockfiles                           |
 | `graph/`        | Generated reverse-usage graph                        |
 | `doqs/`         | Git submodule — shared tools, templates, schemas     |
+| `.agents/`      | Git submodule — shared agent rules and skills        |
+| `.agents-local/`| Qarve-only agent skills and patterns                 |
 | `firmware/`     | Motion controller and related software               |
 | `docs/`         | Narrative: dev-log, mistakes, decisions, prompts-log |
 

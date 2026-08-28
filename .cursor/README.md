@@ -1,17 +1,19 @@
 # Agent kit (Qarve / DOQS)
 
-Project rules and skills for Cursor agents working on this open-hardware repository.
+Three layers: shared [refaqt-agents](https://github.com/refaqt/refaqt-agents) at `.agents/`, Qarve-local skills at `.agents-local/`, and these Cursor adapters.
+
+Entry point: [`AGENTS.md`](../AGENTS.md). Claude Code: [`CLAUDE.md`](../CLAUDE.md) imports `AGENTS.md`.
 
 ## Always-on rules
 
-- `core.mdc` — workflow, mistakes, prompts log, no FCStd edits
-- `repo-profile.mdc` — SysML, FreeCAD, OKH, DOQS
+- `core.mdc` — points at `.agents/rules/core.md` + Qarve/DOQS extras
+- `repo-profile.mdc` — SysML, FreeCAD, OKH, submodules
 
 ## Scoped rules (load when relevant)
 
 | Rule | Topics |
 |------|--------|
-| `living-docs.mdc` | dev-log, mistakes/, decisions/, architecture.md |
+| `living-docs.mdc` | dev-log, mistakes/, decisions/, patterns skill |
 | `doqs-workflow.mdc` | validators, modules, builds, commits |
 | `freecad.mdc` | cad/, params, sync, debugging workflow |
 | `sysml-okh.mdc` | .sysml, okh.toml |
@@ -22,17 +24,22 @@ Project rules and skills for Cursor agents working on this open-hardware reposit
 | `communication.mdc` | response style |
 | `subagents.mdc` | delegation |
 
+Generic rule bodies live in `.agents/rules/*.md`. This folder holds thin `.mdc` adapters and Qarve-scoped rules only.
+
 ## Skills
 
-- `mistake-log` — dated files in `docs/mistakes/`
-- `prompts-log` — monthly AI log
-- `project-skills-md` — `docs/skills.md` patterns
-- `freecad` — junction to `doqs/skills/freecad` (debugging, workbench, assembly/Binder issues)
+Skills are **not** duplicated under `.cursor/skills/`. Load from:
 
-## Portable kit origin
+| Skill | Path |
+| --- | --- |
+| Shared process | `.agents/skills/` |
+| Qarve-local | `.agents-local/skills/` |
+| DOQS domain | `doqs/skills/` (via `.agents-local/` symlinks) |
 
-Adapted from a generic coding-project `.cursor` bootstrap. DOQS uses **folder-based** narrative docs; see `docs/decisions/2026-06-04_adopt-doqs-layout.md`.
+Claude Code discovers the same skills via symlinks in `.claude/skills/`.
 
-## Bootstrap stubs
+## Bootstrap
 
-`.cursor/bootstrap/docs/` seeds `docs/onboarding.md`, `docs/architecture.md`, `docs/skills.md` if missing. Do not copy coding-only `mistakes.md` / `decisions.md` stubs over DOQS folders.
+Primary stubs: `.agents/bootstrap/docs/`. DOQS templates: `doqs/templates/`. Legacy fallback: `.cursor/bootstrap/docs/` (do not copy over DOQS folder-based mistakes/decisions).
+
+See `docs/decisions/` for layout ADRs.

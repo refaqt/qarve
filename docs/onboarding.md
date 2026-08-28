@@ -51,17 +51,24 @@ python bom/aggregate_bom.py
 | `docs/dev-log/` | Session narrative |
 | `docs/mistakes/` | Incident log (dated files) |
 | `docs/decisions/` | ADRs (dated files) |
-| `docs/skills.md` | Reusable project patterns for agents |
+| `docs/skills.md` | Pointer to `.agents-local/skills/patterns/SKILL.md` |
 | `docs/prompts-log/` | AI task log (monthly files) |
-| `.cursor/rules/` | Agent behaviour |
+| `AGENTS.md` | Agent entry point (Cursor, Claude Code, cloud agents) |
+| `.agents/` | Git submodule — shared refaqt-agents rules and skills |
+| `.agents-local/` | Qarve-only agent skills |
+| `.cursor/rules/` | Cursor adapters + DOQS-scoped rules |
+| `.claude/skills/` | Claude Code skill symlinks |
 | `doqs/templates/` | Entry templates |
 
 ## Design session checklist
 
 See root `CONTRIBUTING.md` and the DOQS architecture document in `doqs/docs/architecture.md`.
 
-## Cursor / agents
+## Cursor / Claude / agents
 
-- Project rules: `.cursor/rules/` (always-on: `core.mdc`, `repo-profile.mdc`)
-- Skills: `.cursor/skills/`
-- After tasks: append to `docs/prompts-log/YYYY-MM.md` per `prompts-log` rule
+- Entry point: `AGENTS.md` (Claude Code: `CLAUDE.md` imports it)
+- Shared kit: `.agents/` submodule ([refaqt-agents](https://github.com/refaqt/refaqt-agents))
+- Qarve-local skills: `.agents-local/skills/`
+- Cursor adapters: `.cursor/rules/` (always-on: `core.mdc`, `repo-profile.mdc`)
+- Claude skills: `.claude/skills/` (symlinks to shared and local kits)
+- After tasks: append to `docs/prompts-log/YYYY-MM.md` per `AGENTS.md`

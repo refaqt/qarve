@@ -9,7 +9,7 @@ alwaysApply: false
 
 # FreeCAD
 
-When debugging FreeCAD designs, workbench issues, or `.FCStd` failures, read `doqs/skills/freecad/SKILL.md` (or `.cursor/skills/freecad/SKILL.md`) and search wiki, forum, and GitHub before answering. Cite specific online references in every response.
+When debugging FreeCAD designs, workbench issues, or `.FCStd` failures, read `.agents-local/skills/freecad/SKILL.md` (symlink to `doqs/skills/freecad/`) and search wiki, forum, and GitHub before answering. Cite specific online references in every response.
 
 - Agents **must not** create or modify `.FCStd` files.
 - Parameter changes: edit `cad/params/default.csv` and/or `cad/params/<model>.csv`, then run `cad/resolve_params.py`.
