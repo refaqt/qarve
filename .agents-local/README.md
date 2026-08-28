@@ -18,7 +18,5 @@ Shared rules live under [`.agents/rules/`](../.agents/rules/).
 | Skill | Path |
 | --- | --- |
 | Coding patterns | [`skills/patterns/SKILL.md`](skills/patterns/SKILL.md) |
-| FreeCAD debugging | [`skills/freecad/SKILL.md`](skills/freecad/SKILL.md) (symlink → `doqs/skills/freecad`) |
-| DOQS naming | [`skills/doqs-naming/SKILL.md`](skills/doqs-naming/SKILL.md) (symlink → `doqs/skills/doqs-naming`) |
 
-Shared process skills live under [`.agents/skills/`](../.agents/skills/).
+Shared skills (process + DOQS domain) live under [`.agents/skills/`](../.agents/skills/).
