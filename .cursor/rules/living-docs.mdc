@@ -3,17 +3,19 @@ description: Living docs layout, bootstrap, ADRs, and when to update architectur
 alwaysApply: false
 ---
 
-# Living documentation (DOQS)
+# Living documentation
 
-## Narrative docs (`docs/`)
+Follow [`.agents/rules/living-docs.md`](../../.agents/rules/living-docs.md).
+
+Qarve uses DOQS folder names (not refaqt-agents `docs/log/`):
 
 | Location | Purpose | Update when |
 |----------|---------|-------------|
 | `docs/architecture.md` | Human overview (SysML remains authoritative) | Layout or major modules change |
-| `docs/dev-log/YYYY-MM-DD_topic.md` | Session log | Each design session |
+| `docs/dev-log/YYYY-MM-DD_topic.md` | Design session log | Each design session |
 | `docs/mistakes/YYYY-MM-DD_topic.md` | Incidents | After mistakes (template: `doqs/templates/mistake-entry.md`) |
 | `docs/decisions/` | ADRs | Non-trivial choices (template: `doqs/templates/adr.md`) |
-| `docs/skills.md` | Reusable agent patterns | New project-specific pattern |
+| `.agents-local/skills/patterns/SKILL.md` | Reusable agent patterns | New project-specific pattern |
 | `docs/onboarding.md` | Setup and validation | Tooling or workflow changes |
 | `docs/prompts-log/YYYY-MM.md` | AI task log | After each agent task |
 
@@ -34,6 +36,4 @@ Regenerate — do not hand-edit:
 - Root `bom/bom.csv` — `python bom/aggregate_bom.py`
 - `cad/params.csv` — `python cad/resolve_params.py <model>`
 
-## Bootstrap
-
-Copy stubs from `.cursor/bootstrap/docs/` only for `docs/onboarding.md`, `docs/architecture.md`, `docs/skills.md` if missing. Mistakes and decisions use **folders**, not single flat files.
+Templates: `doqs/templates/` when the submodule is present; generic stubs in `.agents/bootstrap/docs/`.
