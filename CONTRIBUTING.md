@@ -19,9 +19,10 @@ Types include: `feat`, `fix`, `docs`, `cad`, `arch`, `okh`, `firmware`, `chore`,
 
 ## Before opening a PR
 
-1. Run validators under `doqs/scripts/`.
-2. Update log / ADR / mistakes entries in `docs/` when applicable.
-3. Regenerate aggregated BOM and usage graph if manifests or lockfiles changed.
+1. Run `python doqs/scripts/validate_all.py` from the repository root.
+2. If a first-level content directory was added, run `python doqs/scripts/apply_licenses.py` first.
+3. Update log / ADR / mistakes entries in `docs/` when applicable.
+4. Regenerate aggregated BOM and usage graph if manifests or lockfiles changed.
 
 ## Branches
 

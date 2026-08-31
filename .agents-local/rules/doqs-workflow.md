@@ -5,10 +5,9 @@ Qarve design-session checklist and validator commands.
 ## Before closing a design task
 
 - [ ] SysML / params / BOM updated as needed (requirements only in SysML).
-- [ ] `python doqs/scripts/validate_okh.py`
-- [ ] `python doqs/scripts/validate_build.py` if lockfiles changed
+- [ ] If a first-level content directory was added, `python doqs/scripts/apply_licenses.py`
+- [ ] `python doqs/scripts/validate_all.py`
 - [ ] `python doqs/scripts/build_graph.py` if `hasComponent` or builds changed
-- [ ] `python doqs/scripts/check_links.py`
 - [ ] Submodule `doqs/` present and up to date (`git submodule update --init`)
 - [ ] Conventional commit message (`cad`, `arch`, `okh`, `params`, `interface`, `build`, …)
 

@@ -21,6 +21,8 @@ Also in the submodule:
 | `architecture/machine.sysml` | Machine composition and system requirements                                 |
 | `modules/`                   | Reserved for sub-assemblies (see [modules/README.md](../modules/README.md)) |
 | `builds/`                    | Physical machine lockfiles                                                  |
+| `LICENSE` / `LICENSES/`      | Split-licence overview and full legal texts (CERN-OHL-S / GPL / CC BY-SA)   |
+| `TRADEMARKS.md`              | Reserved organisation and project marks                                     |
 | `graph/usage-graph.json`     | Reverse usage (generated)                                                   |
 | `doqs/`                      | Git submodule — tools + spec                                                |
 

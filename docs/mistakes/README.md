@@ -9,3 +9,4 @@ Agents: read all recent entries (or this README’s prevention summary) at task 
 - Do not edit `.FCStd` files in the agent — use FreeCAD and param CSV workflow.
 - Do not hand-edit generated `bom/bom.csv` (root) or `cad/params.csv`.
 - Run `doqs/scripts/validate_*.py` before claiming manifests or builds are valid.
+- After `apply_licenses.py`, confirm `.agents/` and `doqs/` are unmodified (tooling submodules, not machine modules).
