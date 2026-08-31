@@ -17,6 +17,9 @@ All notable releases of this repository are documented here.
 
 ### Changed
 
+- Split-licence layout per current DOQS spec: CERN-OHL-S v2.0 (hardware), GPL-3.0 (firmware/software/simulation), CC BY-SA 4.0 (docs/media), with `LICENSES/` full texts, `TRADEMARKS.md`, and per-directory `LICENSE` stubs.
+- `doqs/` submodule bumped to include the split-licence apply/validate scripts; licence scanner skips `.agents/` tooling submodule.
+- CI and onboarding validation run `doqs/scripts/validate_all.py` (includes `validate_licenses`).
 - Single top-level module: removed example `modules/frame` and `modules/x-axis` scaffolds; `modules/` reserved for future sub-assemblies.
 - Spindle clamp assembly: master sketches moved to `Body_master` per DOQS ADR (fixes Assembly Insert / Binder cycle); see `doqs/docs/decisions/2026-06-24_freecad-master-sketches-body.md`.
 - Spindle clamp geometry: reduced clamp width; removed obsolete `spindle-clamp-design.FCStd`.

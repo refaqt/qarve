@@ -32,15 +32,13 @@ python cad/resolve_params.py 500mm
 **Pattern:**
 
 ```powershell
-python doqs/scripts/validate_okh.py
-python doqs/scripts/validate_build.py
+python doqs/scripts/validate_all.py
 python doqs/scripts/build_graph.py
-python doqs/scripts/check_links.py
 ```
 
-**Gotchas:** Run from repository root. `doqs/` must be initialized as a submodule at `qarve/doqs/`.
+**Gotchas:** Run from repository root. `doqs/` must be initialized as a submodule at `qarve/doqs/`. After adding a first-level content directory, run `python doqs/scripts/apply_licenses.py` first; it must not rewrite `.agents/` or `doqs/`.
 
-**Last used:** 2026-06-19 single top-level module
+**Last used:** 2026-08-31 split-licence layout
 
 ## FreeCAD master sketches in Body_master
 

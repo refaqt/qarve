@@ -15,3 +15,4 @@ To add an entry, see [`.agents/skills/log/SKILL.md`](../../.agents/skills/log/SK
 | 2026-08-15 | [X-axis Params and AssemblyLink pattern](2026-08-15_x-axis-params-assemblylink-pattern.md) | engineering, cad |  |
 | 2026-08-28 | [Taiwanese ATC spindle supplier research](2026-08-28_taiwanese-atc-spindle-suppliers.md) | engineering |  |
 | 2026-08-28 | [Agent kit and log restructure](2026-08-28_agent-kit-and-log-restructure.md) | engineering |  |
+| 2026-08-31 | [Split-licence layout](2026-08-31_split-licence-layout.md) | engineering |  |

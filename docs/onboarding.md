@@ -33,11 +33,15 @@ A separate clone of [github.com/refaqt/doqs](https://github.com/refaqt/doqs) els
 ## Validation (run from repo root)
 
 ```powershell
-python doqs/scripts/validate_okh.py
-python doqs/scripts/validate_build.py
+python doqs/scripts/validate_all.py
 python doqs/scripts/build_graph.py
-python doqs/scripts/check_links.py
 python bom/aggregate_bom.py
+```
+
+`validate_all.py` runs `validate_okh`, `validate_licenses`, `check_names`, `check_links`, and `validate_build`. To create or refresh split-licence files (`LICENSE`, `LICENSES/`, `TRADEMARKS.md`, per-directory stubs):
+
+```powershell
+python doqs/scripts/apply_licenses.py
 ```
 
 ## Where to read
@@ -45,6 +49,7 @@ python bom/aggregate_bom.py
 | Path | Content |
 |------|---------|
 | `docs/architecture.md` | Short overview — full spec in `doqs/docs/architecture.md` |
+| `LICENSE` / `LICENSES/` / `TRADEMARKS.md` | Split-licence overview, full texts, reserved marks |
 | `doqs/docs/readiness-levels.md` | OTRL / ODRL definitions |
 | `architecture/*.sysml` | Authoritative requirements and interfaces |
 | `modules/*/architecture/` | Sub-module SysML (when `modules/` is populated) |

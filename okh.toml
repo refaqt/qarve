@@ -4,6 +4,8 @@ name = "Qarve CNC Milling Machine"
 repo = "https://github.com/refaqt/qarve"
 version = "0.1.0"
 release = "https://github.com/refaqt/qarve/releases/tag/v0.1.0"
+# Hardware licence (this manifest describes the hardware project).
+# Firmware/software is GPL-3.0; docs/media is CC BY-SA 4.0. See README.md / LICENSE.
 license = "CERN-OHL-S-2.0"
 licensor = ["Refaqt BV"]
 organisation = "Refaqt BV, BE 0804.145.539"
