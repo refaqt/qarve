@@ -11,7 +11,7 @@ Qarve is currently a **single top-level module**. Sub-assemblies will be added u
 - Git and [Git LFS](https://git-lfs.com/)
 - Python 3.11+ (stdlib `tomllib` for validators)
 - FreeCAD 1.1+ (Assembly workbench) for CAD work
-- [SysIDE](https://github.com/sensmetry/sysml-2ls) or similar for SysML editing (optional)
+- [Docker Desktop](https://docs.docker.com/desktop/setup/install/windows-install/) once, for graphical SysML in SysON (optional until you edit models in the browser)
 
 ## Setup
 
@@ -43,6 +43,19 @@ python bom/aggregate_bom.py
 ```powershell
 python doqs/scripts/apply_licenses.py
 ```
+
+## Graphical SysML (SysON)
+
+Requirements live in `architecture/*.sysml`. To edit them in Eclipse SysON:
+
+1. Install Docker Desktop once (see [doqs/docs/syson.md](../doqs/docs/syson.md)).
+2. Double-click `syson.bat` at this repository root (or run `bash syson.sh`).
+3. In the control panel, click **Open**, edit in SysON, then click **Save**.
+4. Review `git diff` before committing.
+
+Do not use SysON’s homepage **Download** (JSON zip). **Save** writes textual `.sysml` back into `architecture/`.
+
+Agents: `python doqs/scripts/syson.py ui` (do not run `syson.bat`).
 
 ## Where to read
 

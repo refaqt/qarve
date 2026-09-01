@@ -40,6 +40,24 @@ python doqs/scripts/build_graph.py
 
 **Last used:** 2026-08-31 split-licence layout
 
+## SysON session over architecture/*.sysml
+
+**When to use:** Viewing or editing Qarve SysML graphically.
+
+**Pattern:**
+
+```powershell
+# Humans: double-click syson.bat (or bash syson.sh)
+# Agents:
+python doqs/scripts/syson.py ui
+```
+
+Control panel at `http://127.0.0.1:8765`: Open, Save, Reload, Stop, Status.
+
+**Gotchas:** Docker Desktop must be running. Homepage **Download** is a JSON zip, not SysML — always **Save**. **Reload** re-imports from git and drops diagrams. Canonical files stay in `architecture/*.sysml`. SysON export can drop comments and unresolved types (`Real`); review `git diff`. Guide: `doqs/docs/syson.md`. Agents must not run `syson.bat`.
+
+**Last used:** 2026-09-01 SysON control panel
+
 ## FreeCAD master sketches in Body_master
 
 **When to use:** Top-down CAD where an assembly `.FCStd` drives child part geometry via `SubShapeBinder`, and a part fails to appear in Assembly **Insert**.

@@ -10,7 +10,7 @@ The repository root is the **top-level DOQS module**. Sub-assemblies will live u
 2. From the repo root, agents run `bash setup-tooling.sh` so `doqs/` and `.agents/` track latest `main`. Humans on Windows may double-click `setup-tooling.bat`. Do not run those helpers from `doqs/templates/setup-tooling/`.
 3. Install https://git-lfs.com/ and run `git lfs install` before pulling CAD binaries.
 4. Read `docs/onboarding.md` for tooling, validation, and agent workflow.
-5. Open `architecture/machine.sysml` for system requirements and composition.
+5. Open `architecture/machine.sysml` for system requirements, or double-click `syson.bat` for the SysON control panel (Docker Desktop once; see `doqs/docs/syson.md`).
 
 ## Validation
 
