@@ -4,7 +4,7 @@
 
 - **Text-first:** Prefer CSV, SysML, TOML, and Markdown over opaque binaries.
 - **Never edit generated files:** Root `bom/bom.csv`, module `cad/params.csv`, `graph/usage-graph.json` (regenerate with scripts).
-- **Requirements live in SysML** under `architecture/` — not duplicate requirement docs.
+Requirements live in SysML under `architecture/` — not duplicate requirement docs. Graphical editing: double-click `syson.bat` (see `doqs/docs/syson.md`).
 - **Geometry in FreeCAD:** Agents must not edit `.FCStd` files; change parameters via `cad/params/` and `sync_params.py`.
 
 ## Commit messages

@@ -31,3 +31,5 @@ For multi-module composition and future extraction to separate repos, see `doqs/
 ## Authoritative model
 
 Requirements and interfaces: **`architecture/*.sysml`** and, when present, **`modules/*/architecture/*.sysml`** — not this markdown file.
+
+Graphical editing: double-click `syson.bat`, then **Open** / **Save** (see `doqs/docs/syson.md`).
