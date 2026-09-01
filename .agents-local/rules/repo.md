@@ -68,6 +68,10 @@ python doqs/scripts/build_graph.py
 python bom/aggregate_bom.py
 ```
 
+## Branching
+
+Every task that changes the repo must start on a **new git branch** off `main`, unless the user explicitly says otherwise. Do not land task work as commits directly on `main`.
+
 ## Conventions
 
 - **Commits:** `<type>(<scope>): <description>` — `feat`, `fix`, `docs`, `cad`, `arch`, `okh`,
