@@ -19,7 +19,7 @@ Qarve is currently a **single top-level module**. Sub-assemblies will be added u
 git clone --recurse-submodules https://github.com/refaqt/qarve.git
 cd qarve
 git lfs install
-git submodule update --init --recursive
+bash setup-tooling.sh
 python -m venv .venv
 .venv\Scripts\Activate.ps1
 ```
@@ -28,7 +28,7 @@ python -m venv .venv
 
 Validators and templates live at **`qarve/doqs/`** (Git submodule). Run all `python doqs/scripts/...` commands from the **qarve repository root**.
 
-A separate clone of [github.com/refaqt/doqs](https://github.com/refaqt/doqs) elsewhere on disk (e.g. `../doqs`) does **not** satisfy these paths. Use `git submodule update --init` after clone, or create a junction/symlink from `qarve/doqs` to your existing clone if you prefer that workflow.
+A separate clone of [github.com/refaqt/doqs](https://github.com/refaqt/doqs) elsewhere on disk (e.g. `../doqs`) does **not** satisfy these paths. Use `bash setup-tooling.sh` after clone (agents, any OS), or create a junction/symlink from `qarve/doqs` to your existing clone if you prefer that workflow. Humans on Windows may double-click `setup-tooling.bat`.
 
 ## Validation (run from repo root)
 

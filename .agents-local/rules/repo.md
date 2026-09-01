@@ -39,7 +39,7 @@ DOQS validators and templates: `doqs/` submodule.
 `docs/architecture.md` is a short overview — SysML remains authoritative.
 
 Before non-trivial work, read `docs/architecture.md`, then **`doqs/docs/architecture.md`**
-(run `git submodule update --init` if missing). Read relevant `architecture/*.sysml`.
+(run `bash setup-tooling.sh` from the repo root if `doqs/` is empty). Read relevant `architecture/*.sysml`.
 
 ## Stack and execution
 
@@ -47,7 +47,7 @@ Before non-trivial work, read `docs/architecture.md`, then **`doqs/docs/architec
 - **FreeCAD** 1.1+ with Assembly workbench; parameters via `cad/params/*.csv` and `sync_params.py`.
 - **OKH** manifests: `okh.toml` per module; validate with `doqs/scripts/validate_all.py`.
 - Run commands from the **repository root**.
-- If `doqs/` or `.agents/` is empty: `git submodule update --init --recursive`.
+- If `doqs/` or `.agents/` is empty: `bash setup-tooling.sh` from the repo root (agents, any OS). Humans on Windows may double-click `setup-tooling.bat`.
 - Before new solutions, read `.agents-local/skills/patterns/SKILL.md` and use the
   `maintain-patterns` skill.
 

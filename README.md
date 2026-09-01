@@ -7,7 +7,7 @@ The repository root is the **top-level DOQS module**. Sub-assemblies will live u
 ## Quick start
 
 1. Clone with submodules: `git clone --recurse-submodules https://github.com/refaqt/qarve.git`
-2. If you cloned without `--recurse-submodules`, run `git submodule update --init --recursive` so validators find `doqs/` at the repo root (not a sibling folder).
+2. From the repo root, agents run `bash setup-tooling.sh` so `doqs/` and `.agents/` track latest `main`. Humans on Windows may double-click `setup-tooling.bat`. Do not run those helpers from `doqs/templates/setup-tooling/`.
 3. Install https://git-lfs.com/ and run `git lfs install` before pulling CAD binaries.
 4. Read `docs/onboarding.md` for tooling, validation, and agent workflow.
 5. Open `architecture/machine.sysml` for system requirements and composition.

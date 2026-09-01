@@ -8,7 +8,7 @@ Qarve design-session checklist and validator commands.
 - [ ] If a first-level content directory was added, `python doqs/scripts/apply_licenses.py`
 - [ ] `python doqs/scripts/validate_all.py`
 - [ ] `python doqs/scripts/build_graph.py` if `hasComponent` or builds changed
-- [ ] Submodule `doqs/` present and up to date (`git submodule update --init`)
+- [ ] Submodule `doqs/` present and up to date (`bash setup-tooling.sh` from the repo root; do not commit dirty gitlinks unless freezing a pin)
 - [ ] Conventional commit message (`cad`, `arch`, `okh`, `params`, `interface`, `build`, …)
 
 ## Modules
