@@ -23,3 +23,25 @@ Master sketches for the clamp live in `spindle-clamp.FCStd` inside a `Master ske
 This avoids a circular document dependency (assembly → part → assembly) that blocks Assembly **Insert**. See `doqs/docs/decisions/2026-06-24_freecad-master-sketches-body.md` and `doqs/docs/architecture.md` (Top-down design and master sketches).
 
 Binary `.FCStd` / `.stl` use Git LFS (see root `.gitattributes`).
+
+## After you save a model
+
+Every `.FCStd` has a `.fingerprint.json` beside it. It lists the size, the
+position and the volume of each object, so a change to the geometry can be read
+as text in a pull request. The checks fail when a model and its measurement
+disagree.
+
+Run this from the repository root after saving, and commit the model and the
+measurement together:
+
+```powershell
+python cad/fingerprint_models.py
+```
+
+The script opens each model, measures it and closes it. It never saves a
+`.FCStd`: geometry changes stay manual, in the FreeCAD window. The run ends by
+naming any model whose geometry moves when FreeCAD refreshes it, which means the
+saved file no longer matches its own sketches and joints.
+
+Why this repository measures models instead of rebuilding them:
+[`docs/decisions/2026-09-22_fingerprints-for-hand-drawn-models.md`](../docs/decisions/2026-09-22_fingerprints-for-hand-drawn-models.md).
