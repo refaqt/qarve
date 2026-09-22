@@ -1,0 +1,152 @@
+{
+  "document": "linear_motor_z",
+  "errors": [],
+  "objects": {
+    "Assembly002": {
+      "area": 124029.0,
+      "bbox": [
+        42.0,
+        38.65,
+        -5.0,
+        128.0,
+        531.35,
+        29.3
+      ],
+      "closed": true,
+      "com": [
+        84.9477,
+        226.088,
+        8.57946
+      ],
+      "counts": {
+        "edges": 674,
+        "faces": 257,
+        "shells": 4,
+        "solids": 4,
+        "verts": 410
+      },
+      "label": "linear-motor-z",
+      "type": "Assembly::AssemblyObject",
+      "valid": true,
+      "volume": 586886.0
+    },
+    "linear_motor_forcer": {
+      "area": 39244.1,
+      "bbox": [
+        404.973,
+        211.493,
+        -97.3009,
+        506.024,
+        416.48,
+        -73.9
+      ],
+      "closed": true,
+      "com": [
+        455.435,
+        304.483,
+        -85.8883
+      ],
+      "counts": {
+        "edges": 266,
+        "faces": 109,
+        "shells": 1,
+        "solids": 1,
+        "verts": 138
+      },
+      "label": "linear-motor-forcer",
+      "type": "App::Link",
+      "valid": true,
+      "volume": 298872.0
+    },
+    "linear_motor_magnet_001": {
+      "area": 24423.4,
+      "bbox": [
+        396.103,
+        185.783,
+        -108.426,
+        499.039,
+        320.201,
+        -98.6898
+      ],
+      "closed": true,
+      "com": [
+        447.573,
+        252.985,
+        -103.943
+      ],
+      "counts": {
+        "edges": 132,
+        "faces": 48,
+        "shells": 1,
+        "solids": 1,
+        "verts": 88
+      },
+      "label": "linear-motor-magnet-001",
+      "type": "App::Link",
+      "valid": true,
+      "volume": 82288.8
+    },
+    "linear_motor_magnet_1": {
+      "area": 24423.4,
+      "bbox": [
+        426.704,
+        383.428,
+        -108.203,
+        529.64,
+        517.846,
+        -98.4668
+      ],
+      "closed": true,
+      "com": [
+        478.173,
+        450.63,
+        -103.72
+      ],
+      "counts": {
+        "edges": 132,
+        "faces": 48,
+        "shells": 1,
+        "solids": 1,
+        "verts": 88
+      },
+      "label": "linear-motor-magnet-1",
+      "type": "App::Link",
+      "valid": true,
+      "volume": 82288.8
+    },
+    "linear_motor_magnet_2": {
+      "area": 35938.6,
+      "bbox": [
+        443.534,
+        492.133,
+        -108.081,
+        555.65,
+        685.845,
+        -98.2773
+      ],
+      "closed": true,
+      "com": [
+        499.593,
+        588.982,
+        -103.564
+      ],
+      "counts": {
+        "edges": 144,
+        "faces": 52,
+        "shells": 1,
+        "solids": 1,
+        "verts": 96
+      },
+      "label": "linear-motor-magnet-2",
+      "type": "App::Link",
+      "valid": true,
+      "volume": 123436.0
+    }
+  },
+  "params": {},
+  "saved": true,
+  "schema": 1,
+  "sources": {
+    "linear-motor-z.FCStd": "60a9e76f9d8568d381038beaa4cb4233847a96109293312abf401c941570c3fe"
+  }
+}

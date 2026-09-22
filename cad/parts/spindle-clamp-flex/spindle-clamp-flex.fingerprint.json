@@ -1,0 +1,124 @@
+{
+  "document": "spindle_clamp_flex",
+  "errors": [],
+  "objects": {
+    "Body": {
+      "area": 28683.7,
+      "bbox": [
+        -51.0,
+        -55.0,
+        0.0,
+        51.0,
+        55.0,
+        30.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        12.666,
+        15.0
+      ],
+      "counts": {
+        "edges": 72,
+        "faces": 26,
+        "shells": 1,
+        "solids": 1,
+        "verts": 48
+      },
+      "label": "Body",
+      "type": "PartDesign::Body",
+      "valid": true,
+      "volume": 139093.0
+    },
+    "Pad": {
+      "area": 28683.7,
+      "bbox": [
+        -51.0,
+        -55.0,
+        0.0,
+        51.0,
+        55.0,
+        30.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        12.666,
+        15.0
+      ],
+      "counts": {
+        "edges": 72,
+        "faces": 26,
+        "shells": 1,
+        "solids": 1,
+        "verts": 48
+      },
+      "label": "Pad",
+      "type": "PartDesign::Pad",
+      "valid": true,
+      "volume": 139093.0
+    },
+    "Part": {
+      "area": 28683.7,
+      "bbox": [
+        -51.0,
+        -55.0,
+        0.0,
+        51.0,
+        55.0,
+        30.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        12.666,
+        15.0
+      ],
+      "counts": {
+        "edges": 72,
+        "faces": 26,
+        "shells": 1,
+        "solids": 1,
+        "verts": 48
+      },
+      "label": "Part",
+      "type": "App::Part",
+      "valid": true,
+      "volume": 139093.0
+    },
+    "Sketch": {
+      "area": 0.0,
+      "bbox": [
+        -51.0,
+        -55.0,
+        0.0,
+        51.0,
+        55.0,
+        0.0
+      ],
+      "closed": false,
+      "com": [
+        10.0935,
+        -7.1684,
+        0.0
+      ],
+      "counts": {
+        "edges": 41,
+        "faces": 0,
+        "shells": 0,
+        "solids": 0,
+        "verts": 42
+      },
+      "label": "Sketch",
+      "type": "Sketcher::SketchObject",
+      "valid": true,
+      "volume": 0.0
+    }
+  },
+  "params": {},
+  "saved": true,
+  "schema": 1,
+  "sources": {
+    "spindle-clamp-flex.FCStd": "de8d07830ee38b017e5fa63bdba593f812e168febe50ba180f4dd6243ae365bf"
+  }
+}

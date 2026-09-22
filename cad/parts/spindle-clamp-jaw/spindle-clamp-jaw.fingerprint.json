@@ -1,0 +1,180 @@
+{
+  "document": "spindle_clamp_jaw",
+  "errors": [],
+  "objects": {
+    "BaseFeature": {
+      "area": 32178.3,
+      "bbox": [
+        -55.0,
+        0.5,
+        -40.0,
+        55.0,
+        55.0,
+        0.0
+      ],
+      "closed": true,
+      "com": [
+        -5.8985e-08,
+        36.5956,
+        -20.0
+      ],
+      "counts": {
+        "edges": 81,
+        "faces": 34,
+        "shells": 1,
+        "solids": 1,
+        "verts": 54
+      },
+      "label": "BaseFeature",
+      "type": "PartDesign::FeatureBase",
+      "valid": true,
+      "volume": 109590.0
+    },
+    "Binder": {
+      "area": 32178.3,
+      "bbox": [
+        -55.0,
+        0.5,
+        -40.0,
+        55.0,
+        55.0,
+        0.0
+      ],
+      "closed": true,
+      "com": [
+        -5.8985e-08,
+        36.5956,
+        -20.0
+      ],
+      "counts": {
+        "edges": 81,
+        "faces": 34,
+        "shells": 1,
+        "solids": 1,
+        "verts": 54
+      },
+      "label": "Binder",
+      "type": "PartDesign::SubShapeBinder",
+      "valid": true,
+      "volume": 109590.0
+    },
+    "Body": {
+      "area": 32220.6,
+      "bbox": [
+        -55.0,
+        0.5,
+        -40.0,
+        55.0,
+        55.0,
+        0.0
+      ],
+      "closed": true,
+      "com": [
+        -5.85017e-08,
+        36.6786,
+        -20.0
+      ],
+      "counts": {
+        "edges": 81,
+        "faces": 34,
+        "shells": 1,
+        "solids": 1,
+        "verts": 54
+      },
+      "label": "Body",
+      "type": "PartDesign::Body",
+      "valid": true,
+      "volume": 109299.0
+    },
+    "Part": {
+      "area": 32220.6,
+      "bbox": [
+        -55.0,
+        0.5,
+        -40.0,
+        55.0,
+        55.0,
+        0.0
+      ],
+      "closed": true,
+      "com": [
+        -5.85017e-08,
+        36.6786,
+        -20.0
+      ],
+      "counts": {
+        "edges": 81,
+        "faces": 34,
+        "shells": 1,
+        "solids": 1,
+        "verts": 54
+      },
+      "label": "spindle-clamp-jaw",
+      "type": "App::Part",
+      "valid": true,
+      "volume": 109299.0
+    },
+    "Pocket": {
+      "area": 32220.6,
+      "bbox": [
+        -55.0,
+        0.5,
+        -40.0,
+        55.0,
+        55.0,
+        0.0
+      ],
+      "closed": true,
+      "com": [
+        -5.85017e-08,
+        36.6786,
+        -20.0
+      ],
+      "counts": {
+        "edges": 81,
+        "faces": 34,
+        "shells": 1,
+        "solids": 1,
+        "verts": 54
+      },
+      "label": "Pocket",
+      "type": "PartDesign::Pocket",
+      "valid": true,
+      "volume": 109299.0
+    },
+    "Sketch": {
+      "area": 0.0,
+      "bbox": [
+        -50.8,
+        0.0,
+        -23.3,
+        50.8,
+        0.0,
+        -16.7
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        0.0,
+        -20.0
+      ],
+      "counts": {
+        "edges": 2,
+        "faces": 0,
+        "shells": 0,
+        "solids": 0,
+        "verts": 2
+      },
+      "label": "Sketch",
+      "type": "Sketcher::SketchObject",
+      "valid": true,
+      "volume": 0.0
+    }
+  },
+  "params": {},
+  "saved": true,
+  "schema": 1,
+  "sources": {
+    "spindle-clamp-jaw.FCStd": "57737f55cfa799259c6bed35edf4033ac29f7454e9ad3e6a79464c52e8382f22"
+  }
+}

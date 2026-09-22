@@ -1,0 +1,208 @@
+{
+  "document": "linear_encoder_1",
+  "errors": [],
+  "objects": {
+    "KA500_420": {
+      "area": 84033.3,
+      "bbox": [
+        -266.0,
+        2389.65,
+        207.126,
+        266.0,
+        2432.15,
+        225.126
+      ],
+      "closed": true,
+      "com": [
+        0.0335835,
+        2401.46,
+        215.774
+      ],
+      "counts": {
+        "edges": 1218,
+        "faces": 426,
+        "shells": 5,
+        "solids": 5,
+        "verts": 793
+      },
+      "label": "Sino_KA500-420",
+      "type": "App::Part",
+      "valid": true,
+      "volume": 81688.1
+    },
+    "Part": {
+      "area": 84033.3,
+      "bbox": [
+        -266.0,
+        2389.65,
+        207.126,
+        266.0,
+        2432.15,
+        225.126
+      ],
+      "closed": true,
+      "com": [
+        0.0335835,
+        2401.46,
+        215.774
+      ],
+      "counts": {
+        "edges": 1218,
+        "faces": 426,
+        "shells": 5,
+        "solids": 5,
+        "verts": 793
+      },
+      "label": "linear-encoder-1",
+      "type": "App::Part",
+      "valid": true,
+      "volume": 81688.1
+    },
+    "Part__Feature": {
+      "area": 3415.88,
+      "bbox": [
+        -35.1764,
+        2410.03,
+        217.626,
+        35.0708,
+        2432.15,
+        223.126
+      ],
+      "closed": true,
+      "com": [
+        -0.0527851,
+        2421.8,
+        221.891
+      ],
+      "counts": {
+        "edges": 203,
+        "faces": 75,
+        "shells": 1,
+        "solids": 1,
+        "verts": 130
+      },
+      "label": "KA500-read-head-1",
+      "type": "Part::Feature",
+      "valid": true,
+      "volume": 2764.22
+    },
+    "Part__Feature001": {
+      "area": 8312.72,
+      "bbox": [
+        -35.0528,
+        2402.15,
+        209.126,
+        34.9472,
+        2432.15,
+        221.776
+      ],
+      "closed": true,
+      "com": [
+        0.365693,
+        2420.64,
+        214.366
+      ],
+      "counts": {
+        "edges": 316,
+        "faces": 108,
+        "shells": 1,
+        "solids": 1,
+        "verts": 205
+      },
+      "label": "KA500-read-head-2",
+      "type": "Part::Feature",
+      "valid": true,
+      "volume": 7900.7
+    },
+    "Part__Feature002": {
+      "area": 67288.1,
+      "bbox": [
+        -265.0,
+        2390.15,
+        207.126,
+        265.0,
+        2410.15,
+        225.126
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        2398.39,
+        215.621
+      ],
+      "counts": {
+        "edges": 243,
+        "faces": 83,
+        "shells": 1,
+        "solids": 1,
+        "verts": 162
+      },
+      "label": "KA500-420-scale",
+      "type": "Part::Feature",
+      "valid": true,
+      "volume": 65261.8
+    },
+    "Part__Feature003": {
+      "area": 2508.33,
+      "bbox": [
+        -266.0,
+        2389.65,
+        207.276,
+        -247.0,
+        2413.15,
+        224.976
+      ],
+      "closed": true,
+      "com": [
+        -259.231,
+        2400.12,
+        216.495
+      ],
+      "counts": {
+        "edges": 228,
+        "faces": 80,
+        "shells": 1,
+        "solids": 1,
+        "verts": 148
+      },
+      "label": "KA500-end-cap-1",
+      "type": "Part::Feature",
+      "valid": true,
+      "volume": 2880.69
+    },
+    "Part__Feature004": {
+      "area": 2508.33,
+      "bbox": [
+        247.0,
+        2389.65,
+        207.276,
+        266.0,
+        2413.15,
+        224.976
+      ],
+      "closed": true,
+      "com": [
+        259.231,
+        2400.12,
+        216.495
+      ],
+      "counts": {
+        "edges": 228,
+        "faces": 80,
+        "shells": 1,
+        "solids": 1,
+        "verts": 148
+      },
+      "label": "KA500-end-cap-2",
+      "type": "Part::Feature",
+      "valid": true,
+      "volume": 2880.69
+    }
+  },
+  "params": {},
+  "saved": true,
+  "schema": 1,
+  "sources": {
+    "linear-encoder-1.FCStd": "4ffa20c505ca9677f413e21230e6cb64ad30a98807450cdfc917186c6bc20f2f"
+  }
+}

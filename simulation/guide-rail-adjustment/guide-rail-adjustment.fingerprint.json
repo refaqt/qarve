@@ -1,0 +1,180 @@
+{
+  "document": "guide_rail_adjustment",
+  "errors": [],
+  "objects": {
+    "BooleanFragments": {
+      "area": 48600.0,
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        15.0,
+        480.0,
+        20.0
+      ],
+      "closed": false,
+      "com": [
+        7.5,
+        240.0,
+        10.0
+      ],
+      "counts": {
+        "edges": 26,
+        "faces": 13,
+        "shells": 2,
+        "solids": 2,
+        "verts": 16
+      },
+      "label": "BooleanFragments003",
+      "type": "Part::FeaturePython",
+      "valid": true,
+      "volume": 144000.0
+    },
+    "Box": {
+      "area": 19350.0,
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        15.0,
+        480.0,
+        5.0
+      ],
+      "closed": true,
+      "com": [
+        7.5,
+        240.0,
+        2.5
+      ],
+      "counts": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "solids": 1,
+        "verts": 8
+      },
+      "label": "Cube",
+      "type": "Part::Box",
+      "valid": true,
+      "volume": 36000.0
+    },
+    "Extrude": {
+      "area": 29250.0,
+      "bbox": [
+        0.0,
+        0.0,
+        5.0,
+        15.0,
+        480.0,
+        20.0
+      ],
+      "closed": true,
+      "com": [
+        7.5,
+        240.0,
+        12.5
+      ],
+      "counts": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "solids": 1,
+        "verts": 8
+      },
+      "label": "Extrude",
+      "type": "Part::Extrusion",
+      "valid": true,
+      "volume": 108000.0
+    },
+    "Sketch": {
+      "area": 0.0,
+      "bbox": [
+        0.0,
+        0.0,
+        5.0,
+        15.0,
+        480.0,
+        5.0
+      ],
+      "closed": true,
+      "com": [
+        7.5,
+        240.0,
+        5.0
+      ],
+      "counts": {
+        "edges": 4,
+        "faces": 0,
+        "shells": 0,
+        "solids": 0,
+        "verts": 4
+      },
+      "label": "Sketch",
+      "type": "Sketcher::SketchObject",
+      "valid": true,
+      "volume": 0.0
+    },
+    "Sketch001": {
+      "area": 0.0,
+      "bbox": [
+        0.0,
+        240.0,
+        20.0,
+        15.0,
+        300.0,
+        20.0
+      ],
+      "closed": false,
+      "com": [
+        7.5,
+        270.0,
+        20.0
+      ],
+      "counts": {
+        "edges": 2,
+        "faces": 0,
+        "shells": 0,
+        "solids": 0,
+        "verts": 4
+      },
+      "label": "Sketch001",
+      "type": "Sketcher::SketchObject",
+      "valid": true,
+      "volume": 0.0
+    },
+    "Slice": {
+      "area": 29250.0,
+      "bbox": [
+        0.0,
+        0.0,
+        5.0,
+        15.0,
+        480.0,
+        20.0
+      ],
+      "closed": true,
+      "com": [
+        7.5,
+        240.0,
+        12.5
+      ],
+      "counts": {
+        "edges": 18,
+        "faces": 8,
+        "shells": 1,
+        "solids": 1,
+        "verts": 12
+      },
+      "label": "Slice",
+      "type": "Part::FeaturePython",
+      "valid": true,
+      "volume": 108000.0
+    }
+  },
+  "params": {},
+  "saved": true,
+  "schema": 1,
+  "sources": {
+    "guide-rail-adjustment.FCStd": "18048c11e163b0ec4c89bf4efbe181f92102489c672f6542de7ae02dce3ae196"
+  }
+}

@@ -1,0 +1,460 @@
+{
+  "document": "machine",
+  "errors": [],
+  "objects": {
+    "Binder": {
+      "area": 480000.0,
+      "bbox": [
+        -300.0,
+        -400.0,
+        0.0,
+        300.0,
+        400.0,
+        0.0
+      ],
+      "closed": false,
+      "com": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "counts": {
+        "edges": 4,
+        "faces": 1,
+        "shells": 0,
+        "solids": 0,
+        "verts": 4
+      },
+      "label": "Binder",
+      "type": "PartDesign::SubShapeBinder",
+      "valid": true,
+      "volume": 0.0
+    },
+    "Binder001": {
+      "area": 17920.0,
+      "bbox": [
+        -300.0,
+        -400.0,
+        0.0,
+        300.0,
+        400.0,
+        0.0
+      ],
+      "closed": false,
+      "com": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "counts": {
+        "edges": 24,
+        "faces": 5,
+        "shells": 0,
+        "solids": 0,
+        "verts": 24
+      },
+      "label": "Binder001",
+      "type": "PartDesign::SubShapeBinder",
+      "valid": true,
+      "volume": 0.0
+    },
+    "Binder002": {
+      "area": 425600.0,
+      "bbox": [
+        -280.0,
+        -380.0,
+        0.0,
+        280.0,
+        380.0,
+        0.0
+      ],
+      "closed": false,
+      "com": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "counts": {
+        "edges": 4,
+        "faces": 1,
+        "shells": 0,
+        "solids": 0,
+        "verts": 4
+      },
+      "label": "Binder002",
+      "type": "PartDesign::SubShapeBinder",
+      "valid": true,
+      "volume": 0.0
+    },
+    "Binder003": {
+      "area": 158600.0,
+      "bbox": [
+        0.0,
+        -70.0,
+        -380.0,
+        0.0,
+        490.0,
+        281.669
+      ],
+      "closed": false,
+      "com": [
+        0.0,
+        210.0,
+        -81.564
+      ],
+      "counts": {
+        "edges": 16,
+        "faces": 3,
+        "shells": 0,
+        "solids": 0,
+        "verts": 14
+      },
+      "label": "Binder003",
+      "type": "PartDesign::SubShapeBinder",
+      "valid": true,
+      "volume": -1.75866e-09
+    },
+    "Binder004": {
+      "area": 158600.0,
+      "bbox": [
+        -280.0,
+        -281.669,
+        0.0,
+        280.0,
+        380.0,
+        0.0
+      ],
+      "closed": false,
+      "com": [
+        0.0,
+        81.564,
+        0.0
+      ],
+      "counts": {
+        "edges": 16,
+        "faces": 3,
+        "shells": 0,
+        "solids": 0,
+        "verts": 14
+      },
+      "label": "Binder004",
+      "type": "PartDesign::SubShapeBinder",
+      "valid": true,
+      "volume": 0.0
+    },
+    "DatumPlane": {
+      "area": 8e+100,
+      "bbox": [
+        220.0,
+        -1e+100,
+        -1e+100,
+        220.0,
+        1e+100,
+        1e+100
+      ],
+      "closed": false,
+      "com": [
+        220.0,
+        5e+99,
+        -5e+99
+      ],
+      "counts": {
+        "edges": 0,
+        "faces": 1,
+        "shells": 0,
+        "solids": 0,
+        "verts": 0
+      },
+      "label": "DatumPlane",
+      "type": "Part::DatumPlane",
+      "valid": true,
+      "volume": -5.86667e+102
+    },
+    "DatumPoint": {
+      "area": 0.0,
+      "bbox": [
+        0.0,
+        -10.0,
+        -84.0445,
+        0.0,
+        -10.0,
+        -84.0445
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        -10.0,
+        -84.0445
+      ],
+      "counts": {
+        "edges": 0,
+        "faces": 0,
+        "shells": 0,
+        "solids": 0,
+        "verts": 1
+      },
+      "label": "DatumPoint",
+      "type": "Part::DatumPoint",
+      "valid": true,
+      "volume": 0.0
+    },
+    "Sketch": {
+      "area": 0.0,
+      "bbox": [
+        172.0,
+        -250.0,
+        0.0,
+        272.4,
+        50.0,
+        0.0
+      ],
+      "closed": false,
+      "com": [
+        221.903,
+        -87.8251,
+        0.0
+      ],
+      "counts": {
+        "edges": 75,
+        "faces": 0,
+        "shells": 0,
+        "solids": 0,
+        "verts": 68
+      },
+      "label": "Sketch",
+      "type": "Sketcher::SketchObject",
+      "valid": true,
+      "volume": 0.0
+    },
+    "Sketch001": {
+      "area": 0.0,
+      "bbox": [
+        -300.0,
+        -400.0,
+        0.0,
+        300.0,
+        400.0,
+        0.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "counts": {
+        "edges": 4,
+        "faces": 0,
+        "shells": 0,
+        "solids": 0,
+        "verts": 4
+      },
+      "label": "Sketch001",
+      "type": "Sketcher::SketchObject",
+      "valid": true,
+      "volume": 0.0
+    },
+    "Sketch002": {
+      "area": 0.0,
+      "bbox": [
+        -300.0,
+        -400.0,
+        0.0,
+        300.0,
+        400.0,
+        0.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "counts": {
+        "edges": 24,
+        "faces": 0,
+        "shells": 0,
+        "solids": 0,
+        "verts": 24
+      },
+      "label": "Sketch002",
+      "type": "Sketcher::SketchObject",
+      "valid": true,
+      "volume": 0.0
+    },
+    "Sketch003": {
+      "area": 0.0,
+      "bbox": [
+        -280.0,
+        -380.0,
+        0.0,
+        280.0,
+        380.0,
+        0.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "counts": {
+        "edges": 4,
+        "faces": 0,
+        "shells": 0,
+        "solids": 0,
+        "verts": 4
+      },
+      "label": "Sketch003",
+      "type": "Sketcher::SketchObject",
+      "valid": true,
+      "volume": 0.0
+    },
+    "Sketch004": {
+      "area": 0.0,
+      "bbox": [
+        -280.0,
+        -281.669,
+        0.0,
+        280.0,
+        380.0,
+        0.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        71.3645,
+        0.0
+      ],
+      "counts": {
+        "edges": 16,
+        "faces": 0,
+        "shells": 0,
+        "solids": 0,
+        "verts": 14
+      },
+      "label": "Sketch004",
+      "type": "Sketcher::SketchObject",
+      "valid": true,
+      "volume": 0.0
+    },
+    "Sketch005": {
+      "area": 0.0,
+      "bbox": [
+        0.0,
+        -10.0,
+        -84.0445,
+        210.0,
+        -10.0,
+        -24.0445
+      ],
+      "closed": false,
+      "com": [
+        103.09,
+        -10.0,
+        -55.0407
+      ],
+      "counts": {
+        "edges": 68,
+        "faces": 0,
+        "shells": 0,
+        "solids": 0,
+        "verts": 70
+      },
+      "label": "Sketch005",
+      "type": "Sketcher::SketchObject",
+      "valid": true,
+      "volume": 0.0
+    },
+    "Sketch006": {
+      "area": 0.0,
+      "bbox": [
+        10.0,
+        -10.0,
+        -84.0445,
+        210.0,
+        430.0,
+        -84.0445
+      ],
+      "closed": false,
+      "com": [
+        82.2582,
+        180.543,
+        -84.0445
+      ],
+      "counts": {
+        "edges": 33,
+        "faces": 0,
+        "shells": 0,
+        "solids": 0,
+        "verts": 36
+      },
+      "label": "Sketch006",
+      "type": "Sketcher::SketchObject",
+      "valid": true,
+      "volume": 0.0
+    },
+    "Sketch008": {
+      "area": 0.0,
+      "bbox": [
+        0.0,
+        -10.0,
+        -84.0445,
+        0.0,
+        420.0,
+        -24.0445
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        152.727,
+        -37.8078
+      ],
+      "counts": {
+        "edges": 32,
+        "faces": 0,
+        "shells": 0,
+        "solids": 0,
+        "verts": 44
+      },
+      "label": "Sketch008",
+      "type": "Sketcher::SketchObject",
+      "valid": true,
+      "volume": 0.0
+    },
+    "Sketch009": {
+      "area": 0.0,
+      "bbox": [
+        160.0,
+        -323.169,
+        0.0,
+        280.0,
+        -101.669,
+        0.0
+      ],
+      "closed": false,
+      "com": [
+        213.702,
+        -209.612,
+        0.0
+      ],
+      "counts": {
+        "edges": 68,
+        "faces": 0,
+        "shells": 0,
+        "solids": 0,
+        "verts": 69
+      },
+      "label": "Sketch009",
+      "type": "Sketcher::SketchObject",
+      "valid": true,
+      "volume": 0.0
+    }
+  },
+  "params": {},
+  "saved": true,
+  "schema": 1,
+  "sources": {
+    "machine.FCStd": "167d393d7f3928845016361a6d7ddc7ec9dd86deaa2597f032245a24d941e2f8"
+  }
+}

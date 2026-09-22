@@ -1,0 +1,404 @@
+{
+  "document": "pneumatic_cylinder_z",
+  "errors": [],
+  "objects": {
+    "Assembly": {
+      "area": 76153.8,
+      "bbox": [
+        -18.4752,
+        -18.4752,
+        -405.0,
+        18.4752,
+        54.1861,
+        24.0
+      ],
+      "closed": true,
+      "com": [
+        -2.7022e-06,
+        2.69695,
+        -124.169
+      ],
+      "counts": {
+        "edges": 627,
+        "faces": 279,
+        "shells": 6,
+        "solids": 6,
+        "verts": 395
+      },
+      "label": "counterbalance-system-z",
+      "type": "Assembly::AssemblyObject",
+      "valid": true,
+      "volume": 134355.0
+    },
+    "Body": {
+      "area": 973.894,
+      "bbox": [
+        -3.0,
+        -30.0,
+        -3.0,
+        3.0,
+        0.0,
+        3.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        -15.0,
+        0.0
+      ],
+      "counts": {
+        "edges": 6,
+        "faces": 4,
+        "shells": 1,
+        "solids": 1,
+        "verts": 4
+      },
+      "label": "Body",
+      "type": "PartDesign::Body",
+      "valid": true,
+      "volume": 471.239
+    },
+    "Pad": {
+      "area": 973.894,
+      "bbox": [
+        -3.0,
+        -30.0,
+        -3.0,
+        3.0,
+        0.0,
+        3.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        -15.0,
+        0.0
+      ],
+      "counts": {
+        "edges": 6,
+        "faces": 4,
+        "shells": 1,
+        "solids": 1,
+        "verts": 4
+      },
+      "label": "Pad",
+      "type": "PartDesign::Pad",
+      "valid": true,
+      "volume": 471.239
+    },
+    "Part": {
+      "area": 71826.8,
+      "bbox": [
+        -18.4752,
+        -18.4752,
+        -405.0,
+        18.4752,
+        44.5,
+        24.0
+      ],
+      "closed": true,
+      "com": [
+        -2.55264e-06,
+        1.88855,
+        -125.566
+      ],
+      "counts": {
+        "edges": 371,
+        "faces": 167,
+        "shells": 3,
+        "solids": 3,
+        "verts": 234
+      },
+      "label": "pneumatic-cylinder",
+      "type": "App::Part",
+      "valid": true,
+      "volume": 130502.0
+    },
+    "Part001": {
+      "area": 1344.48,
+      "bbox": [
+        -7.50555,
+        7.9,
+        -82.7056,
+        7.50555,
+        26.3,
+        -67.6944
+      ],
+      "closed": true,
+      "com": [
+        -1.02553e-05,
+        17.3036,
+        -75.2
+      ],
+      "counts": {
+        "edges": 97,
+        "faces": 46,
+        "shells": 1,
+        "solids": 1,
+        "verts": 58
+      },
+      "label": "air-coupling-straight",
+      "type": "App::Part",
+      "valid": true,
+      "volume": 1748.54
+    },
+    "Part002": {
+      "area": 973.894,
+      "bbox": [
+        -3.0,
+        14.3,
+        -78.2,
+        3.0,
+        44.3,
+        -72.2
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        29.3,
+        -75.2
+      ],
+      "counts": {
+        "edges": 6,
+        "faces": 4,
+        "shells": 1,
+        "solids": 1,
+        "verts": 4
+      },
+      "label": "air-tube-z-1",
+      "type": "App::Part",
+      "valid": true,
+      "volume": 471.239
+    },
+    "Part003": {
+      "area": 2008.61,
+      "bbox": [
+        -5.73473,
+        32.3,
+        -90.7,
+        5.73473,
+        54.1861,
+        -68.8139
+      ],
+      "closed": true,
+      "com": [
+        2.16532e-05,
+        43.9772,
+        -79.0228
+      ],
+      "counts": {
+        "edges": 153,
+        "faces": 62,
+        "shells": 1,
+        "solids": 1,
+        "verts": 99
+      },
+      "label": "air-coupling-L",
+      "type": "App::Part",
+      "valid": true,
+      "volume": 1632.13
+    },
+    "Part__Feature": {
+      "area": 58623.9,
+      "bbox": [
+        -18.0,
+        -18.0,
+        -405.0,
+        18.0,
+        44.5,
+        0.0
+      ],
+      "closed": true,
+      "com": [
+        6.00152e-07,
+        2.36434,
+        -122.721
+      ],
+      "counts": {
+        "edges": 305,
+        "faces": 137,
+        "shells": 1,
+        "solids": 1,
+        "verts": 193
+      },
+      "label": "193990 DSNU-20-250-P---(A---KP0-ZR)",
+      "type": "Part::Feature",
+      "valid": true,
+      "volume": 104240.0
+    },
+    "Part__Feature001": {
+      "area": 2938.39,
+      "bbox": [
+        -18.4752,
+        -18.4752,
+        -10.0165,
+        18.4752,
+        18.4752,
+        1.01649
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        -0.000119676,
+        -4.5
+      ],
+      "counts": {
+        "edges": 29,
+        "faces": 13,
+        "shells": 1,
+        "solids": 1,
+        "verts": 18
+      },
+      "label": "DIN-439-B - M22x1.5(F)",
+      "type": "Part::Feature",
+      "valid": true,
+      "volume": 6088.35
+    },
+    "Part__Feature002": {
+      "area": 10264.6,
+      "bbox": [
+        -10.0,
+        -10.0,
+        -352.3,
+        10.0,
+        10.0,
+        24.0
+      ],
+      "closed": true,
+      "com": [
+        1.6629e-06,
+        1.28274e-08,
+        -176.81
+      ],
+      "counts": {
+        "edges": 37,
+        "faces": 17,
+        "shells": 1,
+        "solids": 1,
+        "verts": 23
+      },
+      "label": "193990 DSNU-20-250-P---(A---00--0KPKS)",
+      "type": "Part::Feature",
+      "valid": true,
+      "volume": 20173.5
+    },
+    "Part__Feature003": {
+      "area": 1344.48,
+      "bbox": [
+        -7.50555,
+        -7.50555,
+        -5.1,
+        7.50555,
+        7.50555,
+        13.3
+      ],
+      "closed": true,
+      "com": [
+        5.53334e-06,
+        -1.02553e-05,
+        4.30362
+      ],
+      "counts": {
+        "edges": 97,
+        "faces": 46,
+        "shells": 1,
+        "solids": 1,
+        "verts": 58
+      },
+      "label": "186265 QSM-G1/8-6",
+      "type": "Part::Feature",
+      "valid": true,
+      "volume": 1748.54
+    },
+    "Part__Feature004": {
+      "area": 2008.61,
+      "bbox": [
+        -6.38611,
+        -5.73473,
+        -6.38611,
+        15.5,
+        5.73473,
+        15.5
+      ],
+      "closed": true,
+      "com": [
+        3.82283,
+        2.16532e-05,
+        3.8228
+      ],
+      "counts": {
+        "edges": 153,
+        "faces": 62,
+        "shells": 1,
+        "solids": 1,
+        "verts": 99
+      },
+      "label": "153345 QSML-6",
+      "type": "Part::Feature",
+      "valid": true,
+      "volume": 1632.13
+    },
+    "Sketch": {
+      "area": 0.0,
+      "bbox": [
+        -3.0,
+        0.0,
+        -3.0,
+        3.0,
+        0.0,
+        3.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "counts": {
+        "edges": 2,
+        "faces": 0,
+        "shells": 0,
+        "solids": 0,
+        "verts": 2
+      },
+      "label": "Sketch",
+      "type": "Sketcher::SketchObject",
+      "valid": true,
+      "volume": 0.0
+    },
+    "_193990_DSNU_20_250_P_A_KP____250PA___00__0KP______0_": {
+      "area": 71826.8,
+      "bbox": [
+        -18.4752,
+        -18.4752,
+        -405.0,
+        18.4752,
+        44.5,
+        24.0
+      ],
+      "closed": true,
+      "com": [
+        -2.55264e-06,
+        1.88855,
+        -125.566
+      ],
+      "counts": {
+        "edges": 371,
+        "faces": 167,
+        "shells": 3,
+        "solids": 3,
+        "verts": 234
+      },
+      "label": "Festo_DSNU-20-250-P-A-KP",
+      "type": "App::Part",
+      "valid": true,
+      "volume": 130502.0
+    }
+  },
+  "params": {},
+  "saved": true,
+  "schema": 1,
+  "sources": {
+    "pneumatic-cylinder-z.FCStd": "afe99b658f322f1c0a763097ad5b212fa9c763121db159d1e59ecf255c9f4bf3"
+  }
+}

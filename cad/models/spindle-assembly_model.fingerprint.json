@@ -1,0 +1,11 @@
+{
+  "document": "spindle_assembly_model",
+  "errors": [],
+  "objects": {},
+  "params": {},
+  "saved": true,
+  "schema": 1,
+  "sources": {
+    "spindle-assembly_model.FCStd": "26d297a3a5138acbd16b5b0a625bcde752ef7c9c98b2cf973d84b844b95ce5b5"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "document": "rotary_axis_configuration_3phis",
+  "errors": [],
+  "objects": {
+    "Sketch": {
+      "area": 0.0,
+      "bbox": [
+        -80.0,
+        0.0,
+        6.48627,
+        80.0,
+        0.0,
+        96.4863
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        0.0,
+        51.4863
+      ],
+      "counts": {
+        "edges": 4,
+        "faces": 0,
+        "shells": 0,
+        "solids": 0,
+        "verts": 4
+      },
+      "label": "Sketch",
+      "type": "Sketcher::SketchObject",
+      "valid": true,
+      "volume": 0.0
+    }
+  },
+  "params": {},
+  "saved": true,
+  "schema": 1,
+  "sources": {
+    "rotary-axis-configuration-3phis.FCStd": "97e8a3d7127a0ae2cf8b19d28263e764377d1f5d37287ab75e8c9f81358799bf"
+  }
+}

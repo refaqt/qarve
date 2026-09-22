@@ -1,0 +1,432 @@
+{
+  "document": "torque_motor",
+  "errors": [],
+  "objects": {
+    "Part": {
+      "area": 144598.0,
+      "bbox": [
+        -79.9938,
+        -6.6,
+        -79.9938,
+        79.9938,
+        107.4,
+        79.9938
+      ],
+      "closed": true,
+      "com": [
+        0.0590303,
+        23.8039,
+        0.000542753
+      ],
+      "counts": {
+        "edges": 149,
+        "faces": 76,
+        "shells": 8,
+        "solids": 8,
+        "verts": 98
+      },
+      "label": "torque-motor",
+      "type": "App::Part",
+      "valid": true,
+      "volume": 599324.0
+    },
+    "Part__Feature": {
+      "area": 70821.8,
+      "bbox": [
+        -79.9938,
+        -6.6,
+        -79.9938,
+        79.9938,
+        54.2,
+        79.9938
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        23.7775,
+        0.0
+      ],
+      "counts": {
+        "edges": 69,
+        "faces": 31,
+        "shells": 1,
+        "solids": 1,
+        "verts": 46
+      },
+      "label": "U16060\\X2\\94c182af6d828986\\X0\\",
+      "type": "Part::Feature",
+      "valid": true,
+      "volume": 480433.0
+    },
+    "Part__Feature001": {
+      "area": 331.815,
+      "bbox": [
+        73.1,
+        47.4,
+        0.9,
+        74.9,
+        107.4,
+        2.7
+      ],
+      "closed": true,
+      "com": [
+        74.0,
+        75.6379,
+        1.8
+      ],
+      "counts": {
+        "edges": 12,
+        "faces": 7,
+        "shells": 1,
+        "solids": 1,
+        "verts": 8
+      },
+      "label": "14#AWG-60mm",
+      "type": "Part::Feature",
+      "valid": true,
+      "volume": 142.628
+    },
+    "Part__Feature002": {
+      "area": 331.815,
+      "bbox": [
+        73.1,
+        47.4,
+        -2.7,
+        74.9,
+        107.4,
+        -0.9
+      ],
+      "closed": true,
+      "com": [
+        74.0,
+        75.6379,
+        -1.8
+      ],
+      "counts": {
+        "edges": 12,
+        "faces": 7,
+        "shells": 1,
+        "solids": 1,
+        "verts": 8
+      },
+      "label": "14#AWG-60mm001",
+      "type": "Part::Feature",
+      "valid": true,
+      "volume": 142.628
+    },
+    "Part__Feature003": {
+      "area": 331.815,
+      "bbox": [
+        73.1,
+        47.4,
+        -0.9,
+        74.9,
+        107.4,
+        0.9
+      ],
+      "closed": true,
+      "com": [
+        74.0,
+        75.6379,
+        0.0
+      ],
+      "counts": {
+        "edges": 12,
+        "faces": 7,
+        "shells": 1,
+        "solids": 1,
+        "verts": 8
+      },
+      "label": "14#AWG-60mm002",
+      "type": "Part::Feature",
+      "valid": true,
+      "volume": 142.628
+    },
+    "Part__Feature004": {
+      "area": 37934.0,
+      "bbox": [
+        -59.994,
+        0.0,
+        -59.994,
+        59.994,
+        48.0,
+        59.994
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        24.0,
+        0.0
+      ],
+      "counts": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "solids": 1,
+        "verts": 8
+      },
+      "label": "U16060\\X2\\8f6c8f74\\X0\\",
+      "type": "Part::Feature",
+      "valid": true,
+      "volume": 71548.4
+    },
+    "Part__Feature005": {
+      "area": 34593.2,
+      "bbox": [
+        -55.86,
+        0.0,
+        -55.86,
+        55.86,
+        48.0,
+        55.86
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        24.0,
+        0.0
+      ],
+      "counts": {
+        "edges": 20,
+        "faces": 10,
+        "shells": 1,
+        "solids": 1,
+        "verts": 12
+      },
+      "label": "U16060\\X2\\8f6c8f74\\X0\\001",
+      "type": "Part::Feature",
+      "valid": true,
+      "volume": 46865.4
+    },
+    "Part__Feature006": {
+      "area": 126.669,
+      "bbox": [
+        73.508,
+        54.2,
+        5.66136,
+        74.308,
+        104.2,
+        6.46136
+      ],
+      "closed": true,
+      "com": [
+        73.908,
+        79.2,
+        6.06136
+      ],
+      "counts": {
+        "edges": 6,
+        "faces": 4,
+        "shells": 1,
+        "solids": 1,
+        "verts": 4
+      },
+      "label": "26#AWG-NTC",
+      "type": "Part::Feature",
+      "valid": true,
+      "volume": 25.1327
+    },
+    "Part__Feature007": {
+      "area": 126.669,
+      "bbox": [
+        73.499,
+        54.2,
+        6.48131,
+        74.299,
+        104.2,
+        7.28131
+      ],
+      "closed": true,
+      "com": [
+        73.899,
+        79.2,
+        6.88131
+      ],
+      "counts": {
+        "edges": 6,
+        "faces": 4,
+        "shells": 1,
+        "solids": 1,
+        "verts": 4
+      },
+      "label": "26#AWG-NTC001",
+      "type": "Part::Feature",
+      "valid": true,
+      "volume": 25.1327
+    },
+    "U16060_3D_Model__STEP_": {
+      "area": 144598.0,
+      "bbox": [
+        -79.9938,
+        -6.6,
+        -79.9938,
+        79.9938,
+        107.4,
+        79.9938
+      ],
+      "closed": true,
+      "com": [
+        0.0590303,
+        23.8039,
+        0.000542753
+      ],
+      "counts": {
+        "edges": 149,
+        "faces": 76,
+        "shells": 8,
+        "solids": 8,
+        "verts": 98
+      },
+      "label": "U16060 3D Model (STEP)",
+      "type": "App::Part",
+      "valid": true,
+      "volume": 599324.0
+    },
+    "U16060_X2_8f6c8f74_X0_": {
+      "area": 72527.2,
+      "bbox": [
+        -59.994,
+        0.0,
+        -59.994,
+        59.994,
+        48.0,
+        59.994
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        24.0,
+        0.0
+      ],
+      "counts": {
+        "edges": 32,
+        "faces": 16,
+        "shells": 2,
+        "solids": 2,
+        "verts": 20
+      },
+      "label": "U16060\\X2\\8f6c8f74\\X0\\002",
+      "type": "App::Part",
+      "valid": true,
+      "volume": 118414.0
+    },
+    "U16060__X2_5b9a5b50_X0_": {
+      "area": 71817.3,
+      "bbox": [
+        -79.9938,
+        -6.6,
+        -79.9938,
+        79.9938,
+        107.4,
+        79.9938
+      ],
+      "closed": true,
+      "com": [
+        0.0658476,
+        23.8237,
+        0.0
+      ],
+      "counts": {
+        "edges": 105,
+        "faces": 52,
+        "shells": 4,
+        "solids": 4,
+        "verts": 70
+      },
+      "label": "U16060-\\X2\\5b9a5b50\\X0\\",
+      "type": "App::Part",
+      "valid": true,
+      "volume": 480860.0
+    },
+    "U16060__X2_8f6c5b50_X0_": {
+      "area": 72527.2,
+      "bbox": [
+        -59.994,
+        -0.3,
+        -59.994,
+        59.994,
+        47.7,
+        59.994
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        23.7,
+        0.0
+      ],
+      "counts": {
+        "edges": 32,
+        "faces": 16,
+        "shells": 2,
+        "solids": 2,
+        "verts": 20
+      },
+      "label": "U16060-\\X2\\8f6c5b50\\X0\\",
+      "type": "App::Part",
+      "valid": true,
+      "volume": 118414.0
+    },
+    "_14_AWG_60mm": {
+      "area": 995.445,
+      "bbox": [
+        73.1,
+        47.4,
+        -2.7,
+        74.9,
+        107.4,
+        2.7
+      ],
+      "closed": true,
+      "com": [
+        74.0,
+        75.6379,
+        0.0
+      ],
+      "counts": {
+        "edges": 36,
+        "faces": 21,
+        "shells": 3,
+        "solids": 3,
+        "verts": 24
+      },
+      "label": "14#AWG-60mm003",
+      "type": "App::Part",
+      "valid": true,
+      "volume": 427.885
+    },
+    "_26_AWG_NTC": {
+      "area": 253.338,
+      "bbox": [
+        73.499,
+        54.2,
+        5.66136,
+        74.308,
+        104.2,
+        7.28131
+      ],
+      "closed": true,
+      "com": [
+        73.9035,
+        79.2,
+        6.47134
+      ],
+      "counts": {
+        "edges": 12,
+        "faces": 8,
+        "shells": 2,
+        "solids": 2,
+        "verts": 8
+      },
+      "label": "26#AWG-NTC002",
+      "type": "App::Part",
+      "valid": true,
+      "volume": 50.2655
+    }
+  },
+  "params": {},
+  "saved": true,
+  "schema": 1,
+  "sources": {
+    "torque-motor.FCStd": "feded7e2d7d33afb7d07f2afc4557a49435a0f7030dc6dbc40ab26a62cc36eee"
+  }
+}

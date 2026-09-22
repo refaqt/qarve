@@ -1,0 +1,96 @@
+{
+  "document": "Assembly_model",
+  "errors": [],
+  "objects": {
+    "BooleanFragments": {
+      "area": 117115.0,
+      "bbox": [
+        -100.0,
+        -100.0,
+        0.0,
+        100.0,
+        100.0,
+        120.0
+      ],
+      "closed": true,
+      "com": [
+        28.2014,
+        19.4492,
+        19.5869
+      ],
+      "counts": {
+        "edges": 27,
+        "faces": 16,
+        "shells": 3,
+        "solids": 3,
+        "verts": 15
+      },
+      "label": "BooleanFragments001",
+      "type": "Part::FeaturePython",
+      "valid": true,
+      "volume": 514159.0
+    },
+    "CompoundFilter": {
+      "area": 117115.0,
+      "bbox": [
+        -100.0,
+        -100.0,
+        0.0,
+        100.0,
+        100.0,
+        120.0
+      ],
+      "closed": true,
+      "com": [
+        28.2014,
+        19.4492,
+        19.5869
+      ],
+      "counts": {
+        "edges": 27,
+        "faces": 16,
+        "shells": 3,
+        "solids": 3,
+        "verts": 15
+      },
+      "label": "CompoundFilter",
+      "type": "Part::FeaturePython",
+      "valid": true,
+      "volume": 514159.0
+    },
+    "Link": {
+      "area": 117115.0,
+      "bbox": [
+        -100.0,
+        -100.0,
+        0.0,
+        100.0,
+        100.0,
+        120.0
+      ],
+      "closed": true,
+      "com": [
+        28.2014,
+        19.4492,
+        19.5869
+      ],
+      "counts": {
+        "edges": 27,
+        "faces": 15,
+        "shells": 3,
+        "solids": 3,
+        "verts": 18
+      },
+      "label": "Assembly_model",
+      "type": "App::Link",
+      "valid": true,
+      "volume": 514159.0
+    }
+  },
+  "params": {},
+  "saved": true,
+  "schema": 1,
+  "sources": {
+    "Assembly_model.FCStd": "95e339c83daea9b2f37b63bdad770b0efd4fc94656974c7def549491bc24a00e"
+  }
+}

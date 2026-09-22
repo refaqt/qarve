@@ -1,0 +1,516 @@
+{
+  "document": "spindle_clamp_base",
+  "errors": [],
+  "objects": {
+    "Body": {
+      "area": 32178.3,
+      "bbox": [
+        -55.0,
+        0.5,
+        -40.0,
+        55.0,
+        55.0,
+        0.0
+      ],
+      "closed": true,
+      "com": [
+        -5.8985e-08,
+        36.5956,
+        -20.0
+      ],
+      "counts": {
+        "edges": 81,
+        "faces": 34,
+        "shells": 1,
+        "solids": 1,
+        "verts": 54
+      },
+      "label": "Body",
+      "type": "PartDesign::Body",
+      "valid": true,
+      "volume": 109590.0
+    },
+    "DatumPlane": {
+      "area": 8e+100,
+      "bbox": [
+        -1e+100,
+        55.0,
+        -1e+100,
+        1e+100,
+        55.0,
+        1e+100
+      ],
+      "closed": false,
+      "com": [
+        -5e+99,
+        1.0784e+68,
+        -5e+99
+      ],
+      "counts": {
+        "edges": 0,
+        "faces": 1,
+        "shells": 0,
+        "solids": 0,
+        "verts": 0
+      },
+      "label": "DatumPlane",
+      "type": "Part::DatumPlane",
+      "valid": true,
+      "volume": 0.0
+    },
+    "DatumPlane001": {
+      "area": 8e+100,
+      "bbox": [
+        -1e+100,
+        -1e+100,
+        -40.0,
+        1e+100,
+        1e+100,
+        -40.0
+      ],
+      "closed": false,
+      "com": [
+        5e+99,
+        -5e+99,
+        -40.0
+      ],
+      "counts": {
+        "edges": 0,
+        "faces": 1,
+        "shells": 0,
+        "solids": 0,
+        "verts": 0
+      },
+      "label": "DatumPlane001",
+      "type": "Part::DatumPlane",
+      "valid": true,
+      "volume": 1.06667e+102
+    },
+    "DatumPlane002": {
+      "area": 8e+100,
+      "bbox": [
+        -1e+100,
+        10.5,
+        -1e+100,
+        1e+100,
+        10.5,
+        1e+100
+      ],
+      "closed": false,
+      "com": [
+        -5e+99,
+        1.0784e+68,
+        -5e+99
+      ],
+      "counts": {
+        "edges": 0,
+        "faces": 1,
+        "shells": 0,
+        "solids": 0,
+        "verts": 0
+      },
+      "label": "DatumPlane002",
+      "type": "Part::DatumPlane",
+      "valid": true,
+      "volume": 0.0
+    },
+    "DatumPlane003": {
+      "area": 8e+100,
+      "bbox": [
+        -1e+100,
+        45.0,
+        -1e+100,
+        1e+100,
+        45.0,
+        1e+100
+      ],
+      "closed": false,
+      "com": [
+        5e+99,
+        1.0784e+68,
+        -5e+99
+      ],
+      "counts": {
+        "edges": 0,
+        "faces": 1,
+        "shells": 0,
+        "solids": 0,
+        "verts": 0
+      },
+      "label": "DatumPlane003",
+      "type": "Part::DatumPlane",
+      "valid": true,
+      "volume": 0.0
+    },
+    "Hole": {
+      "area": 31990.8,
+      "bbox": [
+        -55.0,
+        0.5,
+        -40.0,
+        55.0,
+        55.0,
+        0.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        37.1034,
+        -20.0
+      ],
+      "counts": {
+        "edges": 60,
+        "faces": 28,
+        "shells": 1,
+        "solids": 1,
+        "verts": 40
+      },
+      "label": "Hole",
+      "type": "PartDesign::Hole",
+      "valid": true,
+      "volume": 113083.0
+    },
+    "Hole001": {
+      "area": 32178.3,
+      "bbox": [
+        -55.0,
+        0.5,
+        -40.0,
+        55.0,
+        55.0,
+        0.0
+      ],
+      "closed": true,
+      "com": [
+        -5.8985e-08,
+        36.5956,
+        -20.0
+      ],
+      "counts": {
+        "edges": 81,
+        "faces": 34,
+        "shells": 1,
+        "solids": 1,
+        "verts": 54
+      },
+      "label": "Hole001",
+      "type": "PartDesign::Hole",
+      "valid": true,
+      "volume": 109590.0
+    },
+    "Pad": {
+      "area": 21956.5,
+      "bbox": [
+        -55.0,
+        0.5,
+        -40.0,
+        55.0,
+        55.0,
+        0.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        35.1646,
+        -20.0
+      ],
+      "counts": {
+        "edges": 24,
+        "faces": 10,
+        "shells": 1,
+        "solids": 1,
+        "verts": 16
+      },
+      "label": "Pad",
+      "type": "PartDesign::Pad",
+      "valid": true,
+      "volume": 140389.0
+    },
+    "Part001": {
+      "area": 32178.3,
+      "bbox": [
+        -55.0,
+        0.5,
+        -40.0,
+        55.0,
+        55.0,
+        0.0
+      ],
+      "closed": true,
+      "com": [
+        -5.8985e-08,
+        36.5956,
+        -20.0
+      ],
+      "counts": {
+        "edges": 81,
+        "faces": 34,
+        "shells": 1,
+        "solids": 1,
+        "verts": 54
+      },
+      "label": "spindle-clamp-base",
+      "type": "App::Part",
+      "valid": true,
+      "volume": 109590.0
+    },
+    "Pocket": {
+      "area": 28107.8,
+      "bbox": [
+        -55.0,
+        0.5,
+        -40.0,
+        55.0,
+        55.0,
+        0.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        36.8655,
+        -20.0
+      ],
+      "counts": {
+        "edges": 36,
+        "faces": 18,
+        "shells": 1,
+        "solids": 1,
+        "verts": 24
+      },
+      "label": "Pocket",
+      "type": "PartDesign::Pocket",
+      "valid": true,
+      "volume": 123473.0
+    },
+    "Pocket001": {
+      "area": 28679.5,
+      "bbox": [
+        -55.0,
+        0.5,
+        -40.0,
+        55.0,
+        55.0,
+        0.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        36.6996,
+        -20.0
+      ],
+      "counts": {
+        "edges": 48,
+        "faces": 22,
+        "shells": 1,
+        "solids": 1,
+        "verts": 32
+      },
+      "label": "Pocket001",
+      "type": "PartDesign::Pocket",
+      "valid": true,
+      "volume": 121934.0
+    },
+    "Pocket002": {
+      "area": 31755.1,
+      "bbox": [
+        -55.0,
+        0.5,
+        -40.0,
+        55.0,
+        55.0,
+        0.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        36.994,
+        -20.0
+      ],
+      "counts": {
+        "edges": 54,
+        "faces": 26,
+        "shells": 1,
+        "solids": 1,
+        "verts": 36
+      },
+      "label": "Pocket002",
+      "type": "PartDesign::Pocket",
+      "valid": true,
+      "volume": 113476.0
+    },
+    "Pocket003": {
+      "area": 31930.8,
+      "bbox": [
+        -55.0,
+        0.5,
+        -40.0,
+        55.0,
+        55.0,
+        0.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        36.6617,
+        -20.0
+      ],
+      "counts": {
+        "edges": 72,
+        "faces": 32,
+        "shells": 1,
+        "solids": 1,
+        "verts": 48
+      },
+      "label": "Pocket003",
+      "type": "PartDesign::Pocket",
+      "valid": true,
+      "volume": 110283.0
+    },
+    "Sketch": {
+      "area": 0.0,
+      "bbox": [
+        -55.0,
+        0.5,
+        0.0,
+        55.0,
+        55.0,
+        0.0
+      ],
+      "closed": false,
+      "com": [
+        13.9329,
+        31.4631,
+        0.0
+      ],
+      "counts": {
+        "edges": 17,
+        "faces": 0,
+        "shells": 0,
+        "solids": 0,
+        "verts": 18
+      },
+      "label": "Sketch",
+      "type": "Sketcher::SketchObject",
+      "valid": true,
+      "volume": 0.0
+    },
+    "Sketch001": {
+      "area": 0.0,
+      "bbox": [
+        -55.0,
+        0.0,
+        -40.0,
+        55.0,
+        0.0,
+        0.0
+      ],
+      "closed": false,
+      "com": [
+        1.07305,
+        0.0,
+        -19.5482
+      ],
+      "counts": {
+        "edges": 11,
+        "faces": 0,
+        "shells": 0,
+        "solids": 0,
+        "verts": 12
+      },
+      "label": "Sketch001",
+      "type": "Sketcher::SketchObject",
+      "valid": true,
+      "volume": 0.0
+    },
+    "Sketch002": {
+      "area": 0.0,
+      "bbox": [
+        -55.0,
+        55.0,
+        -40.0,
+        55.0,
+        55.0,
+        0.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        55.0,
+        -20.0
+      ],
+      "counts": {
+        "edges": 10,
+        "faces": 0,
+        "shells": 0,
+        "solids": 0,
+        "verts": 10
+      },
+      "label": "Sketch002",
+      "type": "Sketcher::SketchObject",
+      "valid": true,
+      "volume": 0.0
+    },
+    "Sketch003": {
+      "area": 0.0,
+      "bbox": [
+        -35.0,
+        55.0,
+        -40.0,
+        35.0,
+        55.0,
+        0.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        55.0,
+        -20.0
+      ],
+      "counts": {
+        "edges": 4,
+        "faces": 0,
+        "shells": 0,
+        "solids": 0,
+        "verts": 4
+      },
+      "label": "Sketch003",
+      "type": "Sketcher::SketchObject",
+      "valid": true,
+      "volume": 0.0
+    },
+    "Sketch004": {
+      "area": 0.0,
+      "bbox": [
+        -4.0,
+        54.0,
+        -24.0,
+        4.0,
+        54.0,
+        -16.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        54.0,
+        -20.0
+      ],
+      "counts": {
+        "edges": 1,
+        "faces": 0,
+        "shells": 0,
+        "solids": 0,
+        "verts": 1
+      },
+      "label": "Sketch004",
+      "type": "Sketcher::SketchObject",
+      "valid": true,
+      "volume": 0.0
+    }
+  },
+  "params": {},
+  "saved": true,
+  "schema": 1,
+  "sources": {
+    "spindle-clamp-base.FCStd": "17590bf6cd626b26663d12bd8edd4f504e60b67786693b825897ce65bc03a335"
+  }
+}

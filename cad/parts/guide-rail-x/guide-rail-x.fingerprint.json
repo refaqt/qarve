@@ -1,0 +1,68 @@
+{
+  "document": "guide_rail_x",
+  "errors": [],
+  "objects": {
+    "Part": {
+      "area": 28164.4,
+      "bbox": [
+        -7.5,
+        0.0,
+        0.0,
+        7.5,
+        418.0,
+        15.0
+      ],
+      "closed": true,
+      "com": [
+        8.53358e-08,
+        209.0,
+        7.20691
+      ],
+      "counts": {
+        "edges": 453,
+        "faces": 178,
+        "shells": 1,
+        "solids": 1,
+        "verts": 302
+      },
+      "label": "guide-rail-x",
+      "type": "App::Part",
+      "valid": true,
+      "volume": 76787.8
+    },
+    "Part__Feature": {
+      "area": 28164.4,
+      "bbox": [
+        -7.5,
+        0.0,
+        0.0,
+        7.5,
+        418.0,
+        15.0
+      ],
+      "closed": true,
+      "com": [
+        8.53358e-08,
+        209.0,
+        7.20691
+      ],
+      "counts": {
+        "edges": 453,
+        "faces": 178,
+        "shells": 1,
+        "solids": 1,
+        "verts": 302
+      },
+      "label": "HIWIN_HGR15R418H",
+      "type": "Part::Feature",
+      "valid": true,
+      "volume": 76787.8
+    }
+  },
+  "params": {},
+  "saved": true,
+  "schema": 1,
+  "sources": {
+    "guide-rail-x.FCStd": "b465e24c3f694f2a47bea73771db113de6608f5fa75ee3c776b46a0cb64d0d09"
+  }
+}

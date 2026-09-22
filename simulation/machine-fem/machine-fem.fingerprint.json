@@ -1,0 +1,2140 @@
+{
+  "document": "machine_fem",
+  "errors": [],
+  "objects": {
+    "Cylinder": {
+      "area": 85451.3,
+      "bbox": [
+        -40.0,
+        -40.0,
+        0.0,
+        40.0,
+        40.0,
+        300.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        0.0,
+        150.0
+      ],
+      "counts": {
+        "edges": 3,
+        "faces": 3,
+        "shells": 1,
+        "solids": 1,
+        "verts": 2
+      },
+      "label": "Cylinder",
+      "type": "Part::Cylinder",
+      "valid": true,
+      "volume": 1507960.0
+    },
+    "Extrude": {
+      "area": 41800.0,
+      "bbox": [
+        -55.0,
+        -55.0,
+        56.0,
+        55.0,
+        55.0,
+        96.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        0.0,
+        76.0
+      ],
+      "counts": {
+        "edges": 15,
+        "faces": 7,
+        "shells": 1,
+        "solids": 1,
+        "verts": 10
+      },
+      "label": "Extrude",
+      "type": "Part::Extrusion",
+      "valid": true,
+      "volume": 282938.0
+    },
+    "Extrude001": {
+      "area": 83800.0,
+      "bbox": [
+        -55.0,
+        55.0,
+        56.0,
+        55.0,
+        65.0,
+        396.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        60.0,
+        226.0
+      ],
+      "counts": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "solids": 1,
+        "verts": 8
+      },
+      "label": "Extrude002",
+      "type": "Part::Extrusion",
+      "valid": true,
+      "volume": 374000.0
+    },
+    "Extrude003": {
+      "area": 91500.0,
+      "bbox": [
+        55.0,
+        -56.0,
+        56.0,
+        65.0,
+        65.0,
+        396.0
+      ],
+      "closed": true,
+      "com": [
+        60.0,
+        4.5,
+        226.0
+      ],
+      "counts": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "solids": 1,
+        "verts": 8
+      },
+      "label": "Extrude004",
+      "type": "Part::Extrusion",
+      "valid": true,
+      "volume": 411400.0
+    },
+    "Extrude005": {
+      "area": 91500.0,
+      "bbox": [
+        -65.0,
+        -56.0,
+        56.0,
+        -55.0,
+        65.0,
+        396.0
+      ],
+      "closed": true,
+      "com": [
+        -60.0,
+        4.5,
+        226.0
+      ],
+      "counts": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "solids": 1,
+        "verts": 8
+      },
+      "label": "Extrude006",
+      "type": "Part::Extrusion",
+      "valid": true,
+      "volume": 411400.0
+    },
+    "Extrude007": {
+      "area": 105441.0,
+      "bbox": [
+        -110.0,
+        65.0,
+        176.0,
+        110.0,
+        75.0,
+        396.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        69.9974,
+        286.0
+      ],
+      "counts": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "solids": 1,
+        "verts": 8
+      },
+      "label": "Extrude008",
+      "type": "Part::Extrusion",
+      "valid": true,
+      "volume": 483232.0
+    },
+    "Extrude008": {
+      "area": 105600.0,
+      "bbox": [
+        -110.0,
+        65.0,
+        176.0,
+        110.0,
+        75.0,
+        396.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        70.0,
+        286.0
+      ],
+      "counts": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "solids": 1,
+        "verts": 8
+      },
+      "label": "Extrude009",
+      "type": "Part::Extrusion",
+      "valid": true,
+      "volume": 484000.0
+    },
+    "Extrude009": {
+      "area": 19414.0,
+      "bbox": [
+        -110.0,
+        20.0,
+        346.0,
+        110.0,
+        65.0,
+        396.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        50.0,
+        371.0
+      ],
+      "counts": {
+        "edges": 18,
+        "faces": 10,
+        "shells": 2,
+        "solids": 2,
+        "verts": 12
+      },
+      "label": "Extrude010",
+      "type": "Part::Extrusion",
+      "valid": true,
+      "volume": 101250.0
+    },
+    "Extrude011": {
+      "area": 19414.0,
+      "bbox": [
+        -110.0,
+        20.0,
+        176.0,
+        110.0,
+        65.0,
+        226.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        50.0,
+        201.0
+      ],
+      "counts": {
+        "edges": 18,
+        "faces": 10,
+        "shells": 2,
+        "solids": 2,
+        "verts": 12
+      },
+      "label": "Extrude012",
+      "type": "Part::Extrusion",
+      "valid": true,
+      "volume": 101250.0
+    },
+    "Extrude013": {
+      "area": 22720.0,
+      "bbox": [
+        -110.0,
+        75.0,
+        176.0,
+        110.0,
+        95.0,
+        396.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        85.0,
+        286.0
+      ],
+      "counts": {
+        "edges": 48,
+        "faces": 24,
+        "shells": 4,
+        "solids": 4,
+        "verts": 32
+      },
+      "label": "Extrude014",
+      "type": "Part::Extrusion",
+      "valid": true,
+      "volume": 108800.0
+    },
+    "Extrude014": {
+      "area": 58500.0,
+      "bbox": [
+        -100.5,
+        84.0,
+        175.0,
+        100.5,
+        99.0,
+        655.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        91.5,
+        415.0
+      ],
+      "counts": {
+        "edges": 24,
+        "faces": 12,
+        "shells": 2,
+        "solids": 2,
+        "verts": 16
+      },
+      "label": "Extrude015",
+      "type": "Part::Extrusion",
+      "valid": true,
+      "volume": 216000.0
+    },
+    "Extrude015": {
+      "area": 227160.0,
+      "bbox": [
+        -111.0,
+        99.0,
+        170.0,
+        111.0,
+        109.0,
+        650.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        104.0,
+        410.0
+      ],
+      "counts": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "solids": 1,
+        "verts": 8
+      },
+      "label": "Extrude016",
+      "type": "Part::Extrusion",
+      "valid": true,
+      "volume": 1065600.0
+    },
+    "Extrude016": {
+      "area": 107600.0,
+      "bbox": [
+        111.0,
+        9.0,
+        170.0,
+        121.0,
+        109.0,
+        650.0
+      ],
+      "closed": true,
+      "com": [
+        116.0,
+        59.0,
+        410.0
+      ],
+      "counts": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "solids": 1,
+        "verts": 8
+      },
+      "label": "Extrude017",
+      "type": "Part::Extrusion",
+      "valid": true,
+      "volume": 480000.0
+    },
+    "Extrude017": {
+      "area": 107600.0,
+      "bbox": [
+        -121.0,
+        9.0,
+        170.0,
+        -111.0,
+        109.0,
+        650.0
+      ],
+      "closed": true,
+      "com": [
+        -116.0,
+        59.0,
+        410.0
+      ],
+      "counts": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "solids": 1,
+        "verts": 8
+      },
+      "label": "Extrude018",
+      "type": "Part::Extrusion",
+      "valid": true,
+      "volume": 480000.0
+    },
+    "Extrude018": {
+      "area": 224400.0,
+      "bbox": [
+        -111.0,
+        109.0,
+        400.0,
+        111.0,
+        169.0,
+        650.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        139.0,
+        525.0
+      ],
+      "counts": {
+        "edges": 48,
+        "faces": 20,
+        "shells": 2,
+        "solids": 2,
+        "verts": 32
+      },
+      "label": "Extrude019",
+      "type": "Part::Extrusion",
+      "valid": true,
+      "volume": 550000.0
+    },
+    "Extrude019": {
+      "area": 107448.0,
+      "bbox": [
+        -111.0,
+        109.0,
+        170.0,
+        111.0,
+        119.0,
+        392.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        114.0,
+        281.0
+      ],
+      "counts": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "solids": 1,
+        "verts": 8
+      },
+      "label": "Extrude020",
+      "type": "Part::Extrusion",
+      "valid": true,
+      "volume": 492840.0
+    },
+    "Extrude020": {
+      "area": 22720.0,
+      "bbox": [
+        -110.0,
+        119.0,
+        171.0,
+        110.0,
+        139.0,
+        391.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        129.0,
+        281.0
+      ],
+      "counts": {
+        "edges": 48,
+        "faces": 24,
+        "shells": 4,
+        "solids": 4,
+        "verts": 32
+      },
+      "label": "Extrude021",
+      "type": "Part::Extrusion",
+      "valid": true,
+      "volume": 108800.0
+    },
+    "Extrude021": {
+      "area": 58500.0,
+      "bbox": [
+        -240.0,
+        128.0,
+        180.5,
+        240.0,
+        143.0,
+        381.5
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        135.5,
+        281.0
+      ],
+      "counts": {
+        "edges": 24,
+        "faces": 12,
+        "shells": 2,
+        "solids": 2,
+        "verts": 16
+      },
+      "label": "Extrude022",
+      "type": "Part::Extrusion",
+      "valid": true,
+      "volume": 216000.0
+    },
+    "Extrude022": {
+      "area": 227160.0,
+      "bbox": [
+        -240.0,
+        143.0,
+        170.0,
+        240.0,
+        153.0,
+        392.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        148.0,
+        281.0
+      ],
+      "counts": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "solids": 1,
+        "verts": 8
+      },
+      "label": "Extrude023",
+      "type": "Part::Extrusion",
+      "valid": true,
+      "volume": 1065600.0
+    },
+    "Extrude023": {
+      "area": 107600.0,
+      "bbox": [
+        -240.0,
+        119.0,
+        160.0,
+        240.0,
+        219.0,
+        170.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        169.0,
+        165.0
+      ],
+      "counts": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "solids": 1,
+        "verts": 8
+      },
+      "label": "Extrude024",
+      "type": "Part::Extrusion",
+      "valid": true,
+      "volume": 480000.0
+    },
+    "Extrude024": {
+      "area": 107600.0,
+      "bbox": [
+        -240.0,
+        119.0,
+        392.0,
+        240.0,
+        219.0,
+        402.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        169.0,
+        397.0
+      ],
+      "counts": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "solids": 1,
+        "verts": 8
+      },
+      "label": "Extrude025",
+      "type": "Part::Extrusion",
+      "valid": true,
+      "volume": 480000.0
+    },
+    "Extrude025": {
+      "area": 787040.0,
+      "bbox": [
+        -261.0,
+        153.0,
+        170.0,
+        251.0,
+        273.0,
+        392.0
+      ],
+      "closed": true,
+      "com": [
+        -5.0,
+        213.0,
+        281.0
+      ],
+      "counts": {
+        "edges": 72,
+        "faces": 28,
+        "shells": 2,
+        "solids": 2,
+        "verts": 48
+      },
+      "label": "Extrude026",
+      "type": "Part::Extrusion",
+      "valid": true,
+      "volume": 2252800.0
+    },
+    "Extrude026": {
+      "area": 110122.0,
+      "bbox": [
+        251.0,
+        67.0,
+        159.0,
+        261.0,
+        284.0,
+        392.0
+      ],
+      "closed": true,
+      "com": [
+        256.0,
+        175.5,
+        275.5
+      ],
+      "counts": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "solids": 1,
+        "verts": 8
+      },
+      "label": "Extrude027",
+      "type": "Part::Extrusion",
+      "valid": true,
+      "volume": 505610.0
+    },
+    "Extrude027": {
+      "area": 110122.0,
+      "bbox": [
+        -271.0,
+        67.0,
+        159.0,
+        -261.0,
+        284.0,
+        392.0
+      ],
+      "closed": true,
+      "com": [
+        -266.0,
+        175.5,
+        275.5
+      ],
+      "counts": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "solids": 1,
+        "verts": 8
+      },
+      "label": "Extrude028",
+      "type": "Part::Extrusion",
+      "valid": true,
+      "volume": 505610.0
+    },
+    "Extrude028": {
+      "area": 85860.0,
+      "bbox": [
+        -280.0,
+        67.0,
+        149.0,
+        280.0,
+        284.0,
+        159.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        175.5,
+        154.0
+      ],
+      "counts": {
+        "edges": 24,
+        "faces": 12,
+        "shells": 2,
+        "solids": 2,
+        "verts": 16
+      },
+      "label": "Extrude029",
+      "type": "Part::Extrusion",
+      "valid": true,
+      "volume": 368900.0
+    },
+    "Extrude030": {
+      "area": 95740.0,
+      "bbox": [
+        -280.0,
+        284.0,
+        149.0,
+        280.0,
+        294.0,
+        392.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        289.0,
+        270.5
+      ],
+      "counts": {
+        "edges": 24,
+        "faces": 12,
+        "shells": 2,
+        "solids": 2,
+        "verts": 16
+      },
+      "label": "Extrude031",
+      "type": "Part::Extrusion",
+      "valid": true,
+      "volume": 413100.0
+    },
+    "Extrude032": {
+      "area": 227160.0,
+      "bbox": [
+        -240.0,
+        273.0,
+        170.0,
+        240.0,
+        283.0,
+        392.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        278.0,
+        281.0
+      ],
+      "counts": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "solids": 1,
+        "verts": 8
+      },
+      "label": "Extrude033",
+      "type": "Part::Extrusion",
+      "valid": true,
+      "volume": 1065600.0
+    },
+    "Extrude033": {
+      "area": 97800.0,
+      "bbox": [
+        -65.0,
+        -66.0,
+        56.0,
+        65.0,
+        -56.0,
+        396.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        -61.0,
+        226.0
+      ],
+      "counts": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "solids": 1,
+        "verts": 8
+      },
+      "label": "Extrude034",
+      "type": "Part::Extrusion",
+      "valid": true,
+      "volume": 442000.0
+    },
+    "Extrude034": {
+      "area": 22720.0,
+      "bbox": [
+        -247.0,
+        67.0,
+        119.0,
+        247.0,
+        284.0,
+        139.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        175.5,
+        129.0
+      ],
+      "counts": {
+        "edges": 48,
+        "faces": 24,
+        "shells": 4,
+        "solids": 4,
+        "verts": 32
+      },
+      "label": "Extrude035",
+      "type": "Part::Extrusion",
+      "valid": true,
+      "volume": 108800.0
+    },
+    "Extrude035": {
+      "area": 74940.0,
+      "bbox": [
+        -237.5,
+        -133.0,
+        115.0,
+        237.5,
+        484.0,
+        130.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        175.5,
+        122.5
+      ],
+      "counts": {
+        "edges": 24,
+        "faces": 12,
+        "shells": 2,
+        "solids": 2,
+        "verts": 16
+      },
+      "label": "Extrude036",
+      "type": "Part::Extrusion",
+      "valid": true,
+      "volume": 277650.0
+    },
+    "Extrude036": {
+      "area": 78596.0,
+      "bbox": [
+        -280.0,
+        67.0,
+        139.0,
+        280.0,
+        284.0,
+        149.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        175.5,
+        144.0
+      ],
+      "counts": {
+        "edges": 24,
+        "faces": 12,
+        "shells": 2,
+        "solids": 2,
+        "verts": 16
+      },
+      "label": "Extrude037",
+      "type": "Part::Extrusion",
+      "valid": true,
+      "volume": 334180.0
+    },
+    "Extrude037": {
+      "area": 97664.0,
+      "bbox": [
+        -280.0,
+        67.0,
+        41.0,
+        280.0,
+        284.0,
+        139.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        175.5,
+        90.0
+      ],
+      "counts": {
+        "edges": 24,
+        "faces": 12,
+        "shells": 2,
+        "solids": 2,
+        "verts": 16
+      },
+      "label": "Extrude038",
+      "type": "Part::Extrusion",
+      "valid": true,
+      "volume": 425320.0
+    },
+    "Extrude038": {
+      "area": 284734.0,
+      "bbox": [
+        -237.5,
+        -133.0,
+        39.0,
+        237.5,
+        484.0,
+        115.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        175.5,
+        75.397
+      ],
+      "counts": {
+        "edges": 48,
+        "faces": 20,
+        "shells": 2,
+        "solids": 2,
+        "verts": 32
+      },
+      "label": "Extrude039",
+      "type": "Part::Extrusion",
+      "valid": true,
+      "volume": 2566100.0
+    },
+    "Extrude039": {
+      "area": 364800.0,
+      "bbox": [
+        -271.5,
+        -246.0,
+        -21.0,
+        271.5,
+        484.0,
+        39.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        119.0,
+        9.0
+      ],
+      "counts": {
+        "edges": 24,
+        "faces": 12,
+        "shells": 2,
+        "solids": 2,
+        "verts": 16
+      },
+      "label": "Extrude040",
+      "type": "Part::Extrusion",
+      "valid": true,
+      "volume": 5256000.0
+    },
+    "Extrude040": {
+      "area": 4523.89,
+      "bbox": [
+        -15.0,
+        -15.0,
+        -33.0,
+        15.0,
+        15.0,
+        0.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        0.0,
+        -16.5
+      ],
+      "counts": {
+        "edges": 3,
+        "faces": 3,
+        "shells": 1,
+        "solids": 1,
+        "verts": 2
+      },
+      "label": "Extrude041",
+      "type": "Part::Extrusion",
+      "valid": true,
+      "volume": 23326.3
+    },
+    "Fusion": {
+      "area": 71580.0,
+      "bbox": [
+        -110.0,
+        75.0,
+        175.0,
+        110.0,
+        99.0,
+        655.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        89.307,
+        379.378
+      ],
+      "counts": {
+        "edges": 120,
+        "faces": 44,
+        "shells": 2,
+        "solids": 2,
+        "verts": 80
+      },
+      "label": "Fusion",
+      "type": "Part::MultiFuse",
+      "valid": true,
+      "volume": 298400.0
+    },
+    "Fusion001": {
+      "area": 71580.0,
+      "bbox": [
+        -240.0,
+        119.0,
+        171.0,
+        240.0,
+        143.0,
+        391.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        133.307,
+        281.0
+      ],
+      "counts": {
+        "edges": 120,
+        "faces": 44,
+        "shells": 2,
+        "solids": 2,
+        "verts": 80
+      },
+      "label": "Fusion001",
+      "type": "Part::MultiFuse",
+      "valid": true,
+      "volume": 298400.0
+    },
+    "Fusion003": {
+      "area": 167580.0,
+      "bbox": [
+        -280.0,
+        67.0,
+        41.0,
+        280.0,
+        284.0,
+        149.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        175.5,
+        113.76
+      ],
+      "counts": {
+        "edges": 36,
+        "faces": 16,
+        "shells": 2,
+        "solids": 2,
+        "verts": 24
+      },
+      "label": "Fusion003",
+      "type": "Part::MultiFuse",
+      "valid": true,
+      "volume": 759500.0
+    },
+    "Fusion004": {
+      "area": 88020.0,
+      "bbox": [
+        -247.0,
+        -133.0,
+        115.0,
+        247.0,
+        484.0,
+        139.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        175.5,
+        124.318
+      ],
+      "counts": {
+        "edges": 120,
+        "faces": 44,
+        "shells": 2,
+        "solids": 2,
+        "verts": 80
+      },
+      "label": "Fusion004",
+      "type": "Part::MultiFuse",
+      "valid": true,
+      "volume": 360050.0
+    },
+    "Fusion005": {
+      "area": 88561.5,
+      "bbox": [
+        -40.0,
+        -40.0,
+        -33.0,
+        40.0,
+        40.0,
+        300.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        0.0,
+        147.464
+      ],
+      "counts": {
+        "edges": 6,
+        "faces": 5,
+        "shells": 1,
+        "solids": 1,
+        "verts": 4
+      },
+      "label": "Fusion005",
+      "type": "Part::MultiFuse",
+      "valid": true,
+      "volume": 1531290.0
+    },
+    "Link": {
+      "area": 41800.0,
+      "bbox": [
+        -55.0,
+        -55.0,
+        126.0,
+        55.0,
+        55.0,
+        166.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        0.0,
+        146.0
+      ],
+      "counts": {
+        "edges": 15,
+        "faces": 7,
+        "shells": 1,
+        "solids": 1,
+        "verts": 10
+      },
+      "label": "Extrude001",
+      "type": "App::Link",
+      "valid": true,
+      "volume": 282938.0
+    },
+    "Sketch": {
+      "area": 0.0,
+      "bbox": [
+        -55.0,
+        -55.0,
+        0.0,
+        55.0,
+        55.0,
+        0.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "counts": {
+        "edges": 5,
+        "faces": 0,
+        "shells": 0,
+        "solids": 0,
+        "verts": 5
+      },
+      "label": "Sketch",
+      "type": "Sketcher::SketchObject",
+      "valid": true,
+      "volume": 0.0
+    },
+    "Sketch001": {
+      "area": 0.0,
+      "bbox": [
+        -55.0,
+        55.0,
+        56.0,
+        55.0,
+        55.0,
+        396.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        55.0,
+        226.0
+      ],
+      "counts": {
+        "edges": 4,
+        "faces": 0,
+        "shells": 0,
+        "solids": 0,
+        "verts": 4
+      },
+      "label": "Sketch001",
+      "type": "Sketcher::SketchObject",
+      "valid": true,
+      "volume": 0.0
+    },
+    "Sketch002": {
+      "area": 0.0,
+      "bbox": [
+        55.0,
+        -56.0,
+        56.0,
+        55.0,
+        65.0,
+        396.0
+      ],
+      "closed": true,
+      "com": [
+        55.0,
+        4.5,
+        226.0
+      ],
+      "counts": {
+        "edges": 4,
+        "faces": 0,
+        "shells": 0,
+        "solids": 0,
+        "verts": 4
+      },
+      "label": "Sketch002",
+      "type": "Sketcher::SketchObject",
+      "valid": true,
+      "volume": 0.0
+    },
+    "Sketch003": {
+      "area": 0.0,
+      "bbox": [
+        -55.0,
+        -56.0,
+        56.0,
+        -55.0,
+        65.0,
+        396.0
+      ],
+      "closed": true,
+      "com": [
+        -55.0,
+        4.5,
+        226.0
+      ],
+      "counts": {
+        "edges": 4,
+        "faces": 0,
+        "shells": 0,
+        "solids": 0,
+        "verts": 4
+      },
+      "label": "Sketch003",
+      "type": "Sketcher::SketchObject",
+      "valid": true,
+      "volume": 0.0
+    },
+    "Sketch004": {
+      "area": 0.0,
+      "bbox": [
+        -110.0,
+        65.0,
+        176.0,
+        110.0,
+        65.0,
+        396.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        65.0,
+        286.0
+      ],
+      "counts": {
+        "edges": 4,
+        "faces": 0,
+        "shells": 0,
+        "solids": 0,
+        "verts": 4
+      },
+      "label": "Sketch004",
+      "type": "Sketcher::SketchObject",
+      "valid": true,
+      "volume": 0.0
+    },
+    "Sketch005": {
+      "area": 0.0,
+      "bbox": [
+        -110.0,
+        20.0,
+        396.0,
+        110.0,
+        65.0,
+        396.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        49.0901,
+        396.0
+      ],
+      "counts": {
+        "edges": 6,
+        "faces": 0,
+        "shells": 0,
+        "solids": 0,
+        "verts": 6
+      },
+      "label": "Sketch005",
+      "type": "Sketcher::SketchObject",
+      "valid": true,
+      "volume": 0.0
+    },
+    "Sketch006": {
+      "area": 0.0,
+      "bbox": [
+        -110.0,
+        20.0,
+        176.0,
+        110.0,
+        65.0,
+        176.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        49.0901,
+        176.0
+      ],
+      "counts": {
+        "edges": 6,
+        "faces": 0,
+        "shells": 0,
+        "solids": 0,
+        "verts": 6
+      },
+      "label": "Sketch006",
+      "type": "Sketcher::SketchObject",
+      "valid": true,
+      "volume": 0.0
+    },
+    "Sketch007": {
+      "area": 0.0,
+      "bbox": [
+        -110.0,
+        75.0,
+        176.0,
+        110.0,
+        75.0,
+        396.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        75.0,
+        286.0
+      ],
+      "counts": {
+        "edges": 16,
+        "faces": 0,
+        "shells": 0,
+        "solids": 0,
+        "verts": 16
+      },
+      "label": "Sketch007",
+      "type": "Sketcher::SketchObject",
+      "valid": true,
+      "volume": 0.0
+    },
+    "Sketch008": {
+      "area": 0.0,
+      "bbox": [
+        -100.5,
+        95.0,
+        175.0,
+        100.5,
+        95.0,
+        655.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        95.0,
+        415.0
+      ],
+      "counts": {
+        "edges": 8,
+        "faces": 0,
+        "shells": 0,
+        "solids": 0,
+        "verts": 8
+      },
+      "label": "Sketch008",
+      "type": "Sketcher::SketchObject",
+      "valid": true,
+      "volume": 0.0
+    },
+    "Sketch009": {
+      "area": 0.0,
+      "bbox": [
+        -111.0,
+        99.0,
+        170.0,
+        111.0,
+        99.0,
+        650.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        99.0,
+        410.0
+      ],
+      "counts": {
+        "edges": 4,
+        "faces": 0,
+        "shells": 0,
+        "solids": 0,
+        "verts": 4
+      },
+      "label": "Sketch009",
+      "type": "Sketcher::SketchObject",
+      "valid": true,
+      "volume": 0.0
+    },
+    "Sketch010": {
+      "area": 0.0,
+      "bbox": [
+        111.0,
+        9.0,
+        170.0,
+        111.0,
+        109.0,
+        650.0
+      ],
+      "closed": true,
+      "com": [
+        111.0,
+        59.0,
+        410.0
+      ],
+      "counts": {
+        "edges": 4,
+        "faces": 0,
+        "shells": 0,
+        "solids": 0,
+        "verts": 4
+      },
+      "label": "Sketch010",
+      "type": "Sketcher::SketchObject",
+      "valid": true,
+      "volume": 0.0
+    },
+    "Sketch011": {
+      "area": 0.0,
+      "bbox": [
+        -111.0,
+        9.0,
+        170.0,
+        -111.0,
+        109.0,
+        650.0
+      ],
+      "closed": true,
+      "com": [
+        -111.0,
+        59.0,
+        410.0
+      ],
+      "counts": {
+        "edges": 4,
+        "faces": 0,
+        "shells": 0,
+        "solids": 0,
+        "verts": 4
+      },
+      "label": "Sketch011",
+      "type": "Sketcher::SketchObject",
+      "valid": true,
+      "volume": 0.0
+    },
+    "Sketch012": {
+      "area": 0.0,
+      "bbox": [
+        -111.0,
+        109.0,
+        650.0,
+        111.0,
+        169.0,
+        650.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        139.0,
+        650.0
+      ],
+      "counts": {
+        "edges": 16,
+        "faces": 0,
+        "shells": 0,
+        "solids": 0,
+        "verts": 16
+      },
+      "label": "Sketch012",
+      "type": "Sketcher::SketchObject",
+      "valid": true,
+      "volume": 0.0
+    },
+    "Sketch013": {
+      "area": 0.0,
+      "bbox": [
+        -111.0,
+        109.0,
+        170.0,
+        111.0,
+        109.0,
+        392.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        109.0,
+        281.0
+      ],
+      "counts": {
+        "edges": 4,
+        "faces": 0,
+        "shells": 0,
+        "solids": 0,
+        "verts": 4
+      },
+      "label": "Sketch013",
+      "type": "Sketcher::SketchObject",
+      "valid": true,
+      "volume": 0.0
+    },
+    "Sketch014": {
+      "area": 0.0,
+      "bbox": [
+        -110.0,
+        119.0,
+        171.0,
+        110.0,
+        119.0,
+        391.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        119.0,
+        281.0
+      ],
+      "counts": {
+        "edges": 16,
+        "faces": 0,
+        "shells": 0,
+        "solids": 0,
+        "verts": 16
+      },
+      "label": "Sketch014",
+      "type": "Sketcher::SketchObject",
+      "valid": true,
+      "volume": 0.0
+    },
+    "Sketch015": {
+      "area": 0.0,
+      "bbox": [
+        -240.0,
+        139.0,
+        180.5,
+        240.0,
+        139.0,
+        381.5
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        139.0,
+        281.0
+      ],
+      "counts": {
+        "edges": 8,
+        "faces": 0,
+        "shells": 0,
+        "solids": 0,
+        "verts": 8
+      },
+      "label": "Sketch015",
+      "type": "Sketcher::SketchObject",
+      "valid": true,
+      "volume": 0.0
+    },
+    "Sketch016": {
+      "area": 0.0,
+      "bbox": [
+        -240.0,
+        143.0,
+        170.0,
+        240.0,
+        143.0,
+        392.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        143.0,
+        281.0
+      ],
+      "counts": {
+        "edges": 4,
+        "faces": 0,
+        "shells": 0,
+        "solids": 0,
+        "verts": 4
+      },
+      "label": "Sketch016",
+      "type": "Sketcher::SketchObject",
+      "valid": true,
+      "volume": 0.0
+    },
+    "Sketch017": {
+      "area": 0.0,
+      "bbox": [
+        -240.0,
+        119.0,
+        170.0,
+        240.0,
+        219.0,
+        170.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        169.0,
+        170.0
+      ],
+      "counts": {
+        "edges": 4,
+        "faces": 0,
+        "shells": 0,
+        "solids": 0,
+        "verts": 4
+      },
+      "label": "Sketch017",
+      "type": "Sketcher::SketchObject",
+      "valid": true,
+      "volume": 0.0
+    },
+    "Sketch018": {
+      "area": 0.0,
+      "bbox": [
+        -240.0,
+        119.0,
+        392.0,
+        240.0,
+        219.0,
+        392.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        169.0,
+        392.0
+      ],
+      "counts": {
+        "edges": 4,
+        "faces": 0,
+        "shells": 0,
+        "solids": 0,
+        "verts": 4
+      },
+      "label": "Sketch018",
+      "type": "Sketcher::SketchObject",
+      "valid": true,
+      "volume": 0.0
+    },
+    "Sketch019": {
+      "area": 0.0,
+      "bbox": [
+        240.0,
+        153.0,
+        170.0,
+        240.0,
+        273.0,
+        392.0
+      ],
+      "closed": true,
+      "com": [
+        240.0,
+        213.0,
+        281.0
+      ],
+      "counts": {
+        "edges": 24,
+        "faces": 0,
+        "shells": 0,
+        "solids": 0,
+        "verts": 24
+      },
+      "label": "Sketch019",
+      "type": "Sketcher::SketchObject",
+      "valid": true,
+      "volume": 0.0
+    },
+    "Sketch020": {
+      "area": 0.0,
+      "bbox": [
+        251.0,
+        67.0,
+        159.0,
+        251.0,
+        284.0,
+        392.0
+      ],
+      "closed": true,
+      "com": [
+        251.0,
+        175.5,
+        275.5
+      ],
+      "counts": {
+        "edges": 4,
+        "faces": 0,
+        "shells": 0,
+        "solids": 0,
+        "verts": 4
+      },
+      "label": "Sketch020",
+      "type": "Sketcher::SketchObject",
+      "valid": true,
+      "volume": 0.0
+    },
+    "Sketch021": {
+      "area": 0.0,
+      "bbox": [
+        -261.0,
+        67.0,
+        159.0,
+        -261.0,
+        284.0,
+        392.0
+      ],
+      "closed": true,
+      "com": [
+        -261.0,
+        175.5,
+        275.5
+      ],
+      "counts": {
+        "edges": 4,
+        "faces": 0,
+        "shells": 0,
+        "solids": 0,
+        "verts": 4
+      },
+      "label": "Sketch021",
+      "type": "Sketcher::SketchObject",
+      "valid": true,
+      "volume": 0.0
+    },
+    "Sketch022": {
+      "area": 0.0,
+      "bbox": [
+        -280.0,
+        67.0,
+        159.0,
+        280.0,
+        284.0,
+        159.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        175.5,
+        159.0
+      ],
+      "counts": {
+        "edges": 8,
+        "faces": 0,
+        "shells": 0,
+        "solids": 0,
+        "verts": 8
+      },
+      "label": "Sketch022",
+      "type": "Sketcher::SketchObject",
+      "valid": true,
+      "volume": 0.0
+    },
+    "Sketch023": {
+      "area": 0.0,
+      "bbox": [
+        -280.0,
+        67.0,
+        149.0,
+        280.0,
+        67.0,
+        392.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        67.0,
+        270.5
+      ],
+      "counts": {
+        "edges": 10,
+        "faces": 0,
+        "shells": 0,
+        "solids": 0,
+        "verts": 10
+      },
+      "label": "Sketch023",
+      "type": "Sketcher::SketchObject",
+      "valid": true,
+      "volume": 0.0
+    },
+    "Sketch024": {
+      "area": 0.0,
+      "bbox": [
+        -280.0,
+        284.0,
+        149.0,
+        280.0,
+        284.0,
+        392.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        284.0,
+        270.5
+      ],
+      "counts": {
+        "edges": 8,
+        "faces": 0,
+        "shells": 0,
+        "solids": 0,
+        "verts": 8
+      },
+      "label": "Sketch024",
+      "type": "Sketcher::SketchObject",
+      "valid": true,
+      "volume": 0.0
+    },
+    "Sketch025": {
+      "area": 0.0,
+      "bbox": [
+        -295.0,
+        67.0,
+        149.0,
+        295.0,
+        284.0,
+        149.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        175.5,
+        149.0
+      ],
+      "counts": {
+        "edges": 16,
+        "faces": 0,
+        "shells": 0,
+        "solids": 0,
+        "verts": 16
+      },
+      "label": "Sketch025",
+      "type": "Sketcher::SketchObject",
+      "valid": true,
+      "volume": 0.0
+    },
+    "Sketch026": {
+      "area": 0.0,
+      "bbox": [
+        -240.0,
+        273.0,
+        170.0,
+        240.0,
+        273.0,
+        392.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        273.0,
+        281.0
+      ],
+      "counts": {
+        "edges": 4,
+        "faces": 0,
+        "shells": 0,
+        "solids": 0,
+        "verts": 4
+      },
+      "label": "Sketch026",
+      "type": "Sketcher::SketchObject",
+      "valid": true,
+      "volume": 0.0
+    },
+    "Sketch027": {
+      "area": 0.0,
+      "bbox": [
+        -65.0,
+        -56.0,
+        56.0,
+        65.0,
+        -56.0,
+        396.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        -56.0,
+        226.0
+      ],
+      "counts": {
+        "edges": 4,
+        "faces": 0,
+        "shells": 0,
+        "solids": 0,
+        "verts": 4
+      },
+      "label": "Sketch027",
+      "type": "Sketcher::SketchObject",
+      "valid": true,
+      "volume": 0.0
+    },
+    "Sketch028": {
+      "area": 0.0,
+      "bbox": [
+        -247.0,
+        67.0,
+        139.0,
+        247.0,
+        284.0,
+        139.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        175.5,
+        139.0
+      ],
+      "counts": {
+        "edges": 16,
+        "faces": 0,
+        "shells": 0,
+        "solids": 0,
+        "verts": 16
+      },
+      "label": "Sketch028",
+      "type": "Sketcher::SketchObject",
+      "valid": true,
+      "volume": 0.0
+    },
+    "Sketch029": {
+      "area": 0.0,
+      "bbox": [
+        -237.5,
+        -133.0,
+        119.0,
+        237.5,
+        484.0,
+        119.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        175.5,
+        119.0
+      ],
+      "counts": {
+        "edges": 8,
+        "faces": 0,
+        "shells": 0,
+        "solids": 0,
+        "verts": 8
+      },
+      "label": "Sketch029",
+      "type": "Sketcher::SketchObject",
+      "valid": true,
+      "volume": 0.0
+    },
+    "Sketch030": {
+      "area": 0.0,
+      "bbox": [
+        -280.0,
+        67.0,
+        149.0,
+        280.0,
+        284.0,
+        149.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        175.5,
+        149.0
+      ],
+      "counts": {
+        "edges": 8,
+        "faces": 0,
+        "shells": 0,
+        "solids": 0,
+        "verts": 8
+      },
+      "label": "Sketch030",
+      "type": "Sketcher::SketchObject",
+      "valid": true,
+      "volume": 0.0
+    },
+    "Sketch031": {
+      "area": 0.0,
+      "bbox": [
+        -280.0,
+        67.0,
+        139.0,
+        280.0,
+        284.0,
+        139.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        175.5,
+        139.0
+      ],
+      "counts": {
+        "edges": 8,
+        "faces": 0,
+        "shells": 0,
+        "solids": 0,
+        "verts": 8
+      },
+      "label": "Sketch031",
+      "type": "Sketcher::SketchObject",
+      "valid": true,
+      "volume": 0.0
+    },
+    "Sketch032": {
+      "area": 0.0,
+      "bbox": [
+        -237.5,
+        -133.0,
+        39.0,
+        237.5,
+        -133.0,
+        115.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        -133.0,
+        76.8371
+      ],
+      "counts": {
+        "edges": 16,
+        "faces": 0,
+        "shells": 0,
+        "solids": 0,
+        "verts": 16
+      },
+      "label": "Sketch032",
+      "type": "Sketcher::SketchObject",
+      "valid": true,
+      "volume": 0.0
+    },
+    "Sketch033": {
+      "area": 0.0,
+      "bbox": [
+        -271.5,
+        -246.0,
+        39.0,
+        271.5,
+        484.0,
+        39.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        119.0,
+        39.0
+      ],
+      "counts": {
+        "edges": 8,
+        "faces": 0,
+        "shells": 0,
+        "solids": 0,
+        "verts": 8
+      },
+      "label": "Sketch033",
+      "type": "Sketcher::SketchObject",
+      "valid": true,
+      "volume": 0.0
+    },
+    "Sketch034": {
+      "area": 0.0,
+      "bbox": [
+        -15.0,
+        -15.0,
+        0.0,
+        15.0,
+        15.0,
+        0.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "counts": {
+        "edges": 1,
+        "faces": 0,
+        "shells": 0,
+        "solids": 0,
+        "verts": 1
+      },
+      "label": "Sketch034",
+      "type": "Sketcher::SketchObject",
+      "valid": true,
+      "volume": 0.0
+    }
+  },
+  "params": {},
+  "saved": true,
+  "schema": 1,
+  "sources": {
+    "machine-fem.FCStd": "0f6a72c0ae7fd1f178fec82cd77075068b51627828b5b949512dcfca4ac70b2a"
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "document": "spindle_spacer",
+  "errors": [],
+  "objects": {
+    "Body": {
+      "area": 7440.95,
+      "bbox": [
+        -45.0,
+        -9.59447,
+        0.0,
+        45.0,
+        45.0,
+        19.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        23.2587,
+        9.5
+      ],
+      "counts": {
+        "edges": 24,
+        "faces": 10,
+        "shells": 1,
+        "solids": 1,
+        "verts": 16
+      },
+      "label": "Body",
+      "type": "PartDesign::Body",
+      "valid": true,
+      "volume": 14428.3
+    },
+    "Fillet": {
+      "area": 7440.95,
+      "bbox": [
+        -45.0,
+        -9.59447,
+        0.0,
+        45.0,
+        45.0,
+        19.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        23.2587,
+        9.5
+      ],
+      "counts": {
+        "edges": 24,
+        "faces": 10,
+        "shells": 1,
+        "solids": 1,
+        "verts": 16
+      },
+      "label": "Fillet",
+      "type": "PartDesign::Fillet",
+      "valid": true,
+      "volume": 14428.3
+    },
+    "Pad": {
+      "area": 7513.08,
+      "bbox": [
+        -45.0,
+        -9.99922,
+        0.0,
+        45.0,
+        45.0,
+        19.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        23.1132,
+        9.5
+      ],
+      "counts": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "solids": 1,
+        "verts": 8
+      },
+      "label": "Pad",
+      "type": "PartDesign::Pad",
+      "valid": true,
+      "volume": 14493.6
+    },
+    "Part": {
+      "area": 7440.95,
+      "bbox": [
+        -45.0,
+        -9.59447,
+        0.0,
+        45.0,
+        45.0,
+        19.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        23.2587,
+        9.5
+      ],
+      "counts": {
+        "edges": 24,
+        "faces": 10,
+        "shells": 1,
+        "solids": 1,
+        "verts": 16
+      },
+      "label": "spindle-spacer",
+      "type": "App::Part",
+      "valid": true,
+      "volume": 14428.3
+    },
+    "Sketch": {
+      "area": 0.0,
+      "bbox": [
+        -45.0,
+        -9.99922,
+        0.0,
+        45.0,
+        45.0,
+        0.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        22.1317,
+        0.0
+      ],
+      "counts": {
+        "edges": 4,
+        "faces": 0,
+        "shells": 0,
+        "solids": 0,
+        "verts": 4
+      },
+      "label": "Sketch",
+      "type": "Sketcher::SketchObject",
+      "valid": true,
+      "volume": 0.0
+    }
+  },
+  "params": {},
+  "saved": true,
+  "schema": 1,
+  "sources": {
+    "spindle-spacer.FCStd": "d62cc8893a12a0e79a7d606ebe78407cfa3ec8b98c8f7ab48404f91a735f381c"
+  }
+}

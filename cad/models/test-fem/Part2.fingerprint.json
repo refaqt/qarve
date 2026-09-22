@@ -1,0 +1,124 @@
+{
+  "document": "Part2",
+  "errors": [],
+  "objects": {
+    "Body": {
+      "area": 24000.0,
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        100.0,
+        100.0,
+        10.0
+      ],
+      "closed": true,
+      "com": [
+        50.0,
+        50.0,
+        5.0
+      ],
+      "counts": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "solids": 1,
+        "verts": 8
+      },
+      "label": "Body",
+      "type": "PartDesign::Body",
+      "valid": true,
+      "volume": 100000.0
+    },
+    "Pad": {
+      "area": 24000.0,
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        100.0,
+        100.0,
+        10.0
+      ],
+      "closed": true,
+      "com": [
+        50.0,
+        50.0,
+        5.0
+      ],
+      "counts": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "solids": 1,
+        "verts": 8
+      },
+      "label": "Pad",
+      "type": "PartDesign::Pad",
+      "valid": true,
+      "volume": 100000.0
+    },
+    "Part": {
+      "area": 24000.0,
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        100.0,
+        100.0,
+        10.0
+      ],
+      "closed": true,
+      "com": [
+        50.0,
+        50.0,
+        5.0
+      ],
+      "counts": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "solids": 1,
+        "verts": 8
+      },
+      "label": "Part2",
+      "type": "App::Part",
+      "valid": true,
+      "volume": 100000.0
+    },
+    "Sketch": {
+      "area": 0.0,
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        100.0,
+        100.0,
+        0.0
+      ],
+      "closed": true,
+      "com": [
+        50.0,
+        50.0,
+        0.0
+      ],
+      "counts": {
+        "edges": 4,
+        "faces": 0,
+        "shells": 0,
+        "solids": 0,
+        "verts": 4
+      },
+      "label": "Sketch",
+      "type": "Sketcher::SketchObject",
+      "valid": true,
+      "volume": 0.0
+    }
+  },
+  "params": {},
+  "saved": true,
+  "schema": 1,
+  "sources": {
+    "Part2.FCStd": "b146834d5598bb01c77e3f09ce3aa48c0e07e145a054216a83fcfc1e259a4135"
+  }
+}
