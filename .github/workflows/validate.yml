@@ -11,6 +11,11 @@ jobs:
       - uses: actions/checkout@v4
         with:
           submodules: recursive
+          # The FreeCAD models are stored with Git LFS. Without this, the
+          # checkout leaves a small text stub in place of each one, and the
+          # model check compares the measurement against the stub instead of
+          # the model. Every model then looks changed.
+          lfs: true
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
