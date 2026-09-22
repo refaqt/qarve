@@ -1,0 +1,124 @@
+{
+  "document": "z_axis_carriage_plate",
+  "errors": [],
+  "objects": {
+    "Body": {
+      "area": 88000.0,
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        200.0,
+        200.0,
+        10.0
+      ],
+      "closed": true,
+      "com": [
+        100.0,
+        100.0,
+        5.0
+      ],
+      "counts": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "solids": 1,
+        "verts": 8
+      },
+      "label": "Body",
+      "type": "PartDesign::Body",
+      "valid": true,
+      "volume": 400000.0
+    },
+    "Pad": {
+      "area": 88000.0,
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        200.0,
+        200.0,
+        10.0
+      ],
+      "closed": true,
+      "com": [
+        100.0,
+        100.0,
+        5.0
+      ],
+      "counts": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "solids": 1,
+        "verts": 8
+      },
+      "label": "Pad",
+      "type": "PartDesign::Pad",
+      "valid": true,
+      "volume": 400000.0
+    },
+    "Part": {
+      "area": 88000.0,
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        200.0,
+        200.0,
+        10.0
+      ],
+      "closed": true,
+      "com": [
+        100.0,
+        100.0,
+        5.0
+      ],
+      "counts": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "solids": 1,
+        "verts": 8
+      },
+      "label": "z-axis-carriage-plate",
+      "type": "App::Part",
+      "valid": true,
+      "volume": 400000.0
+    },
+    "Sketch": {
+      "area": 0.0,
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        200.0,
+        200.0,
+        0.0
+      ],
+      "closed": true,
+      "com": [
+        100.0,
+        100.0,
+        0.0
+      ],
+      "counts": {
+        "edges": 4,
+        "faces": 0,
+        "shells": 0,
+        "solids": 0,
+        "verts": 4
+      },
+      "label": "Sketch",
+      "type": "Sketcher::SketchObject",
+      "valid": true,
+      "volume": 0.0
+    }
+  },
+  "params": {},
+  "saved": true,
+  "schema": 1,
+  "sources": {
+    "z-axis-carriage-plate.FCStd": "0d110cf1216f3195903a550c17b2fbe0f903405ba5cd148b8a43ab1c8fb89715"
+  }
+}

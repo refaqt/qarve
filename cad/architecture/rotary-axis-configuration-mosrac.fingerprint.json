@@ -1,0 +1,68 @@
+{
+  "document": "rotary_axis_configuration_mosrac",
+  "errors": [],
+  "objects": {
+    "Sketch": {
+      "area": 0.0,
+      "bbox": [
+        -150.0,
+        -28.0,
+        0.0,
+        150.0,
+        72.4,
+        0.0
+      ],
+      "closed": false,
+      "com": [
+        -12.1749,
+        21.9033,
+        0.0
+      ],
+      "counts": {
+        "edges": 75,
+        "faces": 0,
+        "shells": 0,
+        "solids": 0,
+        "verts": 68
+      },
+      "label": "Sketch",
+      "type": "Sketcher::SketchObject",
+      "valid": true,
+      "volume": 0.0
+    },
+    "Sketch001": {
+      "area": 0.0,
+      "bbox": [
+        -23.0,
+        -18.0,
+        0.0,
+        23.0,
+        61.4,
+        0.0
+      ],
+      "closed": false,
+      "com": [
+        0.0,
+        21.7,
+        0.0
+      ],
+      "counts": {
+        "edges": 2,
+        "faces": 0,
+        "shells": 0,
+        "solids": 0,
+        "verts": 4
+      },
+      "label": "Sketch001",
+      "type": "Sketcher::SketchObject",
+      "valid": true,
+      "volume": 0.0
+    }
+  },
+  "params": {},
+  "saved": true,
+  "schema": 1,
+  "sources": {
+    "rotary-axis-configuration-mosrac.FCStd": "17356532344af54c6eea965f990383bdadc81c4a095841ce36cf5e72f8bdf66d"
+  }
+}

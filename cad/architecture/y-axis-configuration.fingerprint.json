@@ -1,0 +1,40 @@
+{
+  "document": "y_axis_configuration",
+  "errors": [],
+  "objects": {
+    "Sketch": {
+      "area": 0.0,
+      "bbox": [
+        0.0,
+        0.0,
+        -265.0,
+        85.0,
+        0.0,
+        110.0
+      ],
+      "closed": false,
+      "com": [
+        38.7487,
+        0.0,
+        -20.3759
+      ],
+      "counts": {
+        "edges": 69,
+        "faces": 0,
+        "shells": 0,
+        "solids": 0,
+        "verts": 61
+      },
+      "label": "Sketch",
+      "type": "Sketcher::SketchObject",
+      "valid": true,
+      "volume": 0.0
+    }
+  },
+  "params": {},
+  "saved": true,
+  "schema": 1,
+  "sources": {
+    "y-axis-configuration.FCStd": "974404d488d417e46e6959f67ca40611e271fb6e9b784904adb56d7b27da5584"
+  }
+}

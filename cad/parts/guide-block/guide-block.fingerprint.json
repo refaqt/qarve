@@ -1,0 +1,68 @@
+{
+  "document": "guide_block",
+  "errors": [],
+  "objects": {
+    "Part": {
+      "area": 9939.18,
+      "bbox": [
+        -17.0,
+        -6.48857,
+        4.3,
+        17.0,
+        63.0734,
+        24.0
+      ],
+      "closed": true,
+      "com": [
+        0.0827837,
+        30.5549,
+        15.0992
+      ],
+      "counts": {
+        "edges": 778,
+        "faces": 296,
+        "shells": 5,
+        "solids": 1,
+        "verts": 504
+      },
+      "label": "guide-block",
+      "type": "App::Part",
+      "valid": true,
+      "volume": 32117.3
+    },
+    "Part__Feature": {
+      "area": 9939.18,
+      "bbox": [
+        -17.0,
+        -6.48857,
+        4.3,
+        17.0,
+        63.0734,
+        24.0
+      ],
+      "closed": true,
+      "com": [
+        0.0827837,
+        30.5549,
+        15.0992
+      ],
+      "counts": {
+        "edges": 778,
+        "faces": 296,
+        "shells": 5,
+        "solids": 1,
+        "verts": 504
+      },
+      "label": "HIWIN_HGL15CAZBC+E2",
+      "type": "Part::Feature",
+      "valid": true,
+      "volume": 32117.3
+    }
+  },
+  "params": {},
+  "saved": true,
+  "schema": 1,
+  "sources": {
+    "guide-block.FCStd": "66d0e7a0d069d346960c153fe3aaed64492a1e44bedbdd23e424f486de6644ee"
+  }
+}

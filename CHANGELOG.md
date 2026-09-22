@@ -14,6 +14,9 @@ All notable releases of this repository are documented here.
 - Spindle clamp flex part: `cad/parts/spindle-clamp-flex/spindle-clamp-flex.FCStd`.
 - `[[part]]` entries in `okh.toml` for spindle-clamp manufactured parts.
 - Guide-rail adjustment FEM study: 5 mm POM layer under the rail compressed by screw preload to correct a bend in the guide (`simulation/guide-rail-adjustment/guide-rail-adjustment.FCStd`).
+- A measurement file beside every FreeCAD model, so a change to the geometry can be read as text in a pull request.
+- `cad/fingerprint_models.py` writes those measurement files. Run it after saving a model in FreeCAD.
+- ADR: why this repository measures hand-drawn models instead of rebuilding them (`docs/decisions/2026-09-22_fingerprints-for-hand-drawn-models.md`).
 
 ### Changed
 
@@ -24,3 +27,10 @@ All notable releases of this repository are documented here.
 - Spindle clamp assembly: master sketches moved to `Body_master` per DOQS ADR (fixes Assembly Insert / Binder cycle); see `doqs/docs/decisions/2026-06-24_freecad-master-sketches-body.md`.
 - Spindle clamp geometry: reduced clamp width; removed obsolete `spindle-clamp-design.FCStd`.
 - `doqs/` submodule bumped to `71d6216` (FreeCAD master-sketches Body ADR and architecture docs).
+- The automatic checks, the README and the setup guide now use one command, `python doqs/doqs.py check`. It replaces the separate validation scripts, two of which had been renamed and no longer ran.
+- The build server now fetches the real FreeCAD models instead of the small stubs Git LFS leaves behind. Without this, the model check compares each measurement against a stub.
+
+### Removed
+
+- The example machine record `builds/serial-0042/`. It described a machine that does not exist and pointed at a version tag that was never created. The blank example to copy from, `builds/example-baseline.toml`, is unchanged.
+- `bom/aggregate_bom.py`. It was an old copy of a tool that lives in the `doqs/` submodule and had fallen behind it.

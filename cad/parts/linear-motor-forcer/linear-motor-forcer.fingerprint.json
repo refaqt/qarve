@@ -1,0 +1,68 @@
+{
+  "document": "linear_motor_forcer",
+  "errors": [],
+  "objects": {
+    "Part": {
+      "area": 39244.1,
+      "bbox": [
+        -88.0,
+        -37.5,
+        0.0,
+        108.0,
+        37.5,
+        23.2
+      ],
+      "closed": true,
+      "com": [
+        0.264893,
+        0.10517,
+        11.3115
+      ],
+      "counts": {
+        "edges": 266,
+        "faces": 109,
+        "shells": 1,
+        "solids": 1,
+        "verts": 138
+      },
+      "label": "linear-motor-forcer",
+      "type": "App::Part",
+      "valid": true,
+      "volume": 298872.0
+    },
+    "Part__Feature": {
+      "area": 39244.1,
+      "bbox": [
+        -88.0,
+        -37.5,
+        0.0,
+        108.0,
+        37.5,
+        23.2
+      ],
+      "closed": true,
+      "com": [
+        0.264893,
+        0.10517,
+        11.3115
+      ],
+      "counts": {
+        "edges": 266,
+        "faces": 109,
+        "shells": 1,
+        "solids": 1,
+        "verts": 138
+      },
+      "label": "Saho_WJM050-3",
+      "type": "Part::Feature",
+      "valid": true,
+      "volume": 298872.0
+    }
+  },
+  "params": {},
+  "saved": true,
+  "schema": 1,
+  "sources": {
+    "linear-motor-forcer.FCStd": "df2e8750f6581fd32729d15cf0299fdab85971fca96d08c497aee85e9834d1d4"
+  }
+}

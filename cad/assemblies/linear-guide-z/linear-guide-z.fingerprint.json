@@ -1,0 +1,96 @@
+{
+  "document": "linear_guide_z",
+  "errors": [],
+  "objects": {
+    "Assembly001": {
+      "area": 19878.4,
+      "bbox": [
+        -17.0,
+        34.7625,
+        4.3,
+        17.0,
+        389.961,
+        24.0
+      ],
+      "closed": true,
+      "com": [
+        -0.0827837,
+        210.099,
+        15.0992
+      ],
+      "counts": {
+        "edges": 1556,
+        "faces": 592,
+        "shells": 10,
+        "solids": 2,
+        "verts": 1008
+      },
+      "label": "linear-guide-z",
+      "type": "Assembly::AssemblyObject",
+      "valid": true,
+      "volume": 64234.6
+    },
+    "guide_block": {
+      "area": 9939.18,
+      "bbox": [
+        -17.0,
+        34.7625,
+        4.3,
+        17.0,
+        104.324,
+        24.0
+      ],
+      "closed": true,
+      "com": [
+        -0.0827837,
+        67.281,
+        15.0992
+      ],
+      "counts": {
+        "edges": 778,
+        "faces": 296,
+        "shells": 5,
+        "solids": 1,
+        "verts": 504
+      },
+      "label": "guide-block",
+      "type": "App::Link",
+      "valid": true,
+      "volume": 32117.3
+    },
+    "guide_block001": {
+      "area": 9939.18,
+      "bbox": [
+        -17.0,
+        320.399,
+        4.3,
+        17.0,
+        389.961,
+        24.0
+      ],
+      "closed": true,
+      "com": [
+        -0.0827837,
+        352.917,
+        15.0992
+      ],
+      "counts": {
+        "edges": 778,
+        "faces": 296,
+        "shells": 5,
+        "solids": 1,
+        "verts": 504
+      },
+      "label": "guide-block001",
+      "type": "App::Link",
+      "valid": true,
+      "volume": 32117.3
+    }
+  },
+  "params": {},
+  "saved": true,
+  "schema": 1,
+  "sources": {
+    "linear-guide-z.FCStd": "31fbfa9bbb5714948ff4f60124ec73b1aabf864b38fd750fefa2bd9f0b19dc64"
+  }
+}

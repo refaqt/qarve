@@ -1,0 +1,124 @@
+{
+  "document": "linear_encoder_rail_spacer",
+  "errors": [],
+  "objects": {
+    "Body": {
+      "area": 1515.4,
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        20.0,
+        20.0,
+        8.0
+      ],
+      "closed": true,
+      "com": [
+        10.0,
+        10.0,
+        4.0
+      ],
+      "counts": {
+        "edges": 15,
+        "faces": 7,
+        "shells": 1,
+        "solids": 1,
+        "verts": 10
+      },
+      "label": "Body",
+      "type": "PartDesign::Body",
+      "valid": true,
+      "volume": 3099.47
+    },
+    "Pad": {
+      "area": 1515.4,
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        20.0,
+        20.0,
+        8.0
+      ],
+      "closed": true,
+      "com": [
+        10.0,
+        10.0,
+        4.0
+      ],
+      "counts": {
+        "edges": 15,
+        "faces": 7,
+        "shells": 1,
+        "solids": 1,
+        "verts": 10
+      },
+      "label": "Pad",
+      "type": "PartDesign::Pad",
+      "valid": true,
+      "volume": 3099.47
+    },
+    "Part": {
+      "area": 1515.4,
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        20.0,
+        20.0,
+        8.0
+      ],
+      "closed": true,
+      "com": [
+        10.0,
+        10.0,
+        4.0
+      ],
+      "counts": {
+        "edges": 15,
+        "faces": 7,
+        "shells": 1,
+        "solids": 1,
+        "verts": 10
+      },
+      "label": "linear-encoder-rail-spacer",
+      "type": "App::Part",
+      "valid": true,
+      "volume": 3099.47
+    },
+    "Sketch": {
+      "area": 0.0,
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        20.0,
+        20.0,
+        0.0
+      ],
+      "closed": true,
+      "com": [
+        10.0,
+        10.0,
+        0.0
+      ],
+      "counts": {
+        "edges": 5,
+        "faces": 0,
+        "shells": 0,
+        "solids": 0,
+        "verts": 5
+      },
+      "label": "Sketch",
+      "type": "Sketcher::SketchObject",
+      "valid": true,
+      "volume": 0.0
+    }
+  },
+  "params": {},
+  "saved": true,
+  "schema": 1,
+  "sources": {
+    "linear-encoder-rail-spacer.FCStd": "ed27a1188cca7535bef40aeece06c642b583cbceec52808ea56118af4845fcd0"
+  }
+}

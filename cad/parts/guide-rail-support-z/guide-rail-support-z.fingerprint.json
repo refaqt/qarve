@@ -1,0 +1,152 @@
+{
+  "document": "guide_rail_support_z",
+  "errors": [],
+  "objects": {
+    "Body": {
+      "area": 17721.0,
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        13.0,
+        480.0,
+        5.0
+      ],
+      "closed": true,
+      "com": [
+        6.5,
+        240.0,
+        2.5
+      ],
+      "counts": {
+        "edges": 36,
+        "faces": 14,
+        "shells": 1,
+        "solids": 1,
+        "verts": 24
+      },
+      "label": "Body",
+      "type": "PartDesign::Body",
+      "valid": true,
+      "volume": 30563.8
+    },
+    "Pad": {
+      "area": 17410.0,
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        13.0,
+        480.0,
+        5.0
+      ],
+      "closed": true,
+      "com": [
+        6.5,
+        240.0,
+        2.5
+      ],
+      "counts": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "solids": 1,
+        "verts": 8
+      },
+      "label": "Pad",
+      "type": "PartDesign::Pad",
+      "valid": true,
+      "volume": 31200.0
+    },
+    "Part": {
+      "area": 17721.0,
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        13.0,
+        480.0,
+        5.0
+      ],
+      "closed": true,
+      "com": [
+        6.5,
+        240.0,
+        2.5
+      ],
+      "counts": {
+        "edges": 36,
+        "faces": 14,
+        "shells": 1,
+        "solids": 1,
+        "verts": 24
+      },
+      "label": "guide-rail-support-z",
+      "type": "App::Part",
+      "valid": true,
+      "volume": 30563.8
+    },
+    "Pocket": {
+      "area": 17448.9,
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        13.0,
+        480.0,
+        5.0
+      ],
+      "closed": true,
+      "com": [
+        6.5,
+        240.537,
+        2.5
+      ],
+      "counts": {
+        "edges": 15,
+        "faces": 7,
+        "shells": 1,
+        "solids": 1,
+        "verts": 10
+      },
+      "label": "Pocket",
+      "type": "PartDesign::Pocket",
+      "valid": true,
+      "volume": 31120.5
+    },
+    "Sketch001": {
+      "area": 0.0,
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        13.0,
+        480.0,
+        0.0
+      ],
+      "closed": true,
+      "com": [
+        6.5,
+        237.032,
+        0.0
+      ],
+      "counts": {
+        "edges": 5,
+        "faces": 0,
+        "shells": 0,
+        "solids": 0,
+        "verts": 5
+      },
+      "label": "Sketch001",
+      "type": "Sketcher::SketchObject",
+      "valid": true,
+      "volume": 0.0
+    }
+  },
+  "params": {},
+  "saved": true,
+  "schema": 1,
+  "sources": {
+    "guide-rail-support-z.FCStd": "f5b84ac1590350b1b17700642bafbaee00cd7e759fe3e4aeaffc49a4391ff7d8"
+  }
+}

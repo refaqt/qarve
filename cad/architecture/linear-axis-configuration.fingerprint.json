@@ -1,0 +1,68 @@
+{
+  "document": "linear_axis_configuration",
+  "errors": [],
+  "objects": {
+    "Sketch": {
+      "area": 0.0,
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        246.809,
+        0.0,
+        115.945
+      ],
+      "closed": false,
+      "com": [
+        101.68,
+        0.0,
+        30.6974
+      ],
+      "counts": {
+        "edges": 68,
+        "faces": 0,
+        "shells": 0,
+        "solids": 0,
+        "verts": 67
+      },
+      "label": "Sketch",
+      "type": "Sketcher::SketchObject",
+      "valid": true,
+      "volume": 0.0
+    },
+    "Sketch001": {
+      "area": 0.0,
+      "bbox": [
+        0.0,
+        -65.0,
+        0.0,
+        190.0,
+        495.0,
+        0.0
+      ],
+      "closed": false,
+      "com": [
+        77.5119,
+        205.622,
+        0.0
+      ],
+      "counts": {
+        "edges": 31,
+        "faces": 0,
+        "shells": 0,
+        "solids": 0,
+        "verts": 24
+      },
+      "label": "Sketch001",
+      "type": "Sketcher::SketchObject",
+      "valid": true,
+      "volume": 0.0
+    }
+  },
+  "params": {},
+  "saved": true,
+  "schema": 1,
+  "sources": {
+    "linear-axis-configuration.FCStd": "5a807f11a248cc98cdfd0f322e2a39f33cb8f65382195824ca071831e91666d9"
+  }
+}

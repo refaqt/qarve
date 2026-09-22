@@ -1,0 +1,40 @@
+{
+  "document": "rotary_axis_base",
+  "errors": [],
+  "objects": {
+    "Link": {
+      "area": 0.0,
+      "bbox": [
+        -150.0,
+        -28.0,
+        0.0,
+        150.0,
+        72.4,
+        0.0
+      ],
+      "closed": false,
+      "com": [
+        -12.1749,
+        21.9033,
+        0.0
+      ],
+      "counts": {
+        "edges": 75,
+        "faces": 0,
+        "shells": 0,
+        "solids": 0,
+        "verts": 68
+      },
+      "label": "Link",
+      "type": "App::Link",
+      "valid": true,
+      "volume": 0.0
+    }
+  },
+  "params": {},
+  "saved": true,
+  "schema": 1,
+  "sources": {
+    "rotary-axis-base.FCStd": "b5afeaa9074bd39f574dedb96cf2b8f4f8217f555fba6c306db0748de45cc979"
+  }
+}

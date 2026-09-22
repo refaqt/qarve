@@ -1,0 +1,124 @@
+{
+  "document": "Assembly",
+  "errors": [],
+  "objects": {
+    "Assembly": {
+      "area": 117115.0,
+      "bbox": [
+        -100.0,
+        -100.0,
+        0.0,
+        100.0,
+        100.0,
+        120.0
+      ],
+      "closed": true,
+      "com": [
+        28.2014,
+        19.4492,
+        19.5869
+      ],
+      "counts": {
+        "edges": 27,
+        "faces": 15,
+        "shells": 3,
+        "solids": 3,
+        "verts": 18
+      },
+      "label": "Assembly",
+      "type": "Assembly::AssemblyObject",
+      "valid": true,
+      "volume": 514159.0
+    },
+    "Part001": {
+      "area": 24000.0,
+      "bbox": [
+        90.0,
+        0.0,
+        20.0,
+        100.0,
+        100.0,
+        120.0
+      ],
+      "closed": true,
+      "com": [
+        95.0,
+        50.0,
+        70.0
+      ],
+      "counts": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "solids": 1,
+        "verts": 8
+      },
+      "label": "Part001",
+      "type": "App::Link",
+      "valid": true,
+      "volume": 100000.0
+    },
+    "Part1": {
+      "area": 69115.0,
+      "bbox": [
+        -100.0,
+        -100.0,
+        0.0,
+        100.0,
+        100.0,
+        10.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        0.0,
+        5.0
+      ],
+      "counts": {
+        "edges": 3,
+        "faces": 3,
+        "shells": 1,
+        "solids": 1,
+        "verts": 2
+      },
+      "label": "Part1",
+      "type": "App::Link",
+      "valid": true,
+      "volume": 314159.0
+    },
+    "Part2": {
+      "area": 24000.0,
+      "bbox": [
+        0.0,
+        0.0,
+        10.0,
+        100.0,
+        100.0,
+        20.0
+      ],
+      "closed": true,
+      "com": [
+        50.0,
+        50.0,
+        15.0
+      ],
+      "counts": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "solids": 1,
+        "verts": 8
+      },
+      "label": "Part2",
+      "type": "App::Link",
+      "valid": true,
+      "volume": 100000.0
+    }
+  },
+  "params": {},
+  "saved": true,
+  "schema": 1,
+  "sources": {
+    "Assembly.FCStd": "d54595005e67259c231891ed01a6cee865f1d5bee3d5e34496a12fab2941fdc0"
+  }
+}

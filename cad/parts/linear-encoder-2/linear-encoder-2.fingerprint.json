@@ -1,0 +1,236 @@
+{
+  "document": "linear_encoder_2",
+  "errors": [],
+  "objects": {
+    "Assembly": {
+      "area": 64509.4,
+      "bbox": [
+        -11.5109,
+        -191.0,
+        0.0,
+        31.9891,
+        191.0,
+        18.0
+      ],
+      "closed": true,
+      "com": [
+        1.4063,
+        -1.9697,
+        8.67094
+      ],
+      "counts": {
+        "edges": 1218,
+        "faces": 426,
+        "shells": 5,
+        "solids": 5,
+        "verts": 793
+      },
+      "label": "linear-encoder-2",
+      "type": "Assembly::AssemblyObject",
+      "valid": true,
+      "volume": 62610.8
+    },
+    "KA500_270": {
+      "area": 11728.6,
+      "bbox": [
+        1.98909,
+        -46.3771,
+        2.0,
+        31.9891,
+        23.8701,
+        16.0
+      ],
+      "closed": true,
+      "com": [
+        20.7789,
+        -11.5635,
+        9.1908
+      ],
+      "counts": {
+        "edges": 519,
+        "faces": 183,
+        "shells": 2,
+        "solids": 2,
+        "verts": 335
+      },
+      "label": "Sino_KA500-read-head",
+      "type": "App::Part",
+      "valid": true,
+      "volume": 10664.9
+    },
+    "Part003": {
+      "area": 52780.7,
+      "bbox": [
+        -11.5109,
+        -191.0,
+        0.0,
+        11.9891,
+        191.0,
+        18.0
+      ],
+      "closed": true,
+      "com": [
+        -2.57106,
+        -5.0285e-07,
+        8.56421
+      ],
+      "counts": {
+        "edges": 699,
+        "faces": 243,
+        "shells": 3,
+        "solids": 3,
+        "verts": 458
+      },
+      "label": "Sino_KA500-270-scale",
+      "type": "App::Part",
+      "valid": true,
+      "volume": 51945.8
+    },
+    "Part__Feature": {
+      "area": 3415.88,
+      "bbox": [
+        -35.1764,
+        2410.03,
+        217.626,
+        35.0708,
+        2432.15,
+        223.126
+      ],
+      "closed": true,
+      "com": [
+        -0.0527851,
+        2421.8,
+        221.891
+      ],
+      "counts": {
+        "edges": 203,
+        "faces": 75,
+        "shells": 1,
+        "solids": 1,
+        "verts": 130
+      },
+      "label": "KA500-read-head-1",
+      "type": "Part::Feature",
+      "valid": true,
+      "volume": 2764.22
+    },
+    "Part__Feature001": {
+      "area": 8312.72,
+      "bbox": [
+        -35.0528,
+        2402.15,
+        209.126,
+        34.9472,
+        2432.15,
+        221.776
+      ],
+      "closed": true,
+      "com": [
+        0.365693,
+        2420.64,
+        214.366
+      ],
+      "counts": {
+        "edges": 316,
+        "faces": 108,
+        "shells": 1,
+        "solids": 1,
+        "verts": 205
+      },
+      "label": "KA500-read-head-2",
+      "type": "Part::Feature",
+      "valid": true,
+      "volume": 7900.7
+    },
+    "Part__Feature002": {
+      "area": 47764.1,
+      "bbox": [
+        -190.0,
+        2390.15,
+        207.126,
+        190.0,
+        2410.15,
+        225.126
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        2398.4,
+        215.59
+      ],
+      "counts": {
+        "edges": 243,
+        "faces": 83,
+        "shells": 1,
+        "solids": 1,
+        "verts": 162
+      },
+      "label": "KA500-270-scale",
+      "type": "Part::Feature",
+      "valid": true,
+      "volume": 46184.5
+    },
+    "Part__Feature003": {
+      "area": 2508.33,
+      "bbox": [
+        -191.0,
+        2389.65,
+        207.276,
+        -172.0,
+        2413.15,
+        224.976
+      ],
+      "closed": true,
+      "com": [
+        -184.231,
+        2400.12,
+        216.495
+      ],
+      "counts": {
+        "edges": 228,
+        "faces": 80,
+        "shells": 1,
+        "solids": 1,
+        "verts": 148
+      },
+      "label": "KA500-end-cap-1",
+      "type": "Part::Feature",
+      "valid": true,
+      "volume": 2880.69
+    },
+    "Part__Feature004": {
+      "area": 2508.33,
+      "bbox": [
+        172.0,
+        2389.65,
+        207.276,
+        191.0,
+        2413.15,
+        224.976
+      ],
+      "closed": true,
+      "com": [
+        184.231,
+        2400.12,
+        216.495
+      ],
+      "counts": {
+        "edges": 228,
+        "faces": 80,
+        "shells": 1,
+        "solids": 1,
+        "verts": 148
+      },
+      "label": "KA500-end-cap-2",
+      "type": "Part::Feature",
+      "valid": true,
+      "volume": 2880.69
+    }
+  },
+  "params": {},
+  "saved": true,
+  "schema": 1,
+  "sources": {
+    "linear-encoder-2.FCStd": "4b299ac09c5f9d8705f12ae7de7d00a27451d8205b71bb1819e69cb03483a3a5"
+  }
+}

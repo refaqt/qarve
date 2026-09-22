@@ -6,8 +6,9 @@ Qarve design-session checklist and validator commands.
 
 - [ ] SysML / params / BOM updated as needed (requirements only in SysML).
 - [ ] If a first-level content directory was added, `python doqs/scripts/apply_licenses.py`
-- [ ] `python doqs/scripts/validate_all.py`
-- [ ] `python doqs/scripts/build_graph.py` if `hasComponent` or builds changed
+- [ ] `python cad/fingerprint_models.py` if any `.FCStd` was saved, then commit model and measurement together
+- [ ] `python doqs/doqs.py generate` if anything generated changed, then read the diff
+- [ ] `python doqs/doqs.py check`
 - [ ] Submodule `doqs/` present and up to date (`bash setup-tooling.sh` from the repo root; do not commit dirty gitlinks unless freezing a pin)
 - [ ] Conventional commit message (`cad`, `arch`, `okh`, `params`, `interface`, `build`, …)
 

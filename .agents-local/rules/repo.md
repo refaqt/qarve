@@ -21,7 +21,7 @@ DOQS validators and templates: `doqs/` submodule.
 | System requirements | `architecture/*.sysml` |
 | Module requirements | `modules/*/architecture/*.sysml` |
 | FreeCAD geometry | `cad/` (manual edits only) |
-| Parameters | `cad/params/*.csv` → `cad/resolve_params.py` |
+| Parameters | `cad/params/*.csv` → `doqs/scripts/resolve_params.py` |
 | Physical machine lockfile | `builds/<id>/build.toml` |
 | Licence texts / overview | `LICENSES/`, root `LICENSE`, `TRADEMARKS.md` |
 | A reusable coding pattern | `.agents-local/skills/patterns/SKILL.md` |
@@ -33,7 +33,8 @@ DOQS validators and templates: `doqs/` submodule.
 | `doqs/docs/architecture.md` | New modules, versioning, interfaces, builds, licensing |
 | `doqs/docs/readiness-levels.md` | OTRL / ODRL in `okh.toml` |
 | `doqs/docs/naming.md` | Naming modules, parts, interfaces |
-| `doqs/docs/agent-guide.md` | Three-layer agent model |
+| `doqs/docs/using-doqs.md` | What to run, what each gate checks, how CI is set up |
+| `doqs/docs/agent-cad.md` | FreeCAD models, fingerprints, the agent-CAD guard |
 | `doqs/templates/` | Log, ADR, mistake, OKH entry templates |
 
 `docs/architecture.md` is a short overview — SysML remains authoritative.
@@ -44,8 +45,8 @@ Before non-trivial work, read `docs/architecture.md`, then **`doqs/docs/architec
 ## Stack and execution
 
 - **SysML** in `architecture/` and, when present, `modules/*/architecture/`.
-- **FreeCAD** 1.1+ with Assembly workbench; parameters via `cad/params/*.csv` and `sync_params.py`.
-- **OKH** manifests: `okh.toml` per module; validate with `doqs/scripts/validate_all.py`.
+- **FreeCAD** 1.1+ with Assembly workbench; parameters via `cad/params/*.csv` and `doqs/scripts/cad_sync_params.py`. Models are drawn by hand and measured with `cad/fingerprint_models.py`.
+- **OKH** manifests: `okh.toml` per module; validate with `python doqs/doqs.py check`.
 - Run commands from the **repository root**.
 - If `doqs/` or `.agents/` is empty: `bash setup-tooling.sh` from the repo root (agents, any OS). Humans on Windows may double-click `setup-tooling.bat`.
 - Before new solutions, read `.agents-local/skills/patterns/SKILL.md` and use the
@@ -55,17 +56,23 @@ Before non-trivial work, read `docs/architecture.md`, then **`doqs/docs/architec
 
 1. **Never edit `.FCStd` files** — geometry changes happen in FreeCAD manually.
 2. **Requirements live in SysML** (`architecture/`) — do not duplicate as standalone requirement docs.
-3. **Run validators** after OKH, licence, or build changes: `python doqs/scripts/validate_all.py`.
+3. **Run every check** after OKH, licence, build, or CAD changes: `python doqs/doqs.py check`.
 4. **Prefer** CSV/TOML/SysML output; validate before commit.
 5. For OTRL/ODRL or naming, read `doqs/docs/readiness-levels.md` and `doqs/docs/naming.md`.
 6. After adding a first-level content directory, run `python doqs/scripts/apply_licenses.py`. Do not run it against `.agents/` or `doqs/` (tooling submodules).
+7. **After a model is saved in FreeCAD**, run `python cad/fingerprint_models.py` and commit the `.FCStd` together with its `.fingerprint.json`. See `docs/decisions/2026-09-22_fingerprints-for-hand-drawn-models.md`.
 
 ## Validate
 
 ```bash
-python doqs/scripts/validate_all.py
-python doqs/scripts/build_graph.py
-python bom/aggregate_bom.py
+python doqs/doqs.py check
+```
+
+`check` runs the seven gates plus the generated-file checks, and it is what CI runs.
+After changing anything generated, write the generated files again and read the diff:
+
+```bash
+python doqs/doqs.py generate
 ```
 
 ## Branching

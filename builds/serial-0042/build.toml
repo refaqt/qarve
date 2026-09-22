@@ -1,9 +1,0 @@
-schema = "doqs-build-v1"
-machine = "qarve"
-built-date = "2026-06-04"
-owner = "Example Workshop"
-location = "Scaffold"
-
-[base]
-repo = "https://github.com/refaqt/qarve"
-version = "v0.1.0"

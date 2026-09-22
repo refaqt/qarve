@@ -1,0 +1,68 @@
+{
+  "document": "linear_motor_magnet_1",
+  "errors": [],
+  "objects": {
+    "Part": {
+      "area": 24423.4,
+      "bbox": [
+        -61.35,
+        0.0,
+        -43.0,
+        61.35,
+        9.6,
+        43.0
+      ],
+      "closed": true,
+      "com": [
+        0.00418664,
+        4.41448,
+        -0.00289711
+      ],
+      "counts": {
+        "edges": 132,
+        "faces": 48,
+        "shells": 1,
+        "solids": 1,
+        "verts": 88
+      },
+      "label": "linear-motor-magnet-1",
+      "type": "App::Part",
+      "valid": true,
+      "volume": 82288.8
+    },
+    "Part__Feature": {
+      "area": 24423.4,
+      "bbox": [
+        -61.35,
+        0.0,
+        -43.0,
+        61.35,
+        9.6,
+        43.0
+      ],
+      "closed": true,
+      "com": [
+        0.00418664,
+        4.41448,
+        -0.00289711
+      ],
+      "counts": {
+        "edges": 132,
+        "faces": 48,
+        "shells": 1,
+        "solids": 1,
+        "verts": 88
+      },
+      "label": "MK2-120",
+      "type": "Part::Feature",
+      "valid": true,
+      "volume": 82288.8
+    }
+  },
+  "params": {},
+  "saved": true,
+  "schema": 1,
+  "sources": {
+    "linear-motor-magnet-1.FCStd": "43bb1a0b2bb02588753816e7a57f38c219bf77bc6d8d581d9d2718f125615226"
+  }
+}

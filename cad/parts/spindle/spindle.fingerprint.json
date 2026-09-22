@@ -1,0 +1,684 @@
+{
+  "document": "spindle",
+  "errors": [],
+  "objects": {
+    "Body": {
+      "area": 103767.0,
+      "bbox": [
+        -50.0,
+        -50.0,
+        0.0,
+        50.0,
+        50.0,
+        340.5
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        0.0,
+        203.078
+      ],
+      "counts": {
+        "edges": 35,
+        "faces": 22,
+        "shells": 1,
+        "solids": 1,
+        "verts": 21
+      },
+      "label": "Jianken - JGY-80/3.2R24 - from drawing",
+      "type": "PartDesign::Body",
+      "valid": true,
+      "volume": 1895490.0
+    },
+    "Link": {
+      "area": 88561.5,
+      "bbox": [
+        -40.0,
+        -40.0,
+        -1.0,
+        40.0,
+        40.0,
+        332.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        0.0,
+        179.464
+      ],
+      "counts": {
+        "edges": 6,
+        "faces": 5,
+        "shells": 1,
+        "solids": 1,
+        "verts": 4
+      },
+      "label": "Link",
+      "type": "App::Link",
+      "valid": true,
+      "volume": 1531290.0
+    },
+    "Part": {
+      "area": 103767.0,
+      "bbox": [
+        -50.0,
+        -50.0,
+        0.0,
+        50.0,
+        50.0,
+        340.5
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        0.0,
+        203.078
+      ],
+      "counts": {
+        "edges": 35,
+        "faces": 22,
+        "shells": 1,
+        "solids": 1,
+        "verts": 21
+      },
+      "label": "spindle",
+      "type": "App::Part",
+      "valid": true,
+      "volume": 1895490.0
+    },
+    "Part001": {
+      "area": 88561.5,
+      "bbox": [
+        -40.0,
+        -40.0,
+        -1.0,
+        40.0,
+        40.0,
+        332.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        0.0,
+        179.464
+      ],
+      "counts": {
+        "edges": 6,
+        "faces": 5,
+        "shells": 1,
+        "solids": 1,
+        "verts": 4
+      },
+      "label": "spindle_model",
+      "type": "App::Part",
+      "valid": true,
+      "volume": 1531290.0
+    },
+    "Part__Feature": {
+      "area": 94709.6,
+      "bbox": [
+        -50.0,
+        -50.0,
+        -289.0,
+        50.0,
+        50.0,
+        0.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        0.0,
+        -127.325
+      ],
+      "counts": {
+        "edges": 48,
+        "faces": 25,
+        "shells": 1,
+        "solids": 1,
+        "verts": 30
+      },
+      "label": "Housing",
+      "type": "Part::Feature",
+      "valid": true,
+      "volume": 1728890.0
+    },
+    "Part__Feature001": {
+      "area": 4453.23,
+      "bbox": [
+        -11.5,
+        -11.5,
+        -314.0,
+        11.5,
+        11.5,
+        -260.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        0.0,
+        -295.128
+      ],
+      "counts": {
+        "edges": 99,
+        "faces": 49,
+        "shells": 1,
+        "solids": 1,
+        "verts": 60
+      },
+      "label": "ISO10 ER11",
+      "type": "Part::Feature",
+      "valid": true,
+      "volume": 6975.87
+    },
+    "Part__Feature002": {
+      "area": 25104.9,
+      "bbox": [
+        -50.0,
+        -50.0,
+        -5.0,
+        50.0,
+        50.0,
+        18.0
+      ],
+      "closed": true,
+      "com": [
+        -0.00425997,
+        -0.0292772,
+        7.97217
+      ],
+      "counts": {
+        "edges": 196,
+        "faces": 98,
+        "shells": 1,
+        "solids": 1,
+        "verts": 126
+      },
+      "label": "Top lid",
+      "type": "Part::Feature",
+      "valid": true,
+      "volume": 150587.0
+    },
+    "Part__Feature003": {
+      "area": 1896.8,
+      "bbox": [
+        -15.4781,
+        30.9063,
+        11.0,
+        1.74583,
+        47.9063,
+        37.0
+      ],
+      "closed": true,
+      "com": [
+        -6.86612,
+        39.4063,
+        25.1823
+      ],
+      "counts": {
+        "edges": 128,
+        "faces": 59,
+        "shells": 1,
+        "solids": 1,
+        "verts": 74
+      },
+      "label": "80",
+      "type": "Part::Feature",
+      "valid": true,
+      "volume": 3526.31
+    },
+    "Part__Feature004": {
+      "area": 1307.9,
+      "bbox": [
+        -39.4549,
+        22.9845,
+        11.0,
+        -25.8225,
+        36.0313,
+        33.5
+      ],
+      "closed": true,
+      "com": [
+        -32.6387,
+        29.5079,
+        22.1771
+      ],
+      "counts": {
+        "edges": 48,
+        "faces": 23,
+        "shells": 1,
+        "solids": 1,
+        "verts": 32
+      },
+      "label": "001",
+      "type": "Part::Feature",
+      "valid": true,
+      "volume": 2060.65
+    },
+    "Part__Feature005": {
+      "area": 1307.9,
+      "bbox": [
+        25.0036,
+        -37.4083,
+        11.0,
+        38.1744,
+        -23.8497,
+        33.5
+      ],
+      "closed": true,
+      "com": [
+        31.589,
+        -30.629,
+        22.1771
+      ],
+      "counts": {
+        "edges": 48,
+        "faces": 23,
+        "shells": 1,
+        "solids": 1,
+        "verts": 32
+      },
+      "label": "002",
+      "type": "Part::Feature",
+      "valid": true,
+      "volume": 2060.65
+    },
+    "Part__Feature006": {
+      "area": 1237.34,
+      "bbox": [
+        34.9653,
+        -17.2234,
+        9.5,
+        48.4378,
+        -3.7509,
+        32.5
+      ],
+      "closed": true,
+      "com": [
+        41.7016,
+        -10.4871,
+        21.2835
+      ],
+      "counts": {
+        "edges": 72,
+        "faces": 32,
+        "shells": 1,
+        "solids": 1,
+        "verts": 46
+      },
+      "label": "003",
+      "type": "Part::Feature",
+      "valid": true,
+      "volume": 2029.56
+    },
+    "Part__Feature007": {
+      "area": 1237.34,
+      "bbox": [
+        4.95407,
+        -48.1728,
+        9.5,
+        18.5833,
+        -34.5436,
+        32.5
+      ],
+      "closed": true,
+      "com": [
+        11.7687,
+        -41.3582,
+        21.2835
+      ],
+      "counts": {
+        "edges": 72,
+        "faces": 32,
+        "shells": 1,
+        "solids": 1,
+        "verts": 46
+      },
+      "label": "004",
+      "type": "Part::Feature",
+      "valid": true,
+      "volume": 2029.56
+    },
+    "Part__Feature008": {
+      "area": 1307.9,
+      "bbox": [
+        -6.87444,
+        -6.38415,
+        11.0,
+        6.87444,
+        6.38415,
+        33.5
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        0.0,
+        22.1771
+      ],
+      "counts": {
+        "edges": 48,
+        "faces": 23,
+        "shells": 1,
+        "solids": 1,
+        "verts": 32
+      },
+      "label": "005",
+      "type": "Part::Feature",
+      "valid": true,
+      "volume": 2060.65
+    },
+    "Part__Feature009": {
+      "area": 1307.9,
+      "bbox": [
+        -48.99,
+        5.5502,
+        11.0,
+        -35.5517,
+        18.8772,
+        33.5
+      ],
+      "closed": true,
+      "com": [
+        -42.2709,
+        12.2137,
+        22.1771
+      ],
+      "counts": {
+        "edges": 48,
+        "faces": 23,
+        "shells": 1,
+        "solids": 1,
+        "verts": 32
+      },
+      "label": "006",
+      "type": "Part::Feature",
+      "valid": true,
+      "volume": 2060.65
+    },
+    "Part__Feature010": {
+      "area": 670.688,
+      "bbox": [
+        38.9948,
+        -4.3212,
+        -2.995,
+        48.9948,
+        5.6788,
+        18.005
+      ],
+      "closed": true,
+      "com": [
+        43.9948,
+        0.678796,
+        9.68891
+      ],
+      "counts": {
+        "edges": 42,
+        "faces": 20,
+        "shells": 1,
+        "solids": 1,
+        "verts": 26
+      },
+      "label": "12",
+      "type": "Part::Feature",
+      "valid": true,
+      "volume": 848.911
+    },
+    "Part__Feature011": {
+      "area": 670.688,
+      "bbox": [
+        16.4095,
+        33.44,
+        -2.995,
+        26.4095,
+        43.44,
+        18.005
+      ],
+      "closed": true,
+      "com": [
+        21.4095,
+        38.44,
+        9.68891
+      ],
+      "counts": {
+        "edges": 42,
+        "faces": 20,
+        "shells": 1,
+        "solids": 1,
+        "verts": 26
+      },
+      "label": "007",
+      "type": "Part::Feature",
+      "valid": true,
+      "volume": 848.911
+    },
+    "Part__Feature012": {
+      "area": 670.688,
+      "bbox": [
+        -26.4095,
+        -43.44,
+        -2.995,
+        -16.4095,
+        -33.44,
+        18.005
+      ],
+      "closed": true,
+      "com": [
+        -21.4095,
+        -38.44,
+        9.68891
+      ],
+      "counts": {
+        "edges": 42,
+        "faces": 20,
+        "shells": 1,
+        "solids": 1,
+        "verts": 26
+      },
+      "label": "120",
+      "type": "Part::Feature",
+      "valid": true,
+      "volume": 848.911
+    },
+    "Part__Feature013": {
+      "area": 670.688,
+      "bbox": [
+        -27.5852,
+        32.7612,
+        -2.995,
+        -17.5852,
+        42.7612,
+        18.005
+      ],
+      "closed": true,
+      "com": [
+        -22.5852,
+        37.7612,
+        9.68891
+      ],
+      "counts": {
+        "edges": 42,
+        "faces": 20,
+        "shells": 1,
+        "solids": 1,
+        "verts": 26
+      },
+      "label": "121",
+      "type": "Part::Feature",
+      "valid": true,
+      "volume": 848.911
+    },
+    "Part__Feature014": {
+      "area": 670.688,
+      "bbox": [
+        -48.9948,
+        -5.6788,
+        -2.995,
+        -38.9948,
+        4.3212,
+        18.005
+      ],
+      "closed": true,
+      "com": [
+        -43.9948,
+        -0.678796,
+        9.68891
+      ],
+      "counts": {
+        "edges": 42,
+        "faces": 20,
+        "shells": 1,
+        "solids": 1,
+        "verts": 26
+      },
+      "label": "122",
+      "type": "Part::Feature",
+      "valid": true,
+      "volume": 848.911
+    },
+    "Part__Feature015": {
+      "area": 1896.8,
+      "bbox": [
+        -45.5604,
+        -30.7293,
+        11.0,
+        -28.2456,
+        -13.4145,
+        37.0
+      ],
+      "closed": true,
+      "com": [
+        -36.903,
+        -22.0719,
+        25.1823
+      ],
+      "counts": {
+        "edges": 128,
+        "faces": 59,
+        "shells": 1,
+        "solids": 1,
+        "verts": 74
+      },
+      "label": "123",
+      "type": "Part::Feature",
+      "valid": true,
+      "volume": 3526.31
+    },
+    "Part__Feature016": {
+      "area": 1896.8,
+      "bbox": [
+        28.403,
+        13.5719,
+        11.0,
+        45.403,
+        30.5719,
+        37.0
+      ],
+      "closed": true,
+      "com": [
+        36.903,
+        22.0719,
+        25.1823
+      ],
+      "counts": {
+        "edges": 128,
+        "faces": 59,
+        "shells": 1,
+        "solids": 1,
+        "verts": 74
+      },
+      "label": "124",
+      "type": "Part::Feature",
+      "valid": true,
+      "volume": 3526.31
+    },
+    "Revolution": {
+      "area": 103767.0,
+      "bbox": [
+        -50.0,
+        -50.0,
+        0.0,
+        50.0,
+        50.0,
+        340.5
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        0.0,
+        203.078
+      ],
+      "counts": {
+        "edges": 35,
+        "faces": 22,
+        "shells": 1,
+        "solids": 1,
+        "verts": 21
+      },
+      "label": "Revolution",
+      "type": "PartDesign::Revolution",
+      "valid": true,
+      "volume": 1895490.0
+    },
+    "Sketch001": {
+      "area": 0.0,
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        50.0,
+        0.0,
+        340.5
+      ],
+      "closed": true,
+      "com": [
+        20.8009,
+        0.0,
+        171.856
+      ],
+      "counts": {
+        "edges": 23,
+        "faces": 0,
+        "shells": 0,
+        "solids": 0,
+        "verts": 23
+      },
+      "label": "Sketch001",
+      "type": "Sketcher::SketchObject",
+      "valid": true,
+      "volume": 0.0
+    },
+    "_80_Ã_Ã_Ã_Ã_Ã_Â_": {
+      "area": 141018.0,
+      "bbox": [
+        -50.0,
+        -50.0,
+        8.5,
+        50.0,
+        50.0,
+        359.5
+      ],
+      "closed": true,
+      "com": [
+        -0.0129461,
+        0.0440224,
+        207.317
+      ],
+      "counts": {
+        "edges": 1273,
+        "faces": 605,
+        "shells": 17,
+        "solids": 17,
+        "verts": 788
+      },
+      "label": "Jianken - JGY-80/3.2R24",
+      "type": "App::Part",
+      "valid": true,
+      "volume": 1913580.0
+    }
+  },
+  "params": {},
+  "saved": true,
+  "schema": 1,
+  "sources": {
+    "spindle.FCStd": "c5733eebc2938a6241babb3b1080cf4d6d577befc6d22e0d07f8e976a05d71a3"
+  }
+}
