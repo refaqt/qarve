@@ -28,6 +28,7 @@ All notable releases of this repository are documented here.
 - Spindle clamp geometry: reduced clamp width; removed obsolete `spindle-clamp-design.FCStd`.
 - `doqs/` submodule bumped to `71d6216` (FreeCAD master-sketches Body ADR and architecture docs).
 - The automatic checks, the README and the setup guide now use one command, `python doqs/doqs.py check`. It replaces the separate validation scripts, two of which had been renamed and no longer ran.
+- The build server now fetches the real FreeCAD models instead of the small stubs Git LFS leaves behind. Without this, the model check compares each measurement against a stub.
 
 ### Removed
 
