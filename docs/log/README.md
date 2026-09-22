@@ -18,4 +18,4 @@ To add an entry, see [`.agents/skills/log/SKILL.md`](../../.agents/skills/log/SK
 | 2026-08-31 | [Split-licence layout](2026-08-31_split-licence-layout.md) | engineering |  |
 | 2026-09-01 | [Always-latest tooling submodules](2026-09-01_always-latest-tooling-submodules.md) | engineering |  |
 | 2026-09-01 | [SysON session adapter](2026-09-01_syson-session-adapter.md) | engineering, software |  |
-| 2026-09-22 | [Linear axis reshaped for larger seal rollers](2026-09-22_linear-axis-seal-roller-clearance.md) | engineering, cad |  |
+| 2026-09-22 | [Linear axis reworked around the steel strip seal](2026-09-22_linear-axis-seal-roller-clearance.md) | engineering, cad |  |
