@@ -12,7 +12,7 @@ Also in the submodule:
 | ----------------------------------------------------------------- | ------------------------------------- |
 | [doqs/docs/readiness-levels.md](../doqs/docs/readiness-levels.md) | OTRL / ODRL for `okh.toml`            |
 | [doqs/docs/naming.md](../doqs/docs/naming.md)                     | Naming conventions (draft)            |
-| [doqs/docs/agent-guide.md](../doqs/docs/agent-guide.md)           | `.cursor` rules vs `doqs/` for agents |
+| [doqs/docs/using-doqs.md](../doqs/docs/using-doqs.md)             | What to run, and what each check looks at |
 
 ## This repo (summary)
 

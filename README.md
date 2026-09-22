@@ -17,11 +17,18 @@ The repository root is the **top-level DOQS module**. Sub-assemblies will live u
 From the repository root:
 
 ```powershell
-python doqs/scripts/validate_all.py
-python doqs/scripts/build_graph.py
+python doqs/doqs.py check
 ```
 
-`validate_all.py` runs `validate_okh`, `validate_licenses`, `check_names`, `check_links`, and `validate_build`. After adding a first-level content directory, also run `python doqs/scripts/apply_licenses.py`.
+This is the same command the automatic checks run on every pull request. It checks the part manifests, the licence files, the names, the links, the build records, the variants, and the FreeCAD models. It also checks that every generated file is up to date.
+
+To write the generated files again, run:
+
+```powershell
+python doqs/doqs.py generate
+```
+
+After adding a first-level content directory, also run `python doqs/scripts/apply_licenses.py` to give it a licence file.
 
 ## Layout
 

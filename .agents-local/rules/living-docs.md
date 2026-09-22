@@ -30,9 +30,10 @@ Also update `okh.toml` `[[provides-interface]]` / `[[consumes-interface]]` when 
 
 Regenerate — do not hand-edit:
 
-- `graph/usage-graph.json` — `python doqs/scripts/build_graph.py`
+- `graph/usage-graph.json` — `python doqs/doqs.py generate`
 - Root `bom/bom.csv` — `python bom/aggregate_bom.py`
-- `cad/params.csv` — `python cad/resolve_params.py <model>`
+- `cad/params.csv` — `python doqs/scripts/resolve_params.py <model>`
+- `cad/**/*.fingerprint.json` — `python cad/fingerprint_models.py`
 
 Generic stubs: [`.agents/bootstrap/docs/`](../../.agents/bootstrap/docs/).
 

@@ -33,16 +33,34 @@ A separate clone of [github.com/refaqt/doqs](https://github.com/refaqt/doqs) els
 ## Validation (run from repo root)
 
 ```powershell
-python doqs/scripts/validate_all.py
-python doqs/scripts/build_graph.py
-python bom/aggregate_bom.py
+python doqs/doqs.py check
 ```
 
-`validate_all.py` runs `validate_okh`, `validate_licenses`, `check_names`, `check_links`, and `validate_build`. To create or refresh split-licence files (`LICENSE`, `LICENSES/`, `TRADEMARKS.md`, per-directory stubs):
+This is the same command the automatic checks run on every pull request. It checks the part manifests, the licence files, the names, the links, the build records, the variants, and the FreeCAD models. It also checks that every generated file is up to date.
+
+When a check says a generated file is stale, write them all again and read the result before you commit:
+
+```powershell
+python doqs/doqs.py generate
+```
+
+That one command writes the parameter table, the resolved instance files, the licence files, the top-level bill of materials, and the usage graph.
+
+After adding a first-level content directory, give it a licence file. Never point this at `doqs/` or `.agents/`, which are tooling and carry their own licences:
 
 ```powershell
 python doqs/scripts/apply_licenses.py
 ```
+
+## After you save a FreeCAD model
+
+Every `.FCStd` has a small measurement file beside it, so a change to the geometry can be read as text in a pull request. The checks fail when a model and its measurement disagree. Run this after saving, and commit the model and the measurement together:
+
+```powershell
+python cad/fingerprint_models.py
+```
+
+It never saves a `.FCStd`. Geometry changes stay manual, in the FreeCAD window. More in [cad/README.md](../cad/README.md).
 
 ## Graphical SysML (SysON)
 

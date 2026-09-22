@@ -17,11 +17,11 @@ Reusable patterns specific to this repository. Check before implementing; update
 
 ```powershell
 # From repo root for top-level CAD, or modules/<name>/ for a sub-assembly
-python cad/resolve_params.py 500mm
-# Then inside FreeCAD: run cad/sync_params.py
+python doqs/scripts/resolve_params.py 500mm
+# Then inside FreeCAD: exec(open("doqs/scripts/cad_sync_params.py").read())
 ```
 
-**Gotchas:** `cad/params.csv` is gitignored — never edit by hand. Every alias must exist in `default.csv`.
+**Gotchas:** `cad/params.csv` is gitignored — never edit by hand. Every alias must exist in `default.csv`. Both tools live in the `doqs/` submodule and update with it. A copy of either inside a `cad/` folder is a hard failure of the checks. Qarve has no `cad/params/` yet, so this pattern applies to the first module that gets one.
 
 **Last used:** 2026-06-04 repository bootstrap
 
@@ -32,13 +32,26 @@ python cad/resolve_params.py 500mm
 **Pattern:**
 
 ```powershell
-python doqs/scripts/validate_all.py
-python doqs/scripts/build_graph.py
+python doqs/doqs.py check
 ```
 
-**Gotchas:** Run from repository root. `doqs/` must be initialized as a submodule at `qarve/doqs/`. After adding a first-level content directory, run `python doqs/scripts/apply_licenses.py` first; it must not rewrite `.agents/` or `doqs/`.
+**Gotchas:** Run from repository root. `doqs/` must be initialized as a submodule at `qarve/doqs/`. `check` also fails when a generated file is stale — write them again with `python doqs/doqs.py generate` and read the diff. After adding a first-level content directory, run `python doqs/scripts/apply_licenses.py` first; it must not rewrite `.agents/` or `doqs/`.
 
-**Last used:** 2026-08-31 split-licence layout
+**Last used:** 2026-09-22 repository passes its own checks
+
+## Measure a FreeCAD model after saving it
+
+**When to use:** After you save any `.FCStd` in FreeCAD, before you commit.
+
+**Pattern:**
+
+```powershell
+python cad/fingerprint_models.py
+```
+
+**Gotchas:** Needs FreeCAD 1.1 on the machine that runs it. It never saves a `.FCStd`. Commit the model and its `.fingerprint.json` in the same commit, or the check fails. The run ends by naming any document whose geometry moves when FreeCAD refreshes it — those need a person to open, refresh and save. Reasons: `docs/decisions/2026-09-22_fingerprints-for-hand-drawn-models.md`.
+
+**Last used:** 2026-09-22 repository passes its own checks
 
 ## SysON session over architecture/*.sysml
 
