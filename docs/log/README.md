@@ -20,3 +20,4 @@ To add an entry, see [`.agents/skills/log/SKILL.md`](../../.agents/skills/log/SK
 | 2026-09-01 | [SysON session adapter](2026-09-01_syson-session-adapter.md) | engineering, software |  |
 | 2026-09-22 | [Linear axis reworked around the steel strip seal](2026-09-22_linear-axis-seal-roller-clearance.md) | engineering, cad |  |
 | 2026-09-22 | [The repository passes its own checks again](2026-09-22_repository-passes-its-own-checks.md) | engineering, software |  |
+| 2026-09-23 | [Linear stage base redrawn as one aluminium block](2026-09-23_linear-stage-monoblock-base.md) | engineering, cad | 1 |
