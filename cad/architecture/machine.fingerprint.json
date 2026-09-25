@@ -407,15 +407,15 @@
       "closed": true,
       "com": [
         0.0,
-        152.793,
-        -38.72
+        152.771,
+        -38.7306
       ],
       "counts": {
-        "edges": 32,
+        "edges": 28,
         "faces": 0,
         "shells": 0,
         "solids": 0,
-        "verts": 44
+        "verts": 40
       },
       "label": "Sketch008",
       "type": "Sketcher::SketchObject",
@@ -455,6 +455,6 @@
   "saved": true,
   "schema": 1,
   "sources": {
-    "machine.FCStd": "98cc2d99786fb8a77d4c3da7cf6291e6fe2758d63ad28ce0b2926289fe880e05"
+    "machine.FCStd": "acedbff673830c2beffe81939434241cea7895593b15dbf2024d4f5f70ea15af"
   }
 }
