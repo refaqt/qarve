@@ -9,12 +9,16 @@ base (the aluminium monoblock) sits on top of an 80 × 80 mm aluminium
 T-slot profile. Screws with an eccentric countersunk head hold it down and let
 it be adjusted. No CAD model was made yet.
 
-![](images/2026-09-30-01.webp)
+This follows the [printed clamp with crossed countersunk screws](2026-09-30_crossed-countersunk-screw-clamp-idea.md),
+logged the same day. That idea was judged not stiff enough. Here the eccentric
+countersunk screws go straight through the monoblock into the frame profile.
+
+![](images/2026-09-30-02.webp)
 
 Sketch 1: the Y-axis on the frame profile (left), and a cross-section through
 the joint (right).
 
-![](images/2026-09-30-02.webp)
+![](images/2026-09-30-03.webp)
 
 Sketch 2: the same corner with dimensions, and a detail of the eccentric
 countersunk head hole.
