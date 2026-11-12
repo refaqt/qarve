@@ -32,7 +32,7 @@ refreshes them, parts move. The measurement files record what the saved files
 hold, which is correct, but somebody should open these three in FreeCAD, refresh
 them, check the result and save:
 
-- `cad/architecture/linear-axis-configuration.FCStd` — one sketch moves 5 mm
+- `cad/assemblies/architecture/linear-axis-configuration.FCStd` — one sketch moves 5 mm
 - `cad/assemblies/linear-motor-z/linear-motor-z.FCStd` — the motor parts move
 - `cad/assemblies/x-axis/x-axis.FCStd` — two guide blocks move 32 mm
 

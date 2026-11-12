@@ -6,7 +6,7 @@
 
 The base of the linear axis is now drawn as one solid aluminium block (a
 monoblock). The base is 3.5 mm lower than before. The steel strip seal and its
-rollers moved with it. The work was done by hand in `cad/architecture/machine.FCStd`, body `Linear axis`.
+rollers moved with it. The work was done by hand in `cad/assemblies/architecture/machine.FCStd`, body `Linear axis`.
 
 ![](images/2026-09-23-01.webp)
 

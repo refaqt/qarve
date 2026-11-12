@@ -4,7 +4,7 @@
 
 ## What happened
 
-Manual work in `cad/architecture/machine.FCStd`, body `Linear axis`, sketch `Sketch008`.
+Manual work in `cad/assemblies/architecture/machine.FCStd`, body `Linear axis`, sketch `Sketch008`.
 
 - The steel strip seal is now 0.25 mm thick instead of 0.1 mm.
 - The strip no longer wraps tightly around the four rollers. Before, it bent around each
