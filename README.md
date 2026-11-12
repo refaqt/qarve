@@ -55,6 +55,8 @@ Cursor, Claude Code, and cloud agents: start at [`AGENTS.md`](AGENTS.md). Shared
 
 ## Licence
 
+Copyright © 2025–2026 Refaqt (BE 0804.145.539) and contributors. Contributions are accepted under the [Refaqt Contributor Licence Agreement](https://github.com/refaqt/.github/blob/main/CLA.md).
+
 This repository uses different licences for different kinds of content:
 
 - **Hardware** (`cad/`, `architecture/`, `manufacturing/`, `bom/`, `builds/`, `modules/`) —
@@ -64,7 +66,7 @@ This repository uses different licences for different kinds of content:
 - **Media & documentation** (`docs/`, `measurement/`) —
   [CC BY-SA 4.0](LICENSES/CC-BY-SA-4.0.txt)
 
-The Refaqt BV, BE 0804.145.539 name and logo, and the Qarve CNC Milling Machine name and logo, are
+The Refaqt name and logo, and the Qarve CNC Milling Machine name and logo, are
 trademarks and are not covered by the above — see [TRADEMARKS.md](TRADEMARKS.md).
 
 See [LICENSE](LICENSE) for the full overview and directory mapping.
