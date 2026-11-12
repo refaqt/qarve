@@ -54,6 +54,6 @@ countersunk head hole.
 
 - [ ] Confirm the dimensions and the lip design.
 - [ ] Choose the eccentric countersunk screw and find a supplier.
-- [ ] Model the joint in `cad/architecture/machine.FCStd`, and add the 80 × 80
+- [ ] Model the joint in `cad/assemblies/architecture/machine.FCStd`, and add the 80 × 80
       profile and the screws to the parts list.
 - [ ] If this becomes the chosen joint, record it in `docs/decisions/`.

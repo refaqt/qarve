@@ -4,7 +4,7 @@
 
 ## What happened
 
-Two rounds of manual work in `cad/architecture/machine.FCStd`, body `Linear axis`.
+Two rounds of manual work in `cad/assemblies/architecture/machine.FCStd`, body `Linear axis`.
 
 ### Round 1 — more room inside the profile
 
