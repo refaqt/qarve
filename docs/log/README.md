@@ -25,3 +25,4 @@ To add an entry, see [`.agents/skills/log/SKILL.md`](../../.agents/skills/log/SK
 | 2026-09-28 | [Controller comparison: grblHAL and ncSender against LinuxCNC and EtherCAT](2026-09-28_controller-comparison-grblhal-vs-linuxcnc-ethercat.md) | engineering, firmware, software |  |
 | 2026-09-30 | [Idea: a printed clamp with crossed countersunk screws](2026-09-30_crossed-countersunk-screw-clamp-idea.md) | engineering, hardware | 1 |
 | 2026-09-30 | [Y-axis mounted on the frame with eccentric countersunk screws](2026-09-30_y-axis-to-frame-connection.md) | engineering, hardware | 2 |
+| 2026-11-13 | [Concept renders of a 5-axis milling machine](2026-11-13_5-axis-mill-concept-render.md) | engineering, marketing | 1 |
