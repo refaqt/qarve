@@ -18,6 +18,7 @@ walls 100 mm and black anodised.
 
 ## Decisions
 
+- The founder confirmed that this machine is the concept of the Qarve machine.
 - These are concept pictures only. No FreeCAD model exists yet, and no requirement was added to
   SysML.
 - The model that draws the pictures stays in `refaqt/refaqt-web` (`tools/render-machines.html`).
@@ -25,7 +26,6 @@ walls 100 mm and black anodised.
 
 ## Open Questions
 
-- Is this machine part of Qarve, or a new machine of its own?
 - The stand height (800 mm) and the A-axis height (385 mm above the machine bottom) were chosen
   by the agent and are not confirmed.
 
