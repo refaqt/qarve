@@ -1,0 +1,4 @@
+{
+  "name": "qarve",
+  "install": "bash .claude/hooks/session-start.sh"
+}
